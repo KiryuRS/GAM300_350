@@ -1,0 +1,567 @@
+Settings: 
+  string: 
+    SkyboxLeft: CompiledAssets\Sprites\blood-stain-gorge_lf.dds
+    SkyboxRight: CompiledAssets\Sprites\blood-stain-gorge_rt.dds
+    SkyboxDown: CompiledAssets\Sprites\blood-stain-gorge_dn.dds
+    SkyboxUp: CompiledAssets\Sprites\blood-stain-gorge_up.dds
+    SkyboxBack: CompiledAssets\Sprites\blood-stain-gorge_bk.dds
+    SkyboxFront: CompiledAssets\Sprites\blood-stain-gorge_ft.dds
+  bool: 
+    Render Shadows: 1
+    Render Skybox: 1
+  vector-string: 
+    Game Spaces: , size: 1
+      Item0: Resources/Savefile/Levels/Gui.ffs
+Entities: 
+  Entity: 
+    Transform: 
+      vector3: 
+        Position: , x: 45, y: 0, z: 0
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\ball.mdl
+      vector-string: 
+        Materials: , size: 0
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+    SphereCollider: 
+      float: 
+        Radius: 10
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+    RigidBody: 
+      float: 
+        GravityStrength: 1
+        Mass: 1
+        Bounciness: 1
+        Friction: 0
+      bool: 
+        isGravity: 0
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: -20, y: 0, z: 0
+  Entity: 
+    Transform: 
+      vector3: 
+        Position: , x: -45, y: 0, z: 0
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\ball.mdl
+      vector-string: 
+        Materials: , size: 0
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+    SphereCollider: 
+      float: 
+        Radius: 10
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+    RigidBody: 
+      float: 
+        GravityStrength: 1
+        Mass: 1
+        Bounciness: 1
+        Friction: 0
+      bool: 
+        isGravity: 0
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 20, y: 0, z: 0
+  Entity: 
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: 0, z: 0
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\ball.mdl
+      vector-string: 
+        Materials: , size: 0
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+    SphereCollider: 
+      float: 
+        Radius: 10
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+    RigidBody: 
+      float: 
+        GravityStrength: 1
+        Mass: 1
+        Bounciness: 1
+        Friction: 0
+      bool: 
+        isGravity: 0
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+  Entity: 
+    Transform: 
+      vector3: 
+        Position: , x: -90, y: 60, z: 0
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\ball.mdl
+      vector-string: 
+        Materials: , size: 0
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+    SphereCollider: 
+      float: 
+        Radius: 10
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+    RigidBody: 
+      float: 
+        GravityStrength: 1
+        Mass: 1
+        Bounciness: 1
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 30, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+  Entity: 
+    Transform: 
+      vector3: 
+        Position: , x: -20.7612, y: 70.1434, z: 0
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\ball.mdl
+      vector-string: 
+        Materials: , size: 0
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+    SphereCollider: 
+      float: 
+        Radius: 10
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+    RigidBody: 
+      float: 
+        GravityStrength: 1
+        Mass: 1
+        Bounciness: 1
+        Friction: 0
+      bool: 
+        isGravity: 0
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+  Entity: planeCollider
+    Transform: 
+      vector3: 
+        Position: , x: -131.799, y: -50, z: 0
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 40, y: 1, z: 10
+    PlaneCollider: 
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: 
+    Transform: 
+      vector3: 
+        Position: , x: -226.007, y: 0, z: -50.369
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    CapsuleCollider: 
+      float: 
+        Radius: 10
+        Height: 20
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+    RigidBody: 
+      float: 
+        GravityStrength: 20
+        Mass: 1
+        Bounciness: 1
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 20, y: 0, z: 2
+        Velocity: , x: 0, y: 0, z: 0
+  Entity: 
+    Transform: 
+      vector3: 
+        Position: , x: -201.636, y: 9.46072, z: 5.42676
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 3, y: 3, z: 3
+    SphereCollider: 
+      float: 
+        Radius: 30
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+    RigidBody: 
+      float: 
+        GravityStrength: 20
+        Mass: 1
+        Bounciness: 1
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 10, y: 0, z: 50
+        Velocity: , x: 0, y: 0, z: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\ball.mdl
+      vector-string: 
+        Materials: , size: 0
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: 
+    Transform: 
+      vector3: 
+        Position: , x: -262.504, y: 51.2453, z: 45.5532
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    CapsuleCollider: 
+      float: 
+        Radius: 5
+        Height: 44
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+  Entity: 
+    Transform: 
+      vector3: 
+        Position: , x: -210.817, y: 61.2058, z: 10.3764
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 10, y: 10, z: 70
+    AABBCollider: 
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+        rotationAffect_90: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+      vector-string: 
+        Materials: , size: 0
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: 
+    Transform: 
+      vector3: 
+        Position: , x: -345.178, y: 3.18331, z: 6.2413
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 10, y: 566.026, z: 1048.28
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+      vector-string: 
+        Materials: , size: 0
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+    AABBCollider: 
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+        rotationAffect_90: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: 
+    Transform: 
+      vector3: 
+        Position: , x: -257.801, y: -13.7826, z: -32.4471
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 60, y: 60, z: 60
+    AABBCollider: 
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+        rotationAffect_90: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+      vector-string: 
+        Materials: , size: 0
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+    RigidBody: 
+      float: 
+        GravityStrength: 20
+        Mass: 1
+        Bounciness: 1
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: -5, y: 0, z: -40
+        Velocity: , x: 0, y: 0, z: 0
+  Entity: 
+    Transform: 
+      vector3: 
+        Position: , x: -47.6117, y: 47.0357, z: -88.7026
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 2232.32, y: 666.603, z: 17
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+      vector-string: 
+        Materials: , size: 0
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+    AABBCollider: 
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+        rotationAffect_90: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: 
+    Transform: 
+      vector3: 
+        Position: , x: 114.844, y: -14.6787, z: -11.9022
+        Rotation: , x: 0, y: 0, z: 68
+        Scale: , x: 10, y: 1, z: 12
+    PlaneCollider: 
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: Camera
+    Transform: 
+      vector3: 
+        Position: , x: -157.366, y: 0, z: 586.197
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Camera: 
+      float: 
+        Camera_Speed: 0.7
+        Camera_Rotation: 2
+        Clipping_Plane_Near: 0.01
+        Clipping_Plane_Far: 7000
+        Field_Of_View: 45
+        HDR_Exposure_Rate: 1
+        Camera_Gamma: 2.2
+      string: 
+        Target_Name_Identifier: 
+      bool: 
+        Disable: 0
+        Perspective_View: 1
+        Orthographic_View: 0
+        Free_Will_Camera: 1
+        Camera_Bloom: 0
+      int: 
+        Viewport_Width: 1
+        Viewport_Height: 1
+      vector2: 
+        Viewport_Start_Position: , x: 0, y: 0
+  Entity: 
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: 0, z: 78.5216
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 56, y: 11, z: 1
+    AABBCollider: 
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+        rotationAffect_90: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1

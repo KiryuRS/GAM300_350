@@ -1,0 +1,550 @@
+Settings: 
+  float: 
+    Fog Distance: 500
+  string: 
+    SkyboxLeft: CompiledAssets\Sprites\blood-stain-gorge_lf.dds
+    SkyboxRight: CompiledAssets\Sprites\blood-stain-gorge_rt.dds
+    SkyboxDown: CompiledAssets\Sprites\blood-stain-gorge_dn.dds
+    SkyboxUp: CompiledAssets\Sprites\blood-stain-gorge_up.dds
+    SkyboxBack: CompiledAssets\Sprites\blood-stain-gorge_bk.dds
+    SkyboxFront: CompiledAssets\Sprites\blood-stain-gorge_ft.dds
+  bool: 
+    Render Shadows: 0
+    Render Skybox: 0
+    Draw Fog: 0
+  vector-string: 
+    Game Spaces: , size: 0
+  vector4: 
+    Fog Color: , x: 0, y: 0, z: 0, w: 1
+Entities: 
+  Entity: Camera
+    Transform: 
+      vector3: 
+        Position: , x: -60.421, y: 0, z: 10
+        Rotation: , x: 0, y: 116, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Camera: 
+      float: 
+        Camera_Speed: 0.7
+        Camera_Rotation: 2
+        Clipping_Plane_Near: 1
+        Clipping_Plane_Far: 900
+        Field_Of_View: 45
+        HDR_Exposure_Rate: 1
+        Camera_Gamma: 2.2
+      string: 
+        Target_Name_Identifier: 
+      bool: 
+        Disable: 0
+        Perspective_View: 0
+        Orthographic_View: 1
+        Free_Will_Camera: 1
+        Camera_Bloom: 0
+        HDR: 0
+      int: 
+        Viewport_Width: 1
+        Viewport_Height: 1
+        Bloom_Amount: 10
+      vector2: 
+        Viewport_Start_Position: , x: 0, y: 0
+  Entity: UIManager
+    Transform: 
+      vector3: 
+        Position: , x: 326.532, y: 0, z: 0
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    DirectionalLight: 
+      float: 
+        Intensity: 1
+      vector4: 
+        Light_Diffuse: , x: 1, y: 1, z: 1, w: 1
+        Light_Specular: , x: 0, y: 0, z: 0, w: 1
+        Light_Ambient: , x: 0, y: 0, z: 0, w: 1
+      vector3: 
+        Light_Direction: , x: -170, y: 0, z: 0
+    Script: 
+      string: 
+        bossPrefab: BossHealth
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/GuiManager.lua
+      vector3: 
+        plantScale: , x: 0, y: 0, z: 0
+    Identifier: 
+      string: 
+        ID: UIManager
+  Entity: PlantWheel
+    Transform: 
+      vector3: 
+        Position: , x: 186.447, y: -223.903, z: 224.282
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 300, z: 300
+    Identifier: 
+      string: 
+        ID: PlantWheel
+    Children: 
+      Entity: PlaceHolder0
+        Transform: 
+          vector3: 
+            Position: , x: 9.21172, y: -0.34361, z: 0.23725
+            Rotation: , x: 0, y: 270, z: 0
+            Scale: , x: 0.8, y: 0.8, z: 0.8
+        Sprite2D: 
+          float: 
+            Value: 0
+            Transparency: 1
+          string: 
+            Texture: CompiledAssets\Sprites\carrot_green.dds
+            onStart_animationName: 
+          bool: 
+            Radio: 0
+            Horizontal: 0
+            Vertical: 0
+            lookAtCam: 0
+            Always Front: 0
+            loop: 0
+            play_onStart: 0
+            Visible: 1
+          int: 
+            current_frame: 0
+          vector4: 
+            Tint: , x: 0, y: 0, z: 0, w: 0
+          unsigned: 
+            slices_Row: 1
+            slices_Col: 1
+      Entity: PlaceHolder1
+        Transform: 
+          vector3: 
+            Position: , x: 9.212, y: -0.34425, z: 0.497553
+            Rotation: , x: 0, y: 270, z: 0
+            Scale: , x: 0.8, y: 0.8, z: 0.8
+        Sprite2D: 
+          float: 
+            Value: 0
+            Transparency: 1
+          string: 
+            Texture: CompiledAssets\Sprites\grasscolor.dds
+            onStart_animationName: 
+          bool: 
+            Radio: 0
+            Horizontal: 0
+            Vertical: 0
+            lookAtCam: 0
+            Always Front: 0
+            loop: 0
+            play_onStart: 0
+            Visible: 1
+          int: 
+            current_frame: 0
+          vector4: 
+            Tint: , x: 0, y: 0, z: 0, w: 0
+          unsigned: 
+            slices_Row: 1
+            slices_Col: 1
+      Entity: PlaceHolder2
+        Transform: 
+          vector3: 
+            Position: , x: 0, y: -0.34425, z: 0.805
+            Rotation: , x: -0, y: -90, z: 0
+            Scale: , x: 1, y: 1, z: 1
+        Sprite2D: 
+          float: 
+            Value: 0
+            Transparency: 1
+          string: 
+            Texture: CompiledAssets\Sprites\darkbrown.dds
+            onStart_animationName: 
+          bool: 
+            Radio: 0
+            Horizontal: 0
+            Vertical: 0
+            lookAtCam: 0
+            Always Front: 0
+            loop: 0
+            play_onStart: 0
+            Visible: 1
+          int: 
+            current_frame: 0
+          vector4: 
+            Tint: , x: 0, y: 0, z: 0, w: 0
+          unsigned: 
+            slices_Row: 1
+            slices_Col: 1
+      Entity: PlaceHolder3
+        Transform: 
+          vector3: 
+            Position: , x: 9.21172, y: -0.34425, z: 1.0997
+            Rotation: , x: 0, y: 270, z: 0
+            Scale: , x: 0.8, y: 0.8, z: 0.8
+        Sprite2D: 
+          float: 
+            Value: 0
+            Transparency: 1
+          string: 
+            Texture: CompiledAssets\Sprites\fern_colour.dds
+            onStart_animationName: 
+          bool: 
+            Radio: 0
+            Horizontal: 0
+            Vertical: 0
+            lookAtCam: 0
+            Always Front: 0
+            loop: 0
+            play_onStart: 0
+            Visible: 1
+          int: 
+            current_frame: 0
+          vector4: 
+            Tint: , x: 0, y: 0, z: 0, w: 0
+          unsigned: 
+            slices_Row: 1
+            slices_Col: 1
+      Entity: PlaceHolder4
+        Transform: 
+          vector3: 
+            Position: , x: 9.21172, y: -0.34425, z: 1.35947
+            Rotation: , x: 0, y: 270, z: 0
+            Scale: , x: 0.8, y: 0.8, z: 0.8
+        Sprite2D: 
+          float: 
+            Value: 0
+            Transparency: 1
+          string: 
+            Texture: CompiledAssets\Sprites\yellow.dds
+            onStart_animationName: 
+          bool: 
+            Radio: 0
+            Horizontal: 0
+            Vertical: 0
+            lookAtCam: 0
+            Always Front: 0
+            loop: 0
+            play_onStart: 0
+            Visible: 1
+          int: 
+            current_frame: 0
+          vector4: 
+            Tint: , x: 0, y: 0, z: 0, w: 0
+          unsigned: 
+            slices_Row: 1
+            slices_Col: 1
+  Entity: Hover
+    Transform: 
+      vector3: 
+        Position: , x: 185.447, y: -327.344, z: 464.635
+        Rotation: , x: 0, y: 270, z: 0
+        Scale: , x: 330, y: 330, z: 330
+    Identifier: 
+      string: 
+        ID: Hover
+    Sprite2D: 
+      float: 
+        Value: 0
+        Transparency: 1
+      string: 
+        Texture: CompiledAssets\Sprites\green1.dds
+        onStart_animationName: 
+      bool: 
+        Radio: 0
+        Horizontal: 0
+        Vertical: 0
+        lookAtCam: 0
+        Always Front: 0
+        loop: 0
+        play_onStart: 0
+        Visible: 1
+      int: 
+        current_frame: 0
+      vector4: 
+        Tint: , x: 0, y: 0, z: 0, w: 0
+      unsigned: 
+        slices_Row: 1
+        slices_Col: 1
+  Entity: LoadingScreen
+    Transform: 
+      vector3: 
+        Position: , x: 168.532, y: 0, z: -75.5527
+        Rotation: , x: 0, y: 270, z: 0
+        Scale: , x: 6000, y: 6000, z: 1
+    Sprite2D: 
+      float: 
+        Value: 0
+        Transparency: 1
+      string: 
+        Texture: CompiledAssets\Sprites\loadingscreen.dds
+        onStart_animationName: 
+      bool: 
+        Radio: 0
+        Horizontal: 0
+        Vertical: 0
+        lookAtCam: 0
+        Always Front: 0
+        loop: 0
+        play_onStart: 0
+        Visible: 1
+      int: 
+        current_frame: 0
+      vector4: 
+        Tint: , x: 0, y: 0, z: 0, w: 0
+      unsigned: 
+        slices_Row: 1
+        slices_Col: 1
+    Identifier: 
+      string: 
+        ID: LoadingScreen
+  Entity: Health7
+    Transform: 
+      vector3: 
+        Position: , x: -6.7583e-05, y: -232.8, z: -595.304
+        Rotation: , x: 0, y: 270, z: 0
+        Scale: , x: 175, y: 275, z: 300
+    Sprite2D: 
+      float: 
+        Value: 0
+        Transparency: 1
+      string: 
+        Texture: CompiledAssets\Sprites\health_petal.dds
+        onStart_animationName: 
+      bool: 
+        Radio: 0
+        Horizontal: 0
+        Vertical: 0
+        lookAtCam: 0
+        Always Front: 0
+        loop: 0
+        play_onStart: 0
+        Visible: 1
+      int: 
+        current_frame: 0
+      vector4: 
+        Tint: , x: 1, y: 0, z: 0, w: 0.470588
+      unsigned: 
+        slices_Row: 1
+        slices_Col: 1
+    Identifier: 
+      string: 
+        ID: Health0
+  Entity: Health6
+    Transform: 
+      vector3: 
+        Position: , x: -0.0999526, y: -250.813, z: -633.246
+        Rotation: , x: 270, y: 315, z: 89.9998
+        Scale: , x: 175, y: 275, z: 300
+    Sprite2D: 
+      float: 
+        Value: 0
+        Transparency: 1
+      string: 
+        Texture: CompiledAssets\Sprites\health_petal.dds
+        onStart_animationName: 
+      bool: 
+        Radio: 0
+        Horizontal: 0
+        Vertical: 0
+        lookAtCam: 0
+        Always Front: 0
+        loop: 0
+        play_onStart: 0
+        Visible: 1
+      int: 
+        current_frame: 0
+      vector4: 
+        Tint: , x: 1, y: 0, z: 0, w: 0.470588
+      unsigned: 
+        slices_Row: 1
+        slices_Col: 1
+    Identifier: 
+      string: 
+        ID: Health1
+  Entity: Health5
+    Transform: 
+      vector3: 
+        Position: , x: -0.19999, y: -286.058, z: -648.958
+        Rotation: , x: 270, y: 0, z: 90
+        Scale: , x: 175, y: 275, z: 300
+    Sprite2D: 
+      float: 
+        Value: 0
+        Transparency: 1
+      string: 
+        Texture: CompiledAssets\Sprites\health_petal.dds
+        onStart_animationName: 
+      bool: 
+        Radio: 0
+        Horizontal: 0
+        Vertical: 0
+        lookAtCam: 0
+        Always Front: 0
+        loop: 0
+        play_onStart: 0
+        Visible: 1
+      int: 
+        current_frame: 0
+      vector4: 
+        Tint: , x: 1, y: 0, z: 0, w: 0.470588
+      unsigned: 
+        slices_Row: 1
+        slices_Col: 1
+    Identifier: 
+      string: 
+        ID: Health2
+  Entity: Health4
+    Transform: 
+      vector3: 
+        Position: , x: -0.400109, y: -326.154, z: -633.936
+        Rotation: , x: 270, y: 45, z: 89.9999
+        Scale: , x: 175, y: 275, z: 300
+    Sprite2D: 
+      float: 
+        Value: 0
+        Transparency: 1
+      string: 
+        Texture: CompiledAssets\Sprites\health_petal.dds
+        onStart_animationName: 
+      bool: 
+        Radio: 0
+        Horizontal: 0
+        Vertical: 0
+        lookAtCam: 0
+        Always Front: 0
+        loop: 0
+        play_onStart: 0
+        Visible: 1
+      int: 
+        current_frame: 0
+      vector4: 
+        Tint: , x: 1, y: 0, z: 0, w: 0.470588
+      unsigned: 
+        slices_Row: 1
+        slices_Col: 1
+    Identifier: 
+      string: 
+        ID: Health3
+  Entity: Health3
+    Transform: 
+      vector3: 
+        Position: , x: -0.499977, y: -341.958, z: -595.425
+        Rotation: , x: 90.0002, y: 90, z: 270
+        Scale: , x: 175, y: 275, z: 300
+    Sprite2D: 
+      float: 
+        Value: 0
+        Transparency: 1
+      string: 
+        Texture: CompiledAssets\Sprites\health_petal.dds
+        onStart_animationName: 
+      bool: 
+        Radio: 0
+        Horizontal: 0
+        Vertical: 0
+        lookAtCam: 0
+        Always Front: 0
+        loop: 0
+        play_onStart: 0
+        Visible: 1
+      int: 
+        current_frame: 0
+      vector4: 
+        Tint: , x: 1, y: 0, z: 0, w: 0.470588
+      unsigned: 
+        slices_Row: 1
+        slices_Col: 1
+    Identifier: 
+      string: 
+        ID: Health4
+  Entity: Health2
+    Transform: 
+      vector3: 
+        Position: , x: -0.599995, y: -326.021, z: -557.866
+        Rotation: , x: 89.9999, y: 45, z: 270
+        Scale: , x: 175, y: 275, z: 300
+    Sprite2D: 
+      float: 
+        Value: 0
+        Transparency: 1
+      string: 
+        Texture: CompiledAssets\Sprites\health_petal.dds
+        onStart_animationName: 
+      bool: 
+        Radio: 0
+        Horizontal: 0
+        Vertical: 0
+        lookAtCam: 0
+        Always Front: 0
+        loop: 0
+        play_onStart: 0
+        Visible: 1
+      int: 
+        current_frame: 0
+      vector4: 
+        Tint: , x: 1, y: 0, z: 0, w: 0.470588
+      unsigned: 
+        slices_Row: 1
+        slices_Col: 1
+    Identifier: 
+      string: 
+        ID: Health5
+  Entity: Health1
+    Transform: 
+      vector3: 
+        Position: , x: -0.699989, y: -285.86, z: -540.775
+        Rotation: , x: 89.9998, y: 0, z: 270
+        Scale: , x: 175, y: 275, z: 300
+    Sprite2D: 
+      float: 
+        Value: 0
+        Transparency: 1
+      string: 
+        Texture: CompiledAssets\Sprites\health_petal.dds
+        onStart_animationName: 
+      bool: 
+        Radio: 0
+        Horizontal: 0
+        Vertical: 0
+        lookAtCam: 0
+        Always Front: 0
+        loop: 0
+        play_onStart: 0
+        Visible: 1
+      int: 
+        current_frame: 0
+      vector4: 
+        Tint: , x: 1, y: 0, z: 0, w: 0.470588
+      unsigned: 
+        slices_Row: 1
+        slices_Col: 1
+    Identifier: 
+      string: 
+        ID: Health6
+  Entity: Health0
+    Transform: 
+      vector3: 
+        Position: , x: -0.8, y: -248.678, z: -557.313
+        Rotation: , x: 90, y: 315, z: 270
+        Scale: , x: 175, y: 275, z: 300
+    Sprite2D: 
+      float: 
+        Value: 0
+        Transparency: 1
+      string: 
+        Texture: CompiledAssets\Sprites\health_petal.dds
+        onStart_animationName: 
+      bool: 
+        Radio: 0
+        Horizontal: 0
+        Vertical: 0
+        lookAtCam: 0
+        Always Front: 0
+        loop: 0
+        play_onStart: 0
+        Visible: 1
+      int: 
+        current_frame: 0
+      vector4: 
+        Tint: , x: 1, y: 0, z: 0, w: 0.470588
+      unsigned: 
+        slices_Row: 1
+        slices_Col: 1
+    Identifier: 
+      string: 
+        ID: Health7

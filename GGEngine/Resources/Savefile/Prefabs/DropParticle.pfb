@@ -1,0 +1,96 @@
+Root: 
+  Prefab: , Name: DropParticle
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: 0, z: 0
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Children: 
+      Child0: , Name: InnerCircleParticle
+        Transform: 
+          vector3: 
+            Position: , x: 0, y: 0, z: 0
+            Rotation: , x: 0, y: 0, z: 0
+            Scale: , x: 1, y: 1, z: 1
+        ParticleEmitter: 
+          float: 
+            warmthUpTime: 0
+            lifeTime: 1
+            totalParticles: 8
+            emitRate: 0.5
+            gravityStrength: 0
+            velocityStrength: 0
+            velocityStrength_2: 0
+            size: 100
+            size_2: 100
+            growth: 300
+            degree: 0
+            initialOpacity: 0.5
+            initialDistance: 0
+            initialDistance_2: 0
+          string: 
+            Model_Directory: CompiledAssets\Models\skybox_plane.mdl
+            Texture: CompiledAssets/Sprites/sample.dds
+          bool: 
+            emiting: 1
+            rangeVelocity: 0
+            rangeSize: 1
+            lookAtCam: 1
+            emitOnceStart: 1
+            rangeInitialDist: 0
+            randomRotation: 0
+          int: 
+            particlesPerEmit: 1
+            emitStyle: 0
+            particlesPerCyclic: 60
+          vector-string: 
+            Materials: , size: 1
+              Item0: Metal
+          vector3: 
+            offSetPosition: , x: 0, y: 0, z: 0
+            directionVector: , x: 0, y: 0, z: 1
+        Children: 
+      Child1: , Name: StarParticle
+        Transform: 
+          vector3: 
+            Position: , x: 0, y: 0, z: 0
+            Rotation: , x: 0, y: -0, z: 0
+            Scale: , x: 1, y: 1, z: 1
+        ParticleEmitter: 
+          float: 
+            warmthUpTime: 0
+            lifeTime: 1
+            totalParticles: 64
+            emitRate: 0.25
+            gravityStrength: 40
+            velocityStrength: 30
+            velocityStrength_2: 50
+            size: 20
+            size_2: 35
+            growth: 0
+            degree: 49.5
+            initialOpacity: 1
+            initialDistance: 10
+            initialDistance_2: 0
+          string: 
+            Model_Directory: CompiledAssets\Models\skybox_plane.mdl
+            Texture: CompiledAssets/Sprites/sample.dds
+          bool: 
+            emiting: 1
+            rangeVelocity: 1
+            rangeSize: 1
+            lookAtCam: 1
+            emitOnceStart: 1
+            rangeInitialDist: 0
+            randomRotation: 0
+          int: 
+            particlesPerEmit: 4
+            emitStyle: 1
+            particlesPerCyclic: 60
+          vector-string: 
+            Materials: , size: 1
+              Item0: Metal
+          vector3: 
+            offSetPosition: , x: 0, y: 0, z: 0
+            directionVector: , x: 0, y: 1, z: 0
+        Children: 

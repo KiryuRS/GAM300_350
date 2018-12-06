@@ -1,0 +1,133 @@
+Root: 
+  Prefab: , Name: TallGrass
+    Transform: 
+      vector3: 
+        Position: , x: -365.712, y: -9.21483, z: 75.7664
+        Rotation: , x: 270, y: 63.8995, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\tallgrass.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: DeepGreen
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    Children: 
+      Child0: , Name: TallGrass
+        Transform: 
+          vector3: 
+            Position: , x: 8.73035, y: -6.76123, z: 0
+            Rotation: , x: 0, y: -0, z: 0
+            Scale: , x: 0.75, y: 0.75, z: 0.75
+        StaticMesh: 
+          string: 
+            Model_Directory: CompiledAssets\Models\tallgrass.mdl
+          vector-string: 
+            Materials: , size: 1
+              Item0: DeepGreen
+        StaticMeshRenderer: 
+          float: 
+            Transparency: 1
+          bool: 
+            Cast Shadow: 1
+            Receive Shadow: 1
+            Visible: 1
+          vector4: 
+            Tint: , x: 1, y: 1, z: 1, w: 0
+        Children: 
+      Child1: , Name: TallGrass
+        Transform: 
+          vector3: 
+            Position: , x: 1.54239, y: -41.9095, z: 0
+            Rotation: , x: 0, y: -0, z: 0
+            Scale: , x: 1.2, y: 1.2, z: 1.2
+        StaticMesh: 
+          string: 
+            Model_Directory: CompiledAssets\Models\tallgrass.mdl
+          vector-string: 
+            Materials: , size: 1
+              Item0: DeepGreen
+        StaticMeshRenderer: 
+          float: 
+            Transparency: 1
+          bool: 
+            Cast Shadow: 1
+            Receive Shadow: 1
+            Visible: 1
+          vector4: 
+            Tint: , x: 1, y: 1, z: 1, w: 0
+        Children: 
+      Child2: , Name: TallGrass
+        Transform: 
+          vector3: 
+            Position: , x: -10.7181, y: -14.0369, z: 0
+            Rotation: , x: 0, y: -0, z: 0
+            Scale: , x: 1.5, y: 1.5, z: 1.5
+        StaticMesh: 
+          string: 
+            Model_Directory: CompiledAssets\Models\tallgrass.mdl
+          vector-string: 
+            Materials: , size: 1
+              Item0: DeepGreen
+        StaticMeshRenderer: 
+          float: 
+            Transparency: 1
+          bool: 
+            Cast Shadow: 1
+            Receive Shadow: 1
+            Visible: 1
+          vector4: 
+            Tint: , x: 1, y: 1, z: 1, w: 0
+        Children: 
+      Child3: , Name: TallGrass
+        Transform: 
+          vector3: 
+            Position: , x: -9.02368, y: -26.9586, z: 0
+            Rotation: , x: 0, y: -0, z: 0
+            Scale: , x: 1, y: 1, z: 1
+        StaticMesh: 
+          string: 
+            Model_Directory: CompiledAssets\Models\tallgrass.mdl
+          vector-string: 
+            Materials: , size: 1
+              Item0: DeepGreen
+        StaticMeshRenderer: 
+          float: 
+            Transparency: 1
+          bool: 
+            Cast Shadow: 1
+            Receive Shadow: 1
+            Visible: 1
+          vector4: 
+            Tint: , x: 1, y: 1, z: 1, w: 0
+        Children: 
+      Child4: , Name: TallGrass
+        Transform: 
+          vector3: 
+            Position: , x: -45.078, y: -35.4573, z: 0
+            Rotation: , x: 0, y: -0, z: 0
+            Scale: , x: 1, y: 1, z: 1
+        StaticMesh: 
+          string: 
+            Model_Directory: CompiledAssets\Models\tallgrass.mdl
+          vector-string: 
+            Materials: , size: 1
+              Item0: DeepGreen
+        StaticMeshRenderer: 
+          float: 
+            Transparency: 1
+          bool: 
+            Cast Shadow: 1
+            Receive Shadow: 1
+            Visible: 1
+          vector4: 
+            Tint: , x: 1, y: 1, z: 1, w: 0
+        Children: 

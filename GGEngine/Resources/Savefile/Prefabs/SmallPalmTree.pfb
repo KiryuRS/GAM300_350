@@ -1,0 +1,23 @@
+Root: 
+  Prefab: , Name: SmallPalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 2763.19, y: 160.196, z: 1096.55
+        Rotation: , x: 270, y: 41.9462, z: 0
+        Scale: , x: 2.5, y: 2.5, z: 2.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\palmtree2.mdl
+      vector-string: 
+        Materials: , size: 2
+          Item0: DarkGreen
+          Item1: DarkBrown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1

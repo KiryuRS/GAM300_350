@@ -1,0 +1,111 @@
+Root: 
+  Prefab: , Name: ShortGrass
+    Transform: 
+      vector3: 
+        Position: , x: 27.0096, y: -3.50591, z: 120.461
+        Rotation: , x: 270, y: 0, z: 0
+        Scale: , x: 0.985439, y: 0.985439, z: 0.985439
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\shortgrass.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: DarkGreen
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 0
+        Receive Shadow: 0
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    Children: 
+      Child0: , Name: ShortGrass
+        Transform: 
+          vector3: 
+            Position: , x: -4.49298, y: -6.9567, z: 0
+            Rotation: , x: 0, y: -0, z: 312.299
+            Scale: , x: 1, y: 1, z: 1
+        StaticMesh: 
+          string: 
+            Model_Directory: CompiledAssets\Models\shortgrass.mdl
+          vector-string: 
+            Materials: , size: 1
+              Item0: DarkGreen
+        StaticMeshRenderer: 
+          float: 
+            Transparency: 1
+          bool: 
+            Cast Shadow: 0
+            Receive Shadow: 0
+            Visible: 1
+          vector4: 
+            Tint: , x: 1, y: 1, z: 1, w: 0
+        Children: 
+      Child1: , Name: ShortGrass
+        Transform: 
+          vector3: 
+            Position: , x: -5.58323, y: -2.7855, z: -3.26577
+            Rotation: , x: 0, y: -0, z: 79.9818
+            Scale: , x: 0.8, y: 0.8, z: 0.8
+        StaticMesh: 
+          string: 
+            Model_Directory: CompiledAssets\Models\shortgrass.mdl
+          vector-string: 
+            Materials: , size: 1
+              Item0: DarkGreen
+        StaticMeshRenderer: 
+          float: 
+            Transparency: 1
+          bool: 
+            Cast Shadow: 0
+            Receive Shadow: 0
+            Visible: 1
+          vector4: 
+            Tint: , x: 1, y: 1, z: 1, w: 0
+        Children: 
+      Child2: , Name: ShortGrass
+        Transform: 
+          vector3: 
+            Position: , x: -4.64887, y: 3.65877, z: 0
+            Rotation: , x: 0, y: -0, z: 285.29
+            Scale: , x: 0.5, y: 0.5, z: 0.5
+        StaticMesh: 
+          string: 
+            Model_Directory: CompiledAssets\Models\shortgrass.mdl
+          vector-string: 
+            Materials: , size: 1
+              Item0: DarkGreen
+        StaticMeshRenderer: 
+          float: 
+            Transparency: 1
+          bool: 
+            Cast Shadow: 0
+            Receive Shadow: 0
+            Visible: 1
+          vector4: 
+            Tint: , x: 1, y: 1, z: 1, w: 0
+        Children: 
+      Child3: , Name: ShortGrass
+        Transform: 
+          vector3: 
+            Position: , x: -9.61355, y: -9.6152, z: 0
+            Rotation: , x: 0, y: -0, z: 318.789
+            Scale: , x: 0.5, y: 0.5, z: 0.5
+        StaticMesh: 
+          string: 
+            Model_Directory: CompiledAssets\Models\shortgrass.mdl
+          vector-string: 
+            Materials: , size: 1
+              Item0: DarkGreen
+        StaticMeshRenderer: 
+          float: 
+            Transparency: 1
+          bool: 
+            Cast Shadow: 0
+            Receive Shadow: 0
+            Visible: 1
+          vector4: 
+            Tint: , x: 1, y: 1, z: 1, w: 0
+        Children: 

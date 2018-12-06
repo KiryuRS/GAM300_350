@@ -1,0 +1,49 @@
+Root: 
+  Prefab: , Name: Plant1
+    Transform: 
+      vector3: 
+        Position: , x: -9.85757, y: 35.1958, z: 208.006
+        Rotation: , x: 270, y: 0, z: 0
+        Scale: , x: 1.2, y: 1.2, z: 1.2
+    Script: 
+      float: 
+        endY: 40
+        startY: -15
+        taugeHeight: 3
+      string: 
+        carrotDrawnPrefab: CompiledAssets/Models/emptycarrot.mdl
+        plantName: Taugeh
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/PlantInfo.lua
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\crop_taugey.mdl
+      vector-string: 
+        Materials: , size: 3
+          Item0: Taugey_Green
+          Item1: Taugey_LightGreen
+          Item2: Taugey_DarkGreen
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 1
+        rotationAffect_90: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 11.6, z: 0
+        Scale: , x: 2.6, y: 1.5, z: 0.7
+    Identifier: 
+      string: 
+        ID: Plant
+    Children: 

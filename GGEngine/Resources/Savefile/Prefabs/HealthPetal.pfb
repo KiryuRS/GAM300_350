@@ -1,0 +1,34 @@
+Root: 
+  Prefab: , Name: HealthPetal
+    Transform: 
+      vector3: 
+        Position: , x: -6.7583e-05, y: -232.8, z: -595.304
+        Rotation: , x: 0, y: 270, z: 0
+        Scale: , x: 175, y: 275, z: 300
+    Sprite2D: 
+      float: 
+        Value: 0
+        Transparency: 1
+      string: 
+        Texture: CompiledAssets\Sprites\health_petal.dds
+        onStart_animationName: 
+      bool: 
+        Radio: 0
+        Horizontal: 0
+        Vertical: 0
+        lookAtCam: 0
+        Always Front: 0
+        loop: 0
+        play_onStart: 0
+        Visible: 1
+      int: 
+        current_frame: 0
+      vector4: 
+        Tint: , x: 1, y: 0, z: 0, w: 0.470588
+      unsigned: 
+        slices_Row: 1
+        slices_Col: 1
+    Identifier: 
+      string: 
+        ID: Health0
+    Children: 

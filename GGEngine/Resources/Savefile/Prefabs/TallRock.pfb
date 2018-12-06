@@ -1,0 +1,23 @@
+Root: 
+  Prefab: , Name: TallRock
+    Transform: 
+      vector3: 
+        Position: , x: 103.416, y: -34.3687, z: -1588.47
+        Rotation: , x: 7.96617e-08, y: 46.641, z: 5.83101e-06
+        Scale: , x: 0.5, y: 0.5, z: 0.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_large_tall_01.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Rocks
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    Children: 

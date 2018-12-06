@@ -1,0 +1,59 @@
+ModelFile: 
+  vector-serialmesh: 
+    StaticMeshes: , size: 1
+      Item0: 
+        string: 
+          Translation Name: 
+          Pre Rotation Name: 
+          Rotation Name: 
+          Scaling Name: 
+        bool: 
+          GlobalExists: 1
+        vector-int: 
+          Faces: , size: 6
+            Item0: 0
+            Item1: 1
+            Item2: 2
+            Item3: 0
+            Item4: 2
+            Item5: 3
+          Bone Mapping Num: , size: 5
+            Item0: 1
+            Item1: 2
+            Item2: 3
+            Item3: 4
+            Item4: 5
+        vector-string: 
+          Bone Mapping Name: , size: 5
+            Item0: pCube1_$AssimpFbx$_RotationPivot
+            Item1: pCube1_$AssimpFbx$_RotationPivotInverse
+            Item2: pCube1_$AssimpFbx$_ScalingPivot
+            Item3: pCube1_$AssimpFbx$_ScalingPivotInverse
+            Item4: pCube1
+        vector-vector2: 
+          UVs: , size: 0
+        vector-vector3: 
+          Vertices: , size: 4
+            Item0: , x: -50, y: -0.5, z: 50
+            Item1: , x: 50, y: -0.5, z: 50
+            Item2: , x: 50, y: -0.5, z: -50
+            Item3: , x: -50, y: -0.5, z: -50
+          Normals: , size: 0
+        matrix4: 
+          Transform: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+        vector-sbone: 
+          Bones: , size: 0
+        node: 
+          RootNode: 0|(1|pCube1_$AssimpFbx$_RotationPivot(2|pCube1_$AssimpFbx$_RotationPivotInverse(3|pCube1_$AssimpFbx$_ScalingPivot(4|pCube1_$AssimpFbx$_ScalingPivotInverse(5|pCube1())))))
+        vector-matrix4: 
+          Node Matrices: , size: 6
+            Item0: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item1: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: -0.5, o: 0, p: 1
+            Item2: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: -0, n: 0.5, o: -0, p: 1
+            Item3: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: -0.5, o: 0, p: 1
+            Item4: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: -0, n: 0.5, o: -0, p: 1
+            Item5: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+  matrix4: 
+    GlobalTransform: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+  vector-anim: 
+    animations: , size: 0

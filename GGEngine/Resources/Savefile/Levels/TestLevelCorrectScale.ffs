@@ -1,0 +1,1927 @@
+Settings: 
+  string: 
+    SkyboxLeft: CompiledAssets\Sprites\blood-stain-gorge_lf.dds
+    SkyboxRight: CompiledAssets\Sprites\blood-stain-gorge_rt.dds
+    SkyboxDown: CompiledAssets\Sprites\blood-stain-gorge_dn.dds
+    SkyboxUp: CompiledAssets\Sprites\blood-stain-gorge_up.dds
+    SkyboxBack: CompiledAssets\Sprites\blood-stain-gorge_bk.dds
+    SkyboxFront: CompiledAssets\Sprites\blood-stain-gorge_ft.dds
+  bool: 
+    Render Shadows: 1
+Entities: 
+  Entity: Ground
+    Transform: 
+      vector3: 
+        Position: , x: 239, y: -24, z: 0
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 977, y: 1, z: 680
+    Script: 
+      vector-string: 
+        Scripts: , size: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets\Sprites\grass_colour.dds
+    StaticMeshRenderer: 
+    PlaneCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: Player
+    Transform: 
+      vector3: 
+        Position: , x: 105.733, y: -14.3619, z: 50.0639
+        Rotation: , x: 0, y: 90, z: 0
+        Scale: , x: 1, y: 1, z: 1.2
+    Script: 
+      float: 
+        attackPower: 1
+        attackRange: 80
+        attackTime: 0.5
+        carrotSwordBoost: 1
+        jumpForce: 15
+        jumpSoundID: 0
+        maxHealth: 8
+        moveSpeed: 50
+        speedLimit: 60
+        walkSoundID: 0
+      string: 
+        attackAnim: CompiledAssets/Models/gallina.mdl
+        carrotSwordPrefab: CarrotSword
+        downKey: S
+        enemyName: BossStone
+        idleAnim: CompiledAssets\Models\char_exporttest1.mdl
+        interactKey: E
+        jumpKey: SPACE
+        leftKey: A
+        lmouseKey: LMOUSE
+        plantPrefab1: Plant1
+        plantPrefab2: Plant2
+        plantPrefab3: Plant3
+        plantPrefab4: Plant4
+        rightKey: D
+        rmouseKey: RMOUSE
+        soilPrefab: GroundTile
+        upKey: W
+        walkAnim: CompiledAssets\Models\runtest3.mdl
+      bool: 
+        attacking: 0
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Player.lua
+      vector3: 
+        carrotSwordOffset: , x: 0, y: 60, z: 0
+    RigidBody: 
+      float: 
+        GravityStrength: 200
+        Mass: 0.2
+        Bounciness: 0
+        Friction: 7
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Controller: 
+      vector-string: 
+        Up_Key: , size: 0
+        Down_Key: , size: 0
+        Left_Key: , size: 0
+        Right_Key: , size: 0
+        Interact_Key: , size: 0
+        Interact2_Key: , size: 0
+        LeftClick_Key: , size: 0
+        RightClick_Key: , size: 0
+    Sound: 
+      float: 
+        Fade_Duration: 1
+      bool: 
+        Start_BGM: 1
+        Start_LSFX: 0
+      int: 
+        Start_BGM_ID: 0
+        Start_LSFX_ID: 0
+      vector-audioInfo: 
+        BGMs: , size: 1
+          Item0: 
+            float: 
+              Volume: 0.3
+              Spread3D: 180
+            string: 
+              File_Name: Resources/Audio/BGM/FarmingBGM.wav
+            bool: 
+              Audio3D: 0
+        SFXs: , size: 1
+          Item0: 
+            float: 
+              Volume: 0.8
+              Spread3D: 180
+            string: 
+              File_Name: Resources/Audio/SFX/Jump.wav
+            bool: 
+              Audio3D: 0
+        LoopingSFXs: , size: 1
+          Item0: 
+            float: 
+              Volume: 1
+              Spread3D: 180
+            string: 
+              File_Name: Resources/Audio/LSFX/Walk.wav
+            bool: 
+              Audio3D: 0
+    Identifier: 
+      string: 
+        ID: player
+    SkeletalMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\char_exporttest1.mdl
+        Texture_Directory: CompiledAssets\Sprites\blue.dds
+      int: 
+        Animation Number: 0
+    SkeletalMeshRenderer: 
+    CapsuleCollider: 
+      float: 
+        Radius: 5
+        Height: 10
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 15, z: 0
+  Entity: Light
+    Transform: 
+      vector3: 
+        Position: , x: 139.747, y: 373.939, z: -36.4986
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    PointLight: 
+      float: 
+        Light_Intensity: 2
+        Light_Radius: 100
+      vector4: 
+        Light_Diffuse: , x: 0.926471, y: 0.92647, z: 0.926461, w: 1
+        Light_Specular: , x: 0, y: 0, z: 0, w: 1
+        Light_Ambient: , x: 0, y: 0, z: 0, w: 1
+    Identifier: 
+      string: 
+        ID: Light
+    DirectionalLight: 
+      vector4: 
+        Light_Diffuse: , x: 0, y: 0, z: 0, w: 1
+        Light_Specular: , x: 0, y: 0, z: 0, w: 1
+        Light_Ambient: , x: 0, y: 0, z: 0, w: 1
+      vector3: 
+        Light_Direction: , x: 74, y: 31, z: -77
+  Entity: Platform1
+    Transform: 
+      vector3: 
+        Position: , x: -120.419, y: -6.51589, z: -36.4406
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 9.28111, y: 2.30351, z: 11
+    Script: 
+      vector-string: 
+        Scripts: , size: 0
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: PlatformPlane
+    Transform: 
+      vector3: 
+        Position: , x: 15.675, y: -8.47206, z: 15.1439
+        Rotation: , x: 0, y: 0, z: 330
+        Scale: , x: 5, y: 1, z: 3
+    Script: 
+      vector-string: 
+        Scripts: , size: 0
+    PlaneCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: Wall
+    Transform: 
+      vector3: 
+        Position: , x: -222, y: 0, z: 2.78168
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 20, y: 70, z: 673.862
+    Script: 
+      vector-string: 
+        Scripts: , size: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: Resources/Texture/sample.dds
+    StaticMeshRenderer: 
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: Wall
+    Transform: 
+      vector3: 
+        Position: , x: 444.264, y: -3, z: 1
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 20, y: 70, z: 674
+    Script: 
+      vector-string: 
+        Scripts: , size: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: Resources/Texture/sample.dds
+    StaticMeshRenderer: 
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: Wall2
+    Transform: 
+      vector3: 
+        Position: , x: 130.256, y: 0.0309753, z: 388.088
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 30, y: 10, z: 10
+    Script: 
+      vector-string: 
+        Scripts: , size: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: Resources/Texture/sample.dds
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: Wall2
+    Transform: 
+      vector3: 
+        Position: , x: 132.607, y: 0.0309753, z: -334.589
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 30, y: 10, z: 10
+    Script: 
+      vector-string: 
+        Scripts: , size: 0
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: EmptySoil
+    Transform: 
+      vector3: 
+        Position: , x: 119.579, y: -24.1049, z: -58.306
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 40, y: 2, z: 40
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets\Sprites\green1.dds
+    StaticMeshRenderer: 
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 1
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Identifier: 
+      string: 
+        ID: EmptySoil
+    Script: 
+      float: 
+        plantTime: 3
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Soil.lua
+  Entity: EmptySoil
+    Transform: 
+      vector3: 
+        Position: , x: 119.579, y: -24.1049, z: -8.2236
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 40, y: 2, z: 40
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets\Sprites\green1.dds
+    StaticMeshRenderer: 
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 1
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Identifier: 
+      string: 
+        ID: EmptySoil
+    Script: 
+      float: 
+        plantTime: 3
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Soil.lua
+  Entity: EmptySoil
+    Transform: 
+      vector3: 
+        Position: , x: 119.579, y: -24.1049, z: 42.2538
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 40, y: 2, z: 40
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets\Sprites\green1.dds
+    StaticMeshRenderer: 
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 1
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Identifier: 
+      string: 
+        ID: EmptySoil
+    Script: 
+      float: 
+        plantTime: 3
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Soil.lua
+  Entity: EmptySoil
+    Transform: 
+      vector3: 
+        Position: , x: 169.893, y: -24.1049, z: -59.6868
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 40, y: 2, z: 40
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets\Sprites\green1.dds
+    StaticMeshRenderer: 
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 1
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Identifier: 
+      string: 
+        ID: EmptySoil
+    Script: 
+      float: 
+        plantTime: 3
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Soil.lua
+  Entity: EmptySoil
+    Transform: 
+      vector3: 
+        Position: , x: 169.893, y: -24.1049, z: -8.759
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 40, y: 2, z: 40
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets\Sprites\green1.dds
+    StaticMeshRenderer: 
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 1
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Identifier: 
+      string: 
+        ID: EmptySoil
+    Script: 
+      float: 
+        plantTime: 3
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Soil.lua
+  Entity: EmptySoil
+    Transform: 
+      vector3: 
+        Position: , x: 169.893, y: -24.1049, z: 41.914
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 40, y: 2, z: 40
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets\Sprites\green1.dds
+    StaticMeshRenderer: 
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 1
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Identifier: 
+      string: 
+        ID: EmptySoil
+    Script: 
+      float: 
+        plantTime: 3
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Soil.lua
+  Entity: EmptySoil
+    Transform: 
+      vector3: 
+        Position: , x: 219.561, y: -24.1049, z: -60.4975
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 40, y: 2, z: 40
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets\Sprites\green1.dds
+    StaticMeshRenderer: 
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 1
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Identifier: 
+      string: 
+        ID: EmptySoil
+    Script: 
+      float: 
+        plantTime: 3
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Soil.lua
+  Entity: EmptySoil
+    Transform: 
+      vector3: 
+        Position: , x: 219.561, y: -24.1049, z: -9.10989
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 40, y: 2, z: 40
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets\Sprites\green1.dds
+    StaticMeshRenderer: 
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 1
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Identifier: 
+      string: 
+        ID: EmptySoil
+    Script: 
+      float: 
+        plantTime: 3
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Soil.lua
+  Entity: EmptySoil
+    Transform: 
+      vector3: 
+        Position: , x: 219.561, y: -24.1049, z: 41.3685
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 40, y: 2, z: 40
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets\Sprites\green1.dds
+    StaticMeshRenderer: 
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 1
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Identifier: 
+      string: 
+        ID: EmptySoil
+    Script: 
+      float: 
+        plantTime: 3
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Soil.lua
+  Entity: GameManager
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: 4.76837e-07, z: 0
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Script: 
+      float: 
+        maxHealth: 10
+      string: 
+        enemyName: Enemy
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Manager.lua
+    Identifier: 
+      string: 
+        ID: GameManager
+  Entity: Boss1
+    Transform: 
+      vector3: 
+        Position: , x: 165.316, y: 0, z: 164.629
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Script: 
+      float: 
+        AttackCooldown: 3
+        AttackLimit: 10
+        AttackMovementSpeed: 30
+        DropBaseCooldown: 10
+        DropChargeTime: 1
+        DropCooldown: 0
+        DropTimer: 1
+        DropdownHeight: 100
+        GeneralCooldown: 0
+        IdleLimit: 1
+        SpinBaseCooldown: 15
+        SpinCooldown: 0
+        SpinDelayTime: 1.5
+        SpinSpeed: 10
+        maxHP: 10
+      bool: 
+        DropCharge: 0
+        DropMode: 0
+        Dropping: 0
+        SpinMode: 0
+        SpinPrep: 0
+        Spinning: 0
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/FiveStone.lua
+    Identifier: 
+      string: 
+        ID: Enemy
+  Entity: BossSub1, Parent: 19
+    Transform: 
+      vector3: 
+        Position: , x: -4.46565, y: 0, z: 10.8231
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 10, y: 10, z: 10
+    Script: 
+      float: 
+        AttackCooldown: 0
+        AttackMovementSpeed: 0
+        AttackRangeLimit: 0
+        AttackTimerLimit: 4
+        IdleLimit: 0
+        LerpTimer: 0
+        RigidbodySpeedLimit: 250
+        RotationForce: 10
+        State: 0
+        Timer: 0
+        indiChargeSpeed: 0.6
+        sizeY: 0
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/StoneIndi.lua
+      vector3: 
+        Target: , x: 0, y: 0, z: 0
+        TargetDir: , x: 0, y: 0, z: 0
+        TargetEuler: , x: 0, y: 0, z: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets\Sprites\brown.dds
+    StaticMeshRenderer: 
+    RigidBody: 
+      float: 
+        GravityStrength: 10
+        Mass: 1
+        Bounciness: 0
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Identifier: 
+      string: 
+        ID: BossStone
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: BossSub1, Parent: 19
+    Transform: 
+      vector3: 
+        Position: , x: -15.8079, y: 0, z: 10.8231
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 10, y: 10, z: 10
+    Script: 
+      float: 
+        AttackCooldown: 0
+        AttackMovementSpeed: 0
+        AttackRangeLimit: 0
+        AttackTimerLimit: 4
+        IdleLimit: 0
+        LerpTimer: 0
+        RigidbodySpeedLimit: 250
+        RotationForce: 10
+        State: 0
+        Timer: 0
+        indiChargeSpeed: 0.6
+        sizeY: 0
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/StoneIndi.lua
+      vector3: 
+        Target: , x: 0, y: 0, z: 0
+        TargetDir: , x: 0, y: 0, z: 0
+        TargetEuler: , x: 0, y: 0, z: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets\Sprites\brown.dds
+    StaticMeshRenderer: 
+    RigidBody: 
+      float: 
+        GravityStrength: 10
+        Mass: 1
+        Bounciness: 0
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Identifier: 
+      string: 
+        ID: BossStone
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: BossSub1, Parent: 19
+    Transform: 
+      vector3: 
+        Position: , x: -4.56113, y: 0, z: 23.036
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 10, y: 10, z: 10
+    Script: 
+      float: 
+        AttackCooldown: 0
+        AttackMovementSpeed: 0
+        AttackRangeLimit: 0
+        AttackTimerLimit: 4
+        IdleLimit: 0
+        LerpTimer: 0
+        RigidbodySpeedLimit: 250
+        RotationForce: 10
+        State: 0
+        Timer: 0
+        indiChargeSpeed: 0.6
+        sizeY: 0
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/StoneIndi.lua
+      vector3: 
+        Target: , x: 0, y: 0, z: 0
+        TargetDir: , x: 0, y: 0, z: 0
+        TargetEuler: , x: 0, y: 0, z: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets\Sprites\brown.dds
+    StaticMeshRenderer: 
+    RigidBody: 
+      float: 
+        GravityStrength: 10
+        Mass: 1
+        Bounciness: 0
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Identifier: 
+      string: 
+        ID: BossStone
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: BossSub1, Parent: 19
+    Transform: 
+      vector3: 
+        Position: , x: -5.31816, y: 0, z: -2.77699
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 10, y: 10, z: 10
+    Script: 
+      float: 
+        AttackCooldown: 0
+        AttackMovementSpeed: 0
+        AttackRangeLimit: 0
+        AttackTimerLimit: 4
+        IdleLimit: 0
+        LerpTimer: 0
+        RigidbodySpeedLimit: 250
+        RotationForce: 10
+        State: 0
+        Timer: 0
+        indiChargeSpeed: 0.6
+        sizeY: 0
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/StoneIndi.lua
+      vector3: 
+        Target: , x: 0, y: 0, z: 0
+        TargetDir: , x: 0, y: 0, z: 0
+        TargetEuler: , x: 0, y: 0, z: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets\Sprites\brown.dds
+    StaticMeshRenderer: 
+    RigidBody: 
+      float: 
+        GravityStrength: 10
+        Mass: 1
+        Bounciness: 0
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Identifier: 
+      string: 
+        ID: BossStone
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: BossSub1, Parent: 19
+    Transform: 
+      vector3: 
+        Position: , x: 7.4894, y: 0, z: 10.8231
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 10, y: 10, z: 10
+    Script: 
+      float: 
+        AttackCooldown: 0
+        AttackMovementSpeed: 0
+        AttackRangeLimit: 0
+        AttackTimerLimit: 4
+        IdleLimit: 0
+        LerpTimer: 0
+        RigidbodySpeedLimit: 250
+        RotationForce: 10
+        State: 0
+        Timer: 0
+        indiChargeSpeed: 0.6
+        sizeY: 0
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/StoneIndi.lua
+      vector3: 
+        Target: , x: 0, y: 0, z: 0
+        TargetDir: , x: 0, y: 0, z: 0
+        TargetEuler: , x: 0, y: 0, z: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets\Sprites\brown.dds
+    StaticMeshRenderer: 
+    RigidBody: 
+      float: 
+        GravityStrength: 10
+        Mass: 1
+        Bounciness: 0
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Identifier: 
+      string: 
+        ID: BossStone
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: Camera
+    Transform: 
+      vector3: 
+        Position: , x: -186.316, y: 134.18, z: 3.38089
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Script: 
+      float: 
+        cameraPivotSpeed: 1
+        camera_rotation: 1
+        camera_speed: 0.5
+        field_of_view: 45
+        gamma: 2.2
+        hdrExposure: 1
+        maxLength: 180
+        mouse_scroll: 0
+        old_y_movement: 0
+        original_camera_speed: 0
+        rotate_speed: 0.02
+      string: 
+        change_cam_mode_key: TAB
+        target_name: Player
+      bool: 
+        bloom: 0
+        free_will_cam: 0
+        orthographic: 0
+        perspective: 1
+        target_rotation: 0
+        trans_pos_active: 1
+      vector2: 
+        cp_info: , x: 0.01, y: 1500
+        old_mouse_position: , x: 0, y: 0
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Camera.lua
+      vector4: 
+        vp_info: , x: 0, y: 0, z: 0.00392157, w: 0.00392157
+      vector3: 
+        old_displacement: , x: 0, y: 0, z: 0
+        position: , x: 0, y: 0, z: 10
+    Camera: 
+      float: 
+        Camera_Speed: 0.5
+        Camera_Rotation: 1
+        Clipping_Plane_Near: 0.01
+        Clipping_Plane_Far: 1500
+        Field_Of_View: 45
+        HDR_Exposure_Rate: 1
+        Camera_Gamma: 2.2
+      string: 
+        Target_Name_Identifier: player
+      bool: 
+        Disable: 0
+        Perspective_View: 1
+        Orthographic_View: 0
+        Free_Will_Camera: 0
+        Camera_Bloom: 0
+      int: 
+        Viewport_Width: 1
+        Viewport_Height: 1
+      vector2: 
+        Viewport_Start_Position: , x: 0, y: 0
+    Identifier: 
+      string: 
+        ID: Camera
+    Controller: 
+      vector-string: 
+        Up_Key: , size: 0
+        Down_Key: , size: 0
+        Left_Key: , size: 0
+        Right_Key: , size: 0
+        Interact_Key: , size: 0
+        Interact2_Key: , size: 0
+        LeftClick_Key: , size: 0
+        RightClick_Key: , size: 0
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 8.34797, y: -23.9596, z: 66.4252
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: -14.3432, y: -24.5843, z: 79.0602
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 0.2, y: 0.2, z: 0.2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: -4.35614, y: -23.9402, z: 101.266
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 8.34797, y: -23.9597, z: 91.2458
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -44.402, y: 88.5514, z: 229.12
+        Rotation: , x: 89.9999, y: 49.1471, z: -180
+        Scale: , x: 0.25, y: 0.25, z: 0.25
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\treebark_colour.dds
+    StaticMeshRenderer: 
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 308.197, y: 106.209, z: 226.837
+        Rotation: , x: 89.9999, y: 340.706, z: 180
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\treebark_colour.dds
+    StaticMeshRenderer: 
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 87.1013, y: 93.9176, z: 202.976
+        Rotation: , x: 89.9999, y: 61.1668, z: 180
+        Scale: , x: 0.25, y: 0.25, z: 0.25
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\treebark_colour.dds
+    StaticMeshRenderer: 
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 22.042, y: 109.255, z: 237.413
+        Rotation: , x: 89.9999, y: 46.0007, z: 180
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\treebark_colour.dds
+    StaticMeshRenderer: 
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: -25.8403, y: -25.3004, z: 169.565
+        Rotation: , x: 89.9998, y: 354.328, z: 180.001
+        Scale: , x: 0.15, y: 0.15, z: 0.15
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: -1.51213, y: -23.7061, z: 186.327
+        Rotation: , x: 89.9998, y: 40.405, z: 180.001
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: -34.8954, y: -23.7059, z: 137.523
+        Rotation: , x: 89.9999, y: 16.925, z: 180
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: KampungHouse
+    Transform: 
+      vector3: 
+        Position: , x: -90.3026, y: 6.29676, z: -19.4554
+        Rotation: , x: 270, y: 180, z: 0
+        Scale: , x: 0.2, y: 0.2, z: 0.2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\kampunghouse.mdl
+        Texture_Directory: CompiledAssets\Sprites\house_colour.dds
+    StaticMeshRenderer: 
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -65.253, y: 109.255, z: -209.062
+        Rotation: , x: -90, y: -15.1601, z: 0
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\treebark_colour.dds
+    StaticMeshRenderer: 
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: 109.255, z: -272.226
+        Rotation: , x: 90.0003, y: -85.4273, z: -180
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\treebark_colour.dds
+    StaticMeshRenderer: 
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -69.4733, y: 109.255, z: 125.635
+        Rotation: , x: -90, y: 15.8186, z: 0
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\treebark_colour.dds
+    StaticMeshRenderer: 
+  Entity: DirtPile
+    Transform: 
+      vector3: 
+        Position: , x: -103.082, y: -21.9051, z: 190.633
+        Rotation: , x: 180.001, y: 80.8774, z: 180
+        Scale: , x: 0.05, y: 0.05, z: 0.05
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\uneven_ground_dirt_01.mdl
+        Texture_Directory: CompiledAssets\Sprites\soil_colour.dds
+    StaticMeshRenderer: 
+  Entity: DirtPile
+    Transform: 
+      vector3: 
+        Position: , x: -95.6959, y: -21.9065, z: -163.476
+        Rotation: , x: 180.001, y: 76.2328, z: 179.999
+        Scale: , x: 0.05, y: 0.05, z: 0.05
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\uneven_ground_dirt_01.mdl
+        Texture_Directory: CompiledAssets\Sprites\soil_colour.dds
+    StaticMeshRenderer: 
+  Entity: Hill
+    Transform: 
+      vector3: 
+        Position: , x: 126.691, y: -26.5502, z: -598.01
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 0.2, y: 0.2, z: 0.2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\hill_dirt_01.mdl
+        Texture_Directory: CompiledAssets\Sprites\hill_colour.dds
+    StaticMeshRenderer: 
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 253.157, y: 63.0139, z: -272.962
+        Rotation: , x: 89.9998, y: 319.414, z: 180
+        Scale: , x: 0.2, y: 0.2, z: 0.2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\treebark_colour.dds
+    StaticMeshRenderer: 
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 198.57, y: 109.255, z: -305.85
+        Rotation: , x: 89.9998, y: -33.9859, z: -180
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\treebark_colour.dds
+    StaticMeshRenderer: 
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 300.425, y: 109.255, z: -272.019
+        Rotation: , x: 89.9996, y: 55.7531, z: 180.001
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\treebark_colour.dds
+    StaticMeshRenderer: 
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 367.741, y: 105.296, z: 231.613
+        Rotation: , x: 89.9999, y: 26.2716, z: 180
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\treebark_colour.dds
+    StaticMeshRenderer: 
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 416.487, y: 84.4094, z: 158.283
+        Rotation: , x: 89.9998, y: 4.27988, z: 180
+        Scale: , x: 0.25, y: 0.25, z: 0.25
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\treebark_colour.dds
+    StaticMeshRenderer: 
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 49.7411, y: -23.9583, z: -163.714
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 30.4651, y: -23.9582, z: -184.004
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 0.2, y: 0.2, z: 0.2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 24.6094, y: -23.9583, z: -158.869
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 49.7411, y: -23.9582, z: -184.004
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: 7.23345, y: -23.7056, z: -76.8589
+        Rotation: , x: 89.9998, y: 347.183, z: 180
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+        Texture_Directory: CompiledAssets\Sprites\green.dds
+    StaticMeshRenderer: 
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: -11.6003, y: -22.5523, z: -103.774
+        Rotation: , x: 89.9998, y: -45.7098, z: -180
+        Scale: , x: 0.15, y: 0.15, z: 0.15
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: Hill
+    Transform: 
+      vector3: 
+        Position: , x: 63.9851, y: -30.6436, z: 599.679
+        Rotation: , x: 180, y: 1.78282, z: 180
+        Scale: , x: 0.2, y: 0.2, z: 0.2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\hill_dirt_01.mdl
+        Texture_Directory: CompiledAssets\Sprites\hill_colour.dds
+    StaticMeshRenderer: 
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 257.583, y: -23.9604, z: 245.07
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 240.274, y: -23.9606, z: 269.273
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 0.2, y: 0.2, z: 0.2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 235.456, y: -23.9604, z: 241.541
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: DirtPile
+    Transform: 
+      vector3: 
+        Position: , x: 326.567, y: -21.9127, z: 147.017
+        Rotation: , x: 180.001, y: 80.8774, z: 180
+        Scale: , x: 0.02, y: 0.02, z: 0.02
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\uneven_ground_dirt_01.mdl
+        Texture_Directory: CompiledAssets\Sprites\soil_colour.dds
+    StaticMeshRenderer: 
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: 357.635, y: -30.0644, z: 134.173
+        Rotation: , x: 89.9999, y: 10.6474, z: 180
+        Scale: , x: 0.15, y: 0.15, z: 0.15
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: 334.29, y: -23.7056, z: 96.5395
+        Rotation: , x: 89.9999, y: 14.4367, z: -180
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: 324.741, y: -23.179, z: 123.669
+        Rotation: , x: 89.9999, y: -6.44381, z: -180
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: TallRock
+    Transform: 
+      vector3: 
+        Position: , x: 192.487, y: -27.2522, z: 269.365
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 0.05, y: 0.05, z: 0.05
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_large_tall_01.mdl
+        Texture_Directory: CompiledAssets\Sprites\rock_colour.dds
+    StaticMeshRenderer: 
+  Entity: SmallRock
+    Transform: 
+      vector3: 
+        Position: , x: 162.471, y: -28.5988, z: 252.683
+        Rotation: , x: 1.08469e-05, y: 3.17147, z: 2.55153e-06
+        Scale: , x: 0.05, y: 0.05, z: 0.05
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_medium_02.mdl
+        Texture_Directory: CompiledAssets\Sprites\rock_colour.dds
+    StaticMeshRenderer: 
+  Entity: SmallRock
+    Transform: 
+      vector3: 
+        Position: , x: 190.05, y: -24.6984, z: 243.173
+        Rotation: , x: 1.01712e-05, y: -21.1311, z: 8.95934e-06
+        Scale: , x: 0.02, y: 0.02, z: 0.02
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_medium_02.mdl
+        Texture_Directory: CompiledAssets\Sprites\rock_colour.dds
+    StaticMeshRenderer: 
+  Entity: DirtPile
+    Transform: 
+      vector3: 
+        Position: , x: 388.094, y: -21.9145, z: -107.198
+        Rotation: , x: -0.000345152, y: -68.3331, z: -0.000345152
+        Scale: , x: 0.05, y: 0.05, z: 0.05
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\uneven_ground_dirt_01.mdl
+        Texture_Directory: CompiledAssets\Sprites\soil_colour.dds
+    StaticMeshRenderer: 
+  Entity: TallRock
+    Transform: 
+      vector3: 
+        Position: , x: 323.304, y: -25.0674, z: 57.9503
+        Rotation: , x: 0, y: 13.3707, z: 0
+        Scale: , x: 0.03, y: 0.03, z: 0.03
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_large_tall_01.mdl
+        Texture_Directory: CompiledAssets\Sprites\rock_colour.dds
+    StaticMeshRenderer: 
+  Entity: SmallRock
+    Transform: 
+      vector3: 
+        Position: , x: 312.051, y: -24.8978, z: 39.3679
+        Rotation: , x: 2.98505e-05, y: 22.4155, z: 2.35199e-05
+        Scale: , x: 0.03, y: 0.03, z: 0.03
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_medium_02.mdl
+        Texture_Directory: CompiledAssets\Sprites\rock_colour.dds
+    StaticMeshRenderer: 
+  Entity: SmallRock
+    Transform: 
+      vector3: 
+        Position: , x: 354.241, y: -28.5988, z: 19.3191
+        Rotation: , x: 1.16384e-05, y: 21.4771, z: 6.21259e-06
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_medium_02.mdl
+        Texture_Directory: CompiledAssets\Sprites\rock_colour.dds
+    StaticMeshRenderer: 
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 290.62, y: -21.8073, z: -160.66
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 309.741, y: -21.6551, z: -117.335
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 0.2, y: 0.2, z: 0.2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 281.694, y: -21.2211, z: -124.767
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\fern_colour.dds
+    StaticMeshRenderer: 
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 397.844, y: 91.9256, z: -134.791
+        Rotation: , x: 270, y: 45.8225, z: 0
+        Scale: , x: 0.25, y: 0.25, z: 0.25
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\treebark_colour.dds
+    StaticMeshRenderer: 
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 397.844, y: 109.255, z: -239.981
+        Rotation: , x: -90, y: 69.3894, z: 0
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+        Texture_Directory: CompiledAssets\Sprites\treebark_colour.dds
+    StaticMeshRenderer: 
+  Entity: Pangolin
+    Transform: 
+      vector3: 
+        Position: , x: 73.5269, y: -15.4563, z: 91.6614
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 3, y: 3, z: 3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\pangolinbaby_01.mdl
+        Texture_Directory: CompiledAssets\Sprites\blue.dds
+    StaticMeshRenderer: 
+  Entity: Boss1
+    Transform: 
+      vector3: 
+        Position: , x: 165.316, y: 0, z: 0
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Script: 
+      float: 
+        AttackCooldown: 3
+        AttackLimit: 10
+        AttackMovementSpeed: 25
+        DropBaseCooldown: 10
+        DropChargeTime: 1.5
+        DropCooldown: 0
+        DropTimer: 1
+        DropdownHeight: 100
+        GeneralCooldown: 0
+        IdleLimit: 1
+        SpinBaseCooldown: 15
+        SpinCooldown: 0
+        SpinDelayTime: 1.5
+        SpinSpeed: 10
+        maxHP: 10
+      bool: 
+        DropCharge: 0
+        DropMode: 0
+        Dropping: 0
+        SpinMode: 0
+        SpinPrep: 0
+        Spinning: 0
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/FiveStone.lua
+    Identifier: 
+      string: 
+        ID: Enemy
+  Entity: BossSub1
+    Transform: 
+      vector3: 
+        Position: , x: -32.603, y: -14.145, z: -4.2898
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 3, y: 3, z: 3
+    Script: 
+      float: 
+        AttackCooldown: 0
+        AttackMovementSpeed: 0
+        AttackRangeLimit: 0
+        AttackTimerLimit: 4
+        IdleLimit: 0
+        LerpTimer: 0
+        RigidbodySpeedLimit: 250
+        RotationForce: 10
+        State: 0
+        Timer: 0
+        indiChargeSpeed: 0.6
+        sizeY: 3
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/StoneIndi.lua
+      vector3: 
+        Target: , x: 0, y: 0, z: 0
+        TargetDir: , x: 0, y: 0, z: 0
+        TargetEuler: , x: 0, y: 0, z: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets/Models/pangolinbaby_01.mdl
+        Texture_Directory: CompiledAssets\Sprites\brown.dds
+    StaticMeshRenderer: 
+    RigidBody: 
+      float: 
+        GravityStrength: 10
+        Mass: 1
+        Bounciness: 0
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Identifier: 
+      string: 
+        ID: BossStone
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: BossSub1
+    Transform: 
+      vector3: 
+        Position: , x: -32.557, y: -14.145, z: 28.7448
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 3, y: 3, z: 3
+    Script: 
+      float: 
+        AttackCooldown: 0
+        AttackMovementSpeed: 0
+        AttackRangeLimit: 0
+        AttackTimerLimit: 4
+        IdleLimit: 0
+        LerpTimer: 0
+        RigidbodySpeedLimit: 250
+        RotationForce: 10
+        State: 0
+        Timer: 0
+        indiChargeSpeed: 0.6
+        sizeY: 3
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/StoneIndi.lua
+      vector3: 
+        Target: , x: 0, y: 0, z: 0
+        TargetDir: , x: 0, y: 0, z: 0
+        TargetEuler: , x: 0, y: 0, z: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets/Models/pangolinbaby_01.mdl
+        Texture_Directory: CompiledAssets\Sprites\brown.dds
+    StaticMeshRenderer: 
+    RigidBody: 
+      float: 
+        GravityStrength: 10
+        Mass: 1
+        Bounciness: 0
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Identifier: 
+      string: 
+        ID: BossStone
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: BossSub1
+    Transform: 
+      vector3: 
+        Position: , x: -73.3365, y: -14.145, z: 40.6193
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 3, y: 3, z: 3
+    Script: 
+      float: 
+        AttackCooldown: 0
+        AttackMovementSpeed: 0
+        AttackRangeLimit: 0
+        AttackTimerLimit: 4
+        IdleLimit: 0
+        LerpTimer: 0
+        RigidbodySpeedLimit: 250
+        RotationForce: 10
+        State: 0
+        Timer: 0
+        indiChargeSpeed: 0.6
+        sizeY: 3
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/StoneIndi.lua
+      vector3: 
+        Target: , x: 0, y: 0, z: 0
+        TargetDir: , x: 0, y: 0, z: 0
+        TargetEuler: , x: 0, y: 0, z: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets/Models/pangolinbaby_01.mdl
+        Texture_Directory: CompiledAssets\Sprites\brown.dds
+    StaticMeshRenderer: 
+    RigidBody: 
+      float: 
+        GravityStrength: 10
+        Mass: 1
+        Bounciness: 0
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Identifier: 
+      string: 
+        ID: BossStone
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: BossSub1
+    Transform: 
+      vector3: 
+        Position: , x: -73.3365, y: -14.145, z: -17.3642
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 3, y: 3, z: 3
+    Script: 
+      float: 
+        AttackCooldown: 0
+        AttackMovementSpeed: 0
+        AttackRangeLimit: 0
+        AttackTimerLimit: 4
+        IdleLimit: 0
+        LerpTimer: 0
+        RigidbodySpeedLimit: 250
+        RotationForce: 10
+        State: 0
+        Timer: 0
+        indiChargeSpeed: 0.6
+        sizeY: 3
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/StoneIndi.lua
+      vector3: 
+        Target: , x: 0, y: 0, z: 0
+        TargetDir: , x: 0, y: 0, z: 0
+        TargetEuler: , x: 0, y: 0, z: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets/Models/pangolinbaby_01.mdl
+        Texture_Directory: CompiledAssets\Sprites\brown.dds
+    StaticMeshRenderer: 
+    RigidBody: 
+      float: 
+        GravityStrength: 10
+        Mass: 1
+        Bounciness: 0
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Identifier: 
+      string: 
+        ID: BossStone
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: BossSub1
+    Transform: 
+      vector3: 
+        Position: , x: -73.3365, y: -14.145, z: 10.8231
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 3, y: 3, z: 3
+    Script: 
+      float: 
+        AttackCooldown: 0
+        AttackMovementSpeed: 0
+        AttackRangeLimit: 0
+        AttackTimerLimit: 4
+        IdleLimit: 0
+        LerpTimer: 0
+        RigidbodySpeedLimit: 250
+        RotationForce: 10
+        State: 0
+        Timer: 0
+        indiChargeSpeed: 0.6
+        sizeY: 3
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/StoneIndi.lua
+      vector3: 
+        Target: , x: 0, y: 0, z: 0
+        TargetDir: , x: 0, y: 0, z: 0
+        TargetEuler: , x: 0, y: 0, z: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets/Models/pangolinbaby_01.mdl
+        Texture_Directory: CompiledAssets\Sprites\brown.dds
+    StaticMeshRenderer: 
+    RigidBody: 
+      float: 
+        GravityStrength: 10
+        Mass: 1
+        Bounciness: 0
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Identifier: 
+      string: 
+        ID: BossStone
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: RefCube_1Unit
+    Transform: 
+      vector3: 
+        Position: , x: 129.469, y: 28.4957, z: 116.39
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\100cm_deniseref.mdl
+        Texture_Directory: CompiledAssets/Sprites/Tad.dds
+    StaticMeshRenderer: 
+  Entity: 
+    Transform: 
+      vector3: 
+        Position: , x: 146.886, y: -20.629, z: -209.755
+        Rotation: , x: 270, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\pangolin_test3.mdl
+        Texture_Directory: CompiledAssets\Sprites\hill_colour.dds
+    StaticMeshRenderer: 

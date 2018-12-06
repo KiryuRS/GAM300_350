@@ -1,0 +1,35 @@
+Root: 
+  Prefab: , Name: Ground
+    Transform: 
+      vector3: 
+        Position: , x: 1088.84, y: -7.2, z: -89.1545
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 12000, y: 1, z: 12000
+    Script: 
+      vector-string: 
+        Scripts: , size: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: GrassColor
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    PlaneCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 127
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Children: 

@@ -1,0 +1,32 @@
+Root: 
+  Prefab: , Name: panmodel
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: 0, z: 0
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    SkeletalMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\pangolin_combined.mdl
+      int: 
+        Animation Number: 6
+      vector-string: 
+        Materials: , size: 7
+          Item0: SmallPangolin
+          Item1: Metal
+          Item2: Metal
+          Item3: Metal
+          Item4: Metal
+          Item5: Metal
+          Item6: Metal
+    SkeletalMeshRenderer: 
+      float: 
+        Transparency: 1
+        EarlyStopTime: 0
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Loop: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    Children: 

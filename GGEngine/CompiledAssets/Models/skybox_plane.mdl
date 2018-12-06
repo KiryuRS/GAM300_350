@@ -1,0 +1,424 @@
+ModelFile: 
+  vector-serialmesh: 
+    StaticMeshes: , size: 1
+      Item0: 
+        string: 
+          Translation Name: 
+          Pre Rotation Name: Plane001_$AssimpFbx$_PreRotation
+          Rotation Name: 
+          Scaling Name: 
+        bool: 
+          GlobalExists: 1
+        vector-int: 
+          Faces: , size: 96
+            Item0: 0
+            Item1: 1
+            Item2: 2
+            Item3: 3
+            Item4: 4
+            Item5: 5
+            Item6: 6
+            Item7: 7
+            Item8: 8
+            Item9: 9
+            Item10: 10
+            Item11: 11
+            Item12: 12
+            Item13: 13
+            Item14: 14
+            Item15: 15
+            Item16: 16
+            Item17: 17
+            Item18: 18
+            Item19: 19
+            Item20: 20
+            Item21: 21
+            Item22: 22
+            Item23: 23
+            Item24: 24
+            Item25: 25
+            Item26: 26
+            Item27: 27
+            Item28: 28
+            Item29: 29
+            Item30: 30
+            Item31: 31
+            Item32: 32
+            Item33: 33
+            Item34: 34
+            Item35: 35
+            Item36: 36
+            Item37: 37
+            Item38: 38
+            Item39: 39
+            Item40: 40
+            Item41: 41
+            Item42: 42
+            Item43: 43
+            Item44: 44
+            Item45: 45
+            Item46: 46
+            Item47: 47
+            Item48: 48
+            Item49: 49
+            Item50: 50
+            Item51: 51
+            Item52: 52
+            Item53: 53
+            Item54: 54
+            Item55: 55
+            Item56: 56
+            Item57: 57
+            Item58: 58
+            Item59: 59
+            Item60: 60
+            Item61: 61
+            Item62: 62
+            Item63: 63
+            Item64: 64
+            Item65: 65
+            Item66: 66
+            Item67: 67
+            Item68: 68
+            Item69: 69
+            Item70: 70
+            Item71: 71
+            Item72: 72
+            Item73: 73
+            Item74: 74
+            Item75: 75
+            Item76: 76
+            Item77: 77
+            Item78: 78
+            Item79: 79
+            Item80: 80
+            Item81: 81
+            Item82: 82
+            Item83: 83
+            Item84: 84
+            Item85: 85
+            Item86: 86
+            Item87: 87
+            Item88: 88
+            Item89: 89
+            Item90: 90
+            Item91: 91
+            Item92: 92
+            Item93: 93
+            Item94: 94
+            Item95: 95
+          Bone Mapping Num: , size: 2
+            Item0: 1
+            Item1: 2
+        vector-string: 
+          Bone Mapping Name: , size: 2
+            Item0: Plane001_$AssimpFbx$_PreRotation
+            Item1: Plane001
+        vector-vector2: 
+          UVs: , size: 96
+            Item0: , x: 0, y: 0.75
+            Item1: , x: 0, y: 1
+            Item2: , x: 0.25, y: 0.75
+            Item3: , x: 0.25, y: 1
+            Item4: , x: 0.25, y: 0.75
+            Item5: , x: 0, y: 1
+            Item6: , x: 0.25, y: 0.75
+            Item7: , x: 0.25, y: 1
+            Item8: , x: 0.5, y: 0.75
+            Item9: , x: 0.5, y: 1
+            Item10: , x: 0.5, y: 0.75
+            Item11: , x: 0.25, y: 1
+            Item12: , x: 0.5, y: 0.75
+            Item13: , x: 0.5, y: 1
+            Item14: , x: 0.75, y: 0.75
+            Item15: , x: 0.75, y: 1
+            Item16: , x: 0.75, y: 0.75
+            Item17: , x: 0.5, y: 1
+            Item18: , x: 0.75, y: 0.75
+            Item19: , x: 0.75, y: 1
+            Item20: , x: 1, y: 0.75
+            Item21: , x: 1, y: 1
+            Item22: , x: 1, y: 0.75
+            Item23: , x: 0.75, y: 1
+            Item24: , x: 0, y: 0.5
+            Item25: , x: 0, y: 0.75
+            Item26: , x: 0.25, y: 0.5
+            Item27: , x: 0.25, y: 0.75
+            Item28: , x: 0.25, y: 0.5
+            Item29: , x: 0, y: 0.75
+            Item30: , x: 0.25, y: 0.5
+            Item31: , x: 0.25, y: 0.75
+            Item32: , x: 0.5, y: 0.5
+            Item33: , x: 0.5, y: 0.75
+            Item34: , x: 0.5, y: 0.5
+            Item35: , x: 0.25, y: 0.75
+            Item36: , x: 0.5, y: 0.5
+            Item37: , x: 0.5, y: 0.75
+            Item38: , x: 0.75, y: 0.5
+            Item39: , x: 0.75, y: 0.75
+            Item40: , x: 0.75, y: 0.5
+            Item41: , x: 0.5, y: 0.75
+            Item42: , x: 0.75, y: 0.5
+            Item43: , x: 0.75, y: 0.75
+            Item44: , x: 1, y: 0.5
+            Item45: , x: 1, y: 0.75
+            Item46: , x: 1, y: 0.5
+            Item47: , x: 0.75, y: 0.75
+            Item48: , x: 0, y: 0.25
+            Item49: , x: 0, y: 0.5
+            Item50: , x: 0.25, y: 0.25
+            Item51: , x: 0.25, y: 0.5
+            Item52: , x: 0.25, y: 0.25
+            Item53: , x: 0, y: 0.5
+            Item54: , x: 0.25, y: 0.25
+            Item55: , x: 0.25, y: 0.5
+            Item56: , x: 0.5, y: 0.25
+            Item57: , x: 0.5, y: 0.5
+            Item58: , x: 0.5, y: 0.25
+            Item59: , x: 0.25, y: 0.5
+            Item60: , x: 0.5, y: 0.25
+            Item61: , x: 0.5, y: 0.5
+            Item62: , x: 0.75, y: 0.25
+            Item63: , x: 0.75, y: 0.5
+            Item64: , x: 0.75, y: 0.25
+            Item65: , x: 0.5, y: 0.5
+            Item66: , x: 0.75, y: 0.25
+            Item67: , x: 0.75, y: 0.5
+            Item68: , x: 1, y: 0.25
+            Item69: , x: 1, y: 0.5
+            Item70: , x: 1, y: 0.25
+            Item71: , x: 0.75, y: 0.5
+            Item72: , x: 0, y: 0
+            Item73: , x: 0, y: 0.25
+            Item74: , x: 0.25, y: 0
+            Item75: , x: 0.25, y: 0.25
+            Item76: , x: 0.25, y: 0
+            Item77: , x: 0, y: 0.25
+            Item78: , x: 0.25, y: 0
+            Item79: , x: 0.25, y: 0.25
+            Item80: , x: 0.5, y: 0
+            Item81: , x: 0.5, y: 0.25
+            Item82: , x: 0.5, y: 0
+            Item83: , x: 0.25, y: 0.25
+            Item84: , x: 0.5, y: 0
+            Item85: , x: 0.5, y: 0.25
+            Item86: , x: 0.75, y: 0
+            Item87: , x: 0.75, y: 0.25
+            Item88: , x: 0.75, y: 0
+            Item89: , x: 0.5, y: 0.25
+            Item90: , x: 0.75, y: 0
+            Item91: , x: 0.75, y: 0.25
+            Item92: , x: 1, y: 0
+            Item93: , x: 1, y: 0.25
+            Item94: , x: 1, y: 0
+            Item95: , x: 0.75, y: 0.25
+        vector-vector3: 
+          Vertices: , size: 96
+            Item0: , x: -0.5, y: -0.25, z: 0
+            Item1: , x: -0.5, y: -0.5, z: 0
+            Item2: , x: -0.25, y: -0.25, z: 0
+            Item3: , x: -0.25, y: -0.5, z: 0
+            Item4: , x: -0.25, y: -0.25, z: 0
+            Item5: , x: -0.5, y: -0.5, z: 0
+            Item6: , x: -0.25, y: -0.25, z: 0
+            Item7: , x: -0.25, y: -0.5, z: 0
+            Item8: , x: 0, y: -0.25, z: 0
+            Item9: , x: 0, y: -0.5, z: 0
+            Item10: , x: 0, y: -0.25, z: 0
+            Item11: , x: -0.25, y: -0.5, z: 0
+            Item12: , x: 0, y: -0.25, z: 0
+            Item13: , x: 0, y: -0.5, z: 0
+            Item14: , x: 0.25, y: -0.25, z: 0
+            Item15: , x: 0.25, y: -0.5, z: 0
+            Item16: , x: 0.25, y: -0.25, z: 0
+            Item17: , x: 0, y: -0.5, z: 0
+            Item18: , x: 0.25, y: -0.25, z: 0
+            Item19: , x: 0.25, y: -0.5, z: 0
+            Item20: , x: 0.5, y: -0.25, z: 0
+            Item21: , x: 0.5, y: -0.5, z: 0
+            Item22: , x: 0.5, y: -0.25, z: 0
+            Item23: , x: 0.25, y: -0.5, z: 0
+            Item24: , x: -0.5, y: 0, z: 0
+            Item25: , x: -0.5, y: -0.25, z: 0
+            Item26: , x: -0.25, y: 0, z: 0
+            Item27: , x: -0.25, y: -0.25, z: 0
+            Item28: , x: -0.25, y: 0, z: 0
+            Item29: , x: -0.5, y: -0.25, z: 0
+            Item30: , x: -0.25, y: 0, z: 0
+            Item31: , x: -0.25, y: -0.25, z: 0
+            Item32: , x: 0, y: 0, z: 0
+            Item33: , x: 0, y: -0.25, z: 0
+            Item34: , x: 0, y: 0, z: 0
+            Item35: , x: -0.25, y: -0.25, z: 0
+            Item36: , x: 0, y: 0, z: 0
+            Item37: , x: 0, y: -0.25, z: 0
+            Item38: , x: 0.25, y: 0, z: 0
+            Item39: , x: 0.25, y: -0.25, z: 0
+            Item40: , x: 0.25, y: 0, z: 0
+            Item41: , x: 0, y: -0.25, z: 0
+            Item42: , x: 0.25, y: 0, z: 0
+            Item43: , x: 0.25, y: -0.25, z: 0
+            Item44: , x: 0.5, y: 0, z: 0
+            Item45: , x: 0.5, y: -0.25, z: 0
+            Item46: , x: 0.5, y: 0, z: 0
+            Item47: , x: 0.25, y: -0.25, z: 0
+            Item48: , x: -0.5, y: 0.25, z: 0
+            Item49: , x: -0.5, y: 0, z: 0
+            Item50: , x: -0.25, y: 0.25, z: 0
+            Item51: , x: -0.25, y: 0, z: 0
+            Item52: , x: -0.25, y: 0.25, z: 0
+            Item53: , x: -0.5, y: 0, z: 0
+            Item54: , x: -0.25, y: 0.25, z: 0
+            Item55: , x: -0.25, y: 0, z: 0
+            Item56: , x: 0, y: 0.25, z: 0
+            Item57: , x: 0, y: 0, z: 0
+            Item58: , x: 0, y: 0.25, z: 0
+            Item59: , x: -0.25, y: 0, z: 0
+            Item60: , x: 0, y: 0.25, z: 0
+            Item61: , x: 0, y: 0, z: 0
+            Item62: , x: 0.25, y: 0.25, z: 0
+            Item63: , x: 0.25, y: 0, z: 0
+            Item64: , x: 0.25, y: 0.25, z: 0
+            Item65: , x: 0, y: 0, z: 0
+            Item66: , x: 0.25, y: 0.25, z: 0
+            Item67: , x: 0.25, y: 0, z: 0
+            Item68: , x: 0.5, y: 0.25, z: 0
+            Item69: , x: 0.5, y: 0, z: 0
+            Item70: , x: 0.5, y: 0.25, z: 0
+            Item71: , x: 0.25, y: 0, z: 0
+            Item72: , x: -0.5, y: 0.5, z: 0
+            Item73: , x: -0.5, y: 0.25, z: 0
+            Item74: , x: -0.25, y: 0.5, z: 0
+            Item75: , x: -0.25, y: 0.25, z: 0
+            Item76: , x: -0.25, y: 0.5, z: 0
+            Item77: , x: -0.5, y: 0.25, z: 0
+            Item78: , x: -0.25, y: 0.5, z: 0
+            Item79: , x: -0.25, y: 0.25, z: 0
+            Item80: , x: 0, y: 0.5, z: 0
+            Item81: , x: 0, y: 0.25, z: 0
+            Item82: , x: 0, y: 0.5, z: 0
+            Item83: , x: -0.25, y: 0.25, z: 0
+            Item84: , x: 0, y: 0.5, z: 0
+            Item85: , x: 0, y: 0.25, z: 0
+            Item86: , x: 0.25, y: 0.5, z: 0
+            Item87: , x: 0.25, y: 0.25, z: 0
+            Item88: , x: 0.25, y: 0.5, z: 0
+            Item89: , x: 0, y: 0.25, z: 0
+            Item90: , x: 0.25, y: 0.5, z: 0
+            Item91: , x: 0.25, y: 0.25, z: 0
+            Item92: , x: 0.5, y: 0.5, z: 0
+            Item93: , x: 0.5, y: 0.25, z: 0
+            Item94: , x: 0.5, y: 0.5, z: 0
+            Item95: , x: 0.25, y: 0.25, z: 0
+          Normals: , size: 96
+            Item0: , x: 0, y: 0, z: 1
+            Item1: , x: 0, y: 0, z: 1
+            Item2: , x: 0, y: 0, z: 1
+            Item3: , x: 0, y: 0, z: 1
+            Item4: , x: 0, y: 0, z: 1
+            Item5: , x: 0, y: 0, z: 1
+            Item6: , x: 0, y: 0, z: 1
+            Item7: , x: 0, y: 0, z: 1
+            Item8: , x: 0, y: 0, z: 1
+            Item9: , x: 0, y: 0, z: 1
+            Item10: , x: 0, y: 0, z: 1
+            Item11: , x: 0, y: 0, z: 1
+            Item12: , x: 0, y: 0, z: 1
+            Item13: , x: 0, y: 0, z: 1
+            Item14: , x: 0, y: 0, z: 1
+            Item15: , x: 0, y: 0, z: 1
+            Item16: , x: 0, y: 0, z: 1
+            Item17: , x: 0, y: 0, z: 1
+            Item18: , x: 0, y: 0, z: 1
+            Item19: , x: 0, y: 0, z: 1
+            Item20: , x: 0, y: 0, z: 1
+            Item21: , x: 0, y: 0, z: 1
+            Item22: , x: 0, y: 0, z: 1
+            Item23: , x: 0, y: 0, z: 1
+            Item24: , x: 0, y: 0, z: 1
+            Item25: , x: 0, y: 0, z: 1
+            Item26: , x: 0, y: 0, z: 1
+            Item27: , x: 0, y: 0, z: 1
+            Item28: , x: 0, y: 0, z: 1
+            Item29: , x: 0, y: 0, z: 1
+            Item30: , x: 0, y: 0, z: 1
+            Item31: , x: 0, y: 0, z: 1
+            Item32: , x: 0, y: 0, z: 1
+            Item33: , x: 0, y: 0, z: 1
+            Item34: , x: 0, y: 0, z: 1
+            Item35: , x: 0, y: 0, z: 1
+            Item36: , x: 0, y: 0, z: 1
+            Item37: , x: 0, y: 0, z: 1
+            Item38: , x: 0, y: 0, z: 1
+            Item39: , x: 0, y: 0, z: 1
+            Item40: , x: 0, y: 0, z: 1
+            Item41: , x: 0, y: 0, z: 1
+            Item42: , x: 0, y: 0, z: 1
+            Item43: , x: 0, y: 0, z: 1
+            Item44: , x: 0, y: 0, z: 1
+            Item45: , x: 0, y: 0, z: 1
+            Item46: , x: 0, y: 0, z: 1
+            Item47: , x: 0, y: 0, z: 1
+            Item48: , x: 0, y: 0, z: 1
+            Item49: , x: 0, y: 0, z: 1
+            Item50: , x: 0, y: 0, z: 1
+            Item51: , x: 0, y: 0, z: 1
+            Item52: , x: 0, y: 0, z: 1
+            Item53: , x: 0, y: 0, z: 1
+            Item54: , x: 0, y: 0, z: 1
+            Item55: , x: 0, y: 0, z: 1
+            Item56: , x: 0, y: 0, z: 1
+            Item57: , x: 0, y: 0, z: 1
+            Item58: , x: 0, y: 0, z: 1
+            Item59: , x: 0, y: 0, z: 1
+            Item60: , x: 0, y: 0, z: 1
+            Item61: , x: 0, y: 0, z: 1
+            Item62: , x: 0, y: 0, z: 1
+            Item63: , x: 0, y: 0, z: 1
+            Item64: , x: 0, y: 0, z: 1
+            Item65: , x: 0, y: 0, z: 1
+            Item66: , x: 0, y: 0, z: 1
+            Item67: , x: 0, y: 0, z: 1
+            Item68: , x: 0, y: 0, z: 1
+            Item69: , x: 0, y: 0, z: 1
+            Item70: , x: 0, y: 0, z: 1
+            Item71: , x: 0, y: 0, z: 1
+            Item72: , x: 0, y: 0, z: 1
+            Item73: , x: 0, y: 0, z: 1
+            Item74: , x: 0, y: 0, z: 1
+            Item75: , x: 0, y: 0, z: 1
+            Item76: , x: 0, y: 0, z: 1
+            Item77: , x: 0, y: 0, z: 1
+            Item78: , x: 0, y: 0, z: 1
+            Item79: , x: 0, y: 0, z: 1
+            Item80: , x: 0, y: 0, z: 1
+            Item81: , x: 0, y: 0, z: 1
+            Item82: , x: 0, y: 0, z: 1
+            Item83: , x: 0, y: 0, z: 1
+            Item84: , x: 0, y: 0, z: 1
+            Item85: , x: 0, y: 0, z: 1
+            Item86: , x: 0, y: 0, z: 1
+            Item87: , x: 0, y: 0, z: 1
+            Item88: , x: 0, y: 0, z: 1
+            Item89: , x: 0, y: 0, z: 1
+            Item90: , x: 0, y: 0, z: 1
+            Item91: , x: 0, y: 0, z: 1
+            Item92: , x: 0, y: 0, z: 1
+            Item93: , x: 0, y: 0, z: 1
+            Item94: , x: 0, y: 0, z: 1
+            Item95: , x: 0, y: 0, z: 1
+        matrix4: 
+          Transform: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+        vector-sbone: 
+          Bones: , size: 0
+        node: 
+          RootNode: 0|(1|Plane001_$AssimpFbx$_PreRotation(2|Plane001()))
+        vector-matrix4: 
+          Node Matrices: , size: 3
+            Item0: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item1: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item2: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+  matrix4: 
+    GlobalTransform: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+  vector-anim: 
+    animations: , size: 0

@@ -1,0 +1,25 @@
+Root: 
+  Prefab: , Name: SlantWall
+    Transform: 
+      vector3: 
+        Position: , x: 7.34315, y: -4.97755, z: 38.7326
+        Rotation: , x: 0, y: -0, z: 28.8301
+        Scale: , x: 79.2878, y: 33.6629, z: 8.93639
+    Script: 
+      vector-string: 
+        Scripts: , size: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: Resources/Texture/sample.dds
+      vector3: 
+        Scale: , x: 1, y: 1, z: 1
+    StaticMeshRenderer: 
+    AABBCollider: 
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        Scale: , x: 1, y: 1, z: 1

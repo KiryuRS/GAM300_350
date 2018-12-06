@@ -1,0 +1,48 @@
+Root: 
+  Prefab: , Name: Plant3
+    Transform: 
+      vector3: 
+        Position: , x: 287.916, y: 71.2348, z: -8.224
+        Rotation: , x: 270, y: 90, z: 0
+        Scale: , x: 1.2, y: 1.2, z: 1.2
+    Script: 
+      float: 
+        endY: 30
+        startY: -5
+      string: 
+        carrotDrawnPrefab: CompiledAssets/Models/emptycarrot.mdl
+        plantName: Carrot
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/PlantInfo.lua
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\crop_carrot.mdl
+      vector-string: 
+        Materials: , size: 3
+          Item0: Orange
+          Item1: CarrotGreen
+          Item2: Black
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 1
+        rotationAffect_90: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 1.3, z: 0
+        Scale: , x: 2.4, y: 2, z: 5.2
+    Identifier: 
+      string: 
+        ID: Plant
+    Children: 

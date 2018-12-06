@@ -1,0 +1,2950 @@
+Settings: 
+  string: 
+    SkyboxLeft: CompiledAssets\Sprites\blood-stain-gorge_lf.dds
+    SkyboxRight: CompiledAssets\Sprites\blood-stain-gorge_rt.dds
+    SkyboxDown: CompiledAssets\Sprites\blood-stain-gorge_dn.dds
+    SkyboxUp: CompiledAssets\Sprites\blood-stain-gorge_up.dds
+    SkyboxBack: CompiledAssets\Sprites\blood-stain-gorge_bk.dds
+    SkyboxFront: CompiledAssets\Sprites\blood-stain-gorge_ft.dds
+  bool: 
+    Render Shadows: 0
+    Render Skybox: 1
+Entities: 
+  Entity: Ground
+    Transform: 
+      vector3: 
+        Position: , x: 1088.84, y: -7.2, z: -89.1545
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 12000, y: 1, z: 12000
+    Script: 
+      vector-string: 
+        Scripts: , size: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: HillGreen
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+    PlaneCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: Light
+    Transform: 
+      vector3: 
+        Position: , x: -2.11695, y: 272.763, z: -82.5231
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    PointLight: 
+      float: 
+        Light_Intensity: 2
+        Light_Radius: 100
+      vector4: 
+        Light_Diffuse: , x: 0.926471, y: 0.92647, z: 0.926461, w: 1
+        Light_Specular: , x: 0, y: 0, z: 0, w: 1
+        Light_Ambient: , x: 0, y: 0, z: 0, w: 1
+    Identifier: 
+      string: 
+        ID: Light
+    DirectionalLight: 
+      vector4: 
+        Light_Diffuse: , x: 0, y: 0, z: 0, w: 1
+        Light_Specular: , x: 0, y: 0, z: 0, w: 1
+        Light_Ambient: , x: 0, y: 0, z: 0, w: 1
+      vector3: 
+        Light_Direction: , x: 74, y: 31, z: -77
+  Entity: Platform1
+    Transform: 
+      vector3: 
+        Position: , x: -370.191, y: 72.6261, z: -67.3302
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 10, y: 2, z: 50
+    Script: 
+      vector-string: 
+        Scripts: , size: 0
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: PlatformPlane
+    Transform: 
+      vector3: 
+        Position: , x: -43.8043, y: 38.4629, z: -130.122
+        Rotation: , x: 0, y: 0, z: 320
+        Scale: , x: 22, y: 15, z: 10
+    Script: 
+      vector-string: 
+        Scripts: , size: 0
+    PlaneCollider: 
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: Wall
+    Transform: 
+      vector3: 
+        Position: , x: -673.197, y: 3.10941, z: 45.2406
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 20, y: 50, z: 6000
+    Script: 
+      vector-string: 
+        Scripts: , size: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+      vector-string: 
+        Materials: , size: 0
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: GameManager
+    Transform: 
+      vector3: 
+        Position: , x: 122.854, y: 25.7869, z: 445.827
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Script: 
+      float: 
+        gridHeight: 12
+        gridSize: 180
+        gridWidth: 14
+        maxHealth: 15
+      string: 
+        emptySoilPrefab: EmptySoil
+        enemyName: Enemy
+      bool: 
+        mouseDisplay: 0
+        mouseLock: 1
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Manager.lua
+      vector3: 
+        startingGrid: , x: 100, y: -4, z: -1000
+    Identifier: 
+      string: 
+        ID: GameManager
+  Entity: Camera
+    Transform: 
+      vector3: 
+        Position: , x: 148.441, y: 109.499, z: 61.5501
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Script: 
+      float: 
+        cameraPivotSpeed: 1
+        camera_rotation: 1
+        camera_speed: 0.5
+        field_of_view: 45
+        gamma: 2.2
+        hdrExposure: 1
+        maxLength: 300
+        mouse_scroll: 0
+        old_y_movement: 0
+        original_camera_speed: 0
+        rotate_speed: 0.02
+      string: 
+        change_cam_mode_key: TAB
+        target_name: Player
+      bool: 
+        bloom: 0
+        free_will_cam: 0
+        orthographic: 0
+        perspective: 1
+        target_rotation: 0
+        trans_pos_active: 1
+      vector2: 
+        cp_info: , x: 0.01, y: 1800
+        old_mouse_position: , x: 0, y: 0
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Camera.lua
+      vector4: 
+        vp_info: , x: 0, y: 0, z: 0.00392157, w: 0.00392157
+      vector3: 
+        old_displacement: , x: 0, y: 0, z: 0
+        position: , x: 0, y: 0, z: 10
+    Camera: 
+      float: 
+        Camera_Speed: 0.5
+        Camera_Rotation: 1
+        Clipping_Plane_Near: 0.01
+        Clipping_Plane_Far: 10000
+        Field_Of_View: 45
+        HDR_Exposure_Rate: 1
+        Camera_Gamma: 2.2
+      string: 
+        Target_Name_Identifier: player
+      bool: 
+        Disable: 0
+        Perspective_View: 1
+        Orthographic_View: 0
+        Free_Will_Camera: 0
+        Camera_Bloom: 0
+      int: 
+        Viewport_Width: 1
+        Viewport_Height: 1
+      vector2: 
+        Viewport_Start_Position: , x: 0, y: 0
+    Identifier: 
+      string: 
+        ID: Camera
+    Controller: 
+      vector-string: 
+        Up_Key: , size: 0
+        Down_Key: , size: 0
+        Left_Key: , size: 0
+        Right_Key: , size: 0
+        Interact_Key: , size: 0
+        Interact2_Key: , size: 0
+        LeftClick_Key: , size: 0
+        RightClick_Key: , size: 0
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: -285.821, y: 3.95642, z: -295.371
+        Rotation: , x: 89.9995, y: 51.5683, z: 180
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: -273.005, y: 3.76886, z: -263.318
+        Rotation: , x: 89.9995, y: 51.5683, z: 180
+        Scale: , x: 0.5, y: 0.5, z: 0.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: -219.642, y: 3.96161, z: -259.099
+        Rotation: , x: 89.9995, y: 51.5683, z: 180
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: -230.373, y: 0.852069, z: -210.585
+        Rotation: , x: 89.9992, y: 17.2489, z: 180.001
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -104.783, y: 264.251, z: 1526.38
+        Rotation: , x: 89.9999, y: -3.93197, z: -180
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Brown
+          Item2: Brown
+          Item3: Orange
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -40.6183, y: 192.228, z: 1362.12
+        Rotation: , x: 89.9999, y: 340.706, z: 180
+        Scale: , x: 1.5, y: 1.5, z: 1.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Brown
+          Item2: Brown
+          Item3: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 111.364, y: 268.661, z: 1657.8
+        Rotation: , x: 89.9999, y: -10.7149, z: -180
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Brown
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 39.496, y: 269.897, z: 1551.19
+        Rotation: , x: 89.9999, y: 46.0007, z: 180
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: -242.994, y: -7.59735, z: 335.553
+        Rotation: , x: 89.9998, y: 354.328, z: 180.001
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+      vector-string: 
+        Materials: , size: 9
+          Item0: Plant
+          Item1: Plant
+          Item2: Plant
+          Item3: Plant
+          Item4: Plant
+          Item5: Plant
+          Item6: Plant
+          Item7: Plant
+          Item8: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: -242.994, y: -7.59735, z: 335.553
+        Rotation: , x: 89.9998, y: 354.328, z: 180.001
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+      vector-string: 
+        Materials: , size: 9
+          Item0: Plant
+          Item1: Plant
+          Item2: Plant
+          Item3: Plant
+          Item4: Plant
+          Item5: Plant
+          Item6: Plant
+          Item7: Plant
+          Item8: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: -242.994, y: -7.59735, z: 335.553
+        Rotation: , x: 89.9998, y: 354.328, z: 180.001
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+      vector-string: 
+        Materials: , size: 9
+          Item0: Plant
+          Item1: Plant
+          Item2: Plant
+          Item3: Plant
+          Item4: Plant
+          Item5: Plant
+          Item6: Plant
+          Item7: Plant
+          Item8: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: KampungHouse
+    Transform: 
+      vector3: 
+        Position: , x: -438.165, y: 61.6986, z: -45.4206
+        Rotation: , x: 270, y: 180, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\kampunghouse.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: House
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -368.145, y: 168.337, z: 508.353
+        Rotation: , x: 270, y: 76.2914, z: 0
+        Scale: , x: 1.2, y: 1.2, z: 1.2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Brown
+          Item2: Brown
+          Item3: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -476.819, y: 192.718, z: 1463.75
+        Rotation: , x: 90.0003, y: 274.573, z: 180
+        Scale: , x: 1.5, y: 1.5, z: 1.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Brown
+          Item2: Brown
+          Item3: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -603.099, y: 266.765, z: 310.335
+        Rotation: , x: 270, y: 15.8186, z: 0
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Brown
+          Item2: Brown
+          Item3: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: DirtPile
+    Transform: 
+      vector3: 
+        Position: , x: -338.588, y: 3.21016, z: -505.001
+        Rotation: , x: 0, y: 70.1782, z: 359.999
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\uneven_ground_dirt_01.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Soil
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: DirtPile
+    Transform: 
+      vector3: 
+        Position: , x: -396.879, y: 3.34702, z: 324.521
+        Rotation: , x: 180.001, y: 76.2328, z: 179.999
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\uneven_ground_dirt_01.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Soil
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 311.985, y: 206.313, z: 1509.42
+        Rotation: , x: 89.9998, y: 319.414, z: 180
+        Scale: , x: 1.5, y: 1.5, z: 1.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 303.642, y: 136.153, z: 1439.4
+        Rotation: , x: 89.9998, y: 326.014, z: 180
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 381.186, y: 173.235, z: 1469.57
+        Rotation: , x: 89.9996, y: 55.7531, z: 180.001
+        Scale: , x: 1.3, y: 1.3, z: 1.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 586.939, y: 199.934, z: 1557.11
+        Rotation: , x: 89.9999, y: 26.2716, z: 180
+        Scale: , x: 1.5, y: 1.5, z: 1.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 467.547, y: 202.631, z: 1527.91
+        Rotation: , x: 89.9998, y: 4.27988, z: 180
+        Scale: , x: 1.5, y: 1.5, z: 1.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 163.458, y: -8.29127, z: 1417.11
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 1.2, y: 1.2, z: 1.2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 231.578, y: -7.19225, z: 1440.23
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 113.538, y: -7.19228, z: 1445.63
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 46.8669, y: -7.19228, z: 1444.89
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: -242.994, y: -7.59735, z: 335.553
+        Rotation: , x: 89.9998, y: 354.328, z: 180.001
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+      vector-string: 
+        Materials: , size: 9
+          Item0: Plant
+          Item1: Plant
+          Item2: Plant
+          Item3: Plant
+          Item4: Plant
+          Item5: Plant
+          Item6: Plant
+          Item7: Plant
+          Item8: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: -242.994, y: -7.59735, z: 335.553
+        Rotation: , x: 89.9998, y: 354.328, z: 180.001
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+      vector-string: 
+        Materials: , size: 9
+          Item0: Plant
+          Item1: Plant
+          Item2: Plant
+          Item3: Plant
+          Item4: Plant
+          Item5: Plant
+          Item6: Plant
+          Item7: Plant
+          Item8: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 445.419, y: -6.27272, z: 1412.74
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 536.571, y: -5.81147, z: 1456.28
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 1.5, y: 1.5, z: 1.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 543.162, y: -7.52805, z: 1400.54
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 0.8, y: 0.8, z: 0.8
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: DirtPile
+    Transform: 
+      vector3: 
+        Position: , x: 2640.57, y: -0.577965, z: 151.899
+        Rotation: , x: 180.002, y: 300.094, z: 179.998
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\uneven_ground_dirt_01.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Soil
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: -242.994, y: -7.59735, z: 335.553
+        Rotation: , x: 89.9998, y: 354.328, z: 180.001
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+      vector-string: 
+        Materials: , size: 9
+          Item0: Plant
+          Item1: Plant
+          Item2: Plant
+          Item3: Plant
+          Item4: Plant
+          Item5: Plant
+          Item6: Plant
+          Item7: Plant
+          Item8: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: -242.994, y: -7.59735, z: 335.553
+        Rotation: , x: 89.9998, y: 354.328, z: 180.001
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+      vector-string: 
+        Materials: , size: 9
+          Item0: Plant
+          Item1: Plant
+          Item2: Plant
+          Item3: Plant
+          Item4: Plant
+          Item5: Plant
+          Item6: Plant
+          Item7: Plant
+          Item8: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: -242.994, y: -7.59735, z: 335.553
+        Rotation: , x: 89.9998, y: 354.328, z: 180.001
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+      vector-string: 
+        Materials: , size: 9
+          Item0: Plant
+          Item1: Plant
+          Item2: Plant
+          Item3: Plant
+          Item4: Plant
+          Item5: Plant
+          Item6: Plant
+          Item7: Plant
+          Item8: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: TallRock
+    Transform: 
+      vector3: 
+        Position: , x: 229.392, y: -8.1803, z: 1547.03
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_large_tall_01.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Rocks
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: SmallRock
+    Transform: 
+      vector3: 
+        Position: , x: 146.688, y: -8.58428, z: 1543.74
+        Rotation: , x: 1.08469e-05, y: 3.17147, z: 2.55153e-06
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_medium_02.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Rocks
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: SmallRock
+    Transform: 
+      vector3: 
+        Position: , x: 193.565, y: -7.41416, z: 1485.86
+        Rotation: , x: 1.01712e-05, y: 338.869, z: 8.95934e-06
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_medium_02.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Rocks
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: DirtPile
+    Transform: 
+      vector3: 
+        Position: , x: 844.016, y: -3.56667, z: -1494.62
+        Rotation: , x: 0, y: 343.606, z: 0
+        Scale: , x: 0.5, y: 0.5, z: 0.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\uneven_ground_dirt_01.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Soil
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: TallRock
+    Transform: 
+      vector3: 
+        Position: , x: 2791.49, y: -17.2969, z: -488.831
+        Rotation: , x: 0, y: 13.3707, z: 0
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_large_tall_01.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Rocks
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: SmallRock
+    Transform: 
+      vector3: 
+        Position: , x: 2739.96, y: -16.5438, z: -437.35
+        Rotation: , x: 2.98505e-05, y: 22.4155, z: 2.35199e-05
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_medium_02.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Rocks
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: SmallRock
+    Transform: 
+      vector3: 
+        Position: , x: 2834.84, y: -20.8778, z: -430.053
+        Rotation: , x: 1.09118e-05, y: 352.993, z: 6.20281e-07
+        Scale: , x: 0.5, y: 0.5, z: 0.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_medium_02.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Rocks
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 694.988, y: 9.96324, z: -1458.67
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 713.828, y: 15.791, z: -1558.14
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 1.5, y: 1.5, z: 1.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 658.022, y: 10.8554, z: -1573.81
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 402.172, y: 324.009, z: -1622.49
+        Rotation: , x: 270, y: 45.8225, z: 0
+        Scale: , x: 2.5, y: 2.5, z: 2.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 655.846, y: 265.655, z: -1767.82
+        Rotation: , x: 270, y: 69.3894, z: 0
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: 100cmCube
+    Transform: 
+      vector3: 
+        Position: , x: -244.484, y: 10.7951, z: -142.098
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\100cm_deniseref.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Soil
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 2789.27, y: 268.87, z: -135.65
+        Rotation: , x: 270, y: 69.3894, z: 0
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 2696.44, y: 200.405, z: -235.938
+        Rotation: , x: 270, y: 69.3894, z: 0
+        Scale: , x: 1.5, y: 1.5, z: 1.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 739.234, y: 265.662, z: 1642.58
+        Rotation: , x: 89.9999, y: 31.115, z: 180
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 886.267, y: 265.653, z: 1522.51
+        Rotation: , x: 89.9999, y: 31.115, z: 180
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 910.131, y: 292.029, z: -1622.91
+        Rotation: , x: 89.9999, y: 31.115, z: 180
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 277.521, y: 403.599, z: -1768
+        Rotation: , x: 89.9999, y: 31.115, z: 180
+        Scale: , x: 3, y: 3, z: 3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Brown
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 2829.92, y: 201.393, z: -586.097
+        Rotation: , x: 89.9999, y: 31.115, z: 180
+        Scale: , x: 1.5, y: 1.5, z: 1.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -491.382, y: 328.8, z: -826.08
+        Rotation: , x: 89.9999, y: 9.2869, z: 180
+        Scale: , x: 2.5, y: 2.5, z: 2.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 151.196, y: 272.392, z: -1683.18
+        Rotation: , x: 89.9999, y: 31.115, z: 180
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: -167.57, y: 10.8836, z: -664.642
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: -246.074, y: 10.8833, z: -622.905
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: -154.718, y: 10.8831, z: -579.891
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 1.5, y: 1.5, z: 1.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: -242.994, y: -7.59735, z: 335.553
+        Rotation: , x: 89.9998, y: 354.328, z: 180.001
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+      vector-string: 
+        Materials: , size: 9
+          Item0: Plant
+          Item1: Plant
+          Item2: Plant
+          Item3: Plant
+          Item4: Plant
+          Item5: Plant
+          Item6: Plant
+          Item7: Plant
+          Item8: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -581.705, y: 391.525, z: -340.402
+        Rotation: , x: 89.9999, y: 31.115, z: 180
+        Scale: , x: 3, y: 3, z: 3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -647.779, y: 254.064, z: -480.416
+        Rotation: , x: 89.9999, y: 31.115, z: 180
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -557.567, y: 188.07, z: -625.701
+        Rotation: , x: 89.9999, y: 31.115, z: 180
+        Scale: , x: 1.5, y: 1.5, z: 1.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Player
+    Transform: 
+      vector3: 
+        Position: , x: 137.005, y: 5.65635, z: 5.26272
+        Rotation: , x: 0, y: 90, z: 0
+        Scale: , x: 1.2, y: 1.2, z: 1.2
+    Script: 
+      float: 
+        attackPower: 1
+        attackRange: 350
+        attackTime: 0.5
+        carrotSwordBoost: 1
+        healIncrement: 3
+        jumpForce: 75
+        jumpSoundID: 0
+        maxHealth: 8
+        moveSpeed: 4000
+        speedLimit: 60
+        throwStrength: 150
+        walkSoundID: 0
+      string: 
+        carrotSwordPrefab: CarrotSword
+        dayAttackAnim: CompiledAssets/Models/anim_d_plough2.mdl
+        dayIdleAnim: CompiledAssets/Models/anim_d_idle.mdl
+        dayWalkAnim: CompiledAssets/Models/anim_d_run.mdl
+        downKey: S
+        enemyName: BossStone
+        interactKey: E
+        jumpKey: SPACE
+        leftKey: A
+        lmouseKey: LMOUSE
+        nightAttackAnim: CompiledAssets/Models/anim_n_krisattack01.mdl
+        nightIdleAnim: CompiledAssets/Models/anim_n_idle.mdl
+        nightMaterial: NightPlayer
+        nightWalkAnim: CompiledAssets/Models/anim_n_run.mdl
+        plantPrefab1: Plant1
+        plantPrefab2: Plant2
+        plantPrefab3: Plant3
+        plantPrefab4: Plant4
+        rightKey: D
+        rmouseKey: RMOUSE
+        soilPrefab: GroundTile
+        upKey: W
+      bool: 
+        isDay: 1
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Player.lua
+        plants: , size: 2
+          Item0: sssssss
+          Item1: hoho
+      vector3: 
+        carrotSwordOffset: , x: 0, y: 100, z: 0
+    RigidBody: 
+      float: 
+        GravityStrength: 1800
+        Mass: 0.2
+        Bounciness: 0
+        Friction: 7
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Controller: 
+      vector-string: 
+        Up_Key: , size: 0
+        Down_Key: , size: 0
+        Left_Key: , size: 0
+        Right_Key: , size: 0
+        Interact_Key: , size: 0
+        Interact2_Key: , size: 0
+        LeftClick_Key: , size: 0
+        RightClick_Key: , size: 0
+    Sound: 
+      float: 
+        Fade_Duration: 1
+      bool: 
+        Start_BGM: 1
+        Start_LSFX: 0
+      int: 
+        Start_BGM_ID: 0
+        Start_LSFX_ID: 0
+      vector-audioInfo: 
+        BGMs: , size: 1
+          Item0: 
+            float: 
+              Volume: 0.3
+              Spread3D: 180
+            string: 
+              File_Name: Resources/Audio/BGM/FarmingBGM.wav
+            bool: 
+              Audio3D: 0
+        SFXs: , size: 1
+          Item0: 
+            float: 
+              Volume: 0.8
+              Spread3D: 180
+            string: 
+              File_Name: Resources/Audio/SFX/Jump.wav
+            bool: 
+              Audio3D: 0
+        LoopingSFXs: , size: 1
+          Item0: 
+            float: 
+              Volume: 1
+              Spread3D: 180
+            string: 
+              File_Name: Resources/Audio/LSFX/Walk.wav
+            bool: 
+              Audio3D: 0
+    Identifier: 
+      string: 
+        ID: player
+    SkeletalMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\anim_d_idle.mdl
+      int: 
+        Animation Number: 0
+      vector-string: 
+        Materials: , size: 13
+          Item0: Player
+          Item1: Player
+          Item2: Player
+          Item3: Player
+          Item4: Player
+          Item5: Player
+          Item6: Player
+          Item7: Player
+          Item8: Player
+          Item9: Player
+          Item10: Player
+          Item11: Player
+          Item12: Player
+    SkeletalMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Loop: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+    CapsuleCollider: 
+      float: 
+        Radius: 15
+        Height: 28
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 41, z: 0
+    ParticleEmitter: 
+      float: 
+        warmthUpTime: 0
+        lifeTime: 1
+        totalParticles: 1024
+        emitRate: 0.001
+        gravityStrength: 100
+        velocityStrength: 250
+        velocityStrength_2: 5
+        degree: 0
+      string: 
+        Model_Directory: CompiledAssets\Models\ball.mdl
+      bool: 
+        emiting: 0
+        rangeVelocity: 0
+        rangeSize: 0
+        lookAtCam: 0
+      int: 
+        particlesPerEmit: 60
+        emitStyle: 2
+        particlesPerCyclic: 60
+      vector-string: 
+        Materials: , size: 0
+      vector3: 
+        offSetPosition: , x: 0, y: 100, z: 0
+        size: , x: 1, y: 1, z: 1
+        size_2: , x: 0.1, y: 0.1, z: 0.1
+        growth: , x: -0.1, y: -0.1, z: -0.1
+        directionVector: , x: 0, y: 0, z: 0
+  Entity: Collider
+    Transform: 
+      vector3: 
+        Position: , x: -404.076, y: 154.73, z: -59.1567
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 10, y: 25, z: 50
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: TallRock
+    Transform: 
+      vector3: 
+        Position: , x: -164.26, y: -0.000288963, z: -814.852
+        Rotation: , x: 7.96617e-08, y: 46.641, z: 5.83101e-06
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_large_tall_01.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Rocks
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: SmallRock
+    Transform: 
+      vector3: 
+        Position: , x: -128.247, y: -14.4377, z: -777.288
+        Rotation: , x: 9.30466e-06, y: 49.8125, z: 8.38254e-06
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_medium_02.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Rocks
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: SmallRock
+    Transform: 
+      vector3: 
+        Position: , x: -119.431, y: -14.4376, z: -858.922
+        Rotation: , x: 6.3731e-06, y: 9.26403, z: 1.20138e-05
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_medium_02.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Rocks
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Boss1
+    Transform: 
+      vector3: 
+        Position: , x: 261.698, y: -15.0987, z: -2982.76
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Script: 
+      float: 
+        AttackCooldown: 3
+        AttackLimit: 150
+        AttackMovementSpeed: 250
+        DropBaseCooldown: 10
+        DropChargeTime: 1
+        DropCooldown: 0
+        DropTimer: 1
+        DropdownHeight: 1000
+        GeneralCooldown: 0
+        IdleLimit: 1
+        SpinBaseCooldown: 15
+        SpinCooldown: 0
+        SpinDelayTime: 1.5
+        SpinSpeed: 10
+        maxHP: 10
+      bool: 
+        DropCharge: 0
+        DropMode: 0
+        Dropping: 0
+        SpinMode: 0
+        SpinPrep: 0
+        Spinning: 0
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/FiveStone.lua
+    Identifier: 
+      string: 
+        ID: Enemy
+  Entity: BossSub1, Parent: 76
+    Transform: 
+      vector3: 
+        Position: , x: -32.0142, y: 35.4315, z: 76.71
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 10, y: 10, z: 10
+    Script: 
+      float: 
+        AttackCooldown: 0
+        AttackMovementSpeed: 0
+        AttackRangeLimit: 0
+        AttackTimerLimit: 4
+        IdleLimit: 0
+        LerpTimer: 0
+        RigidbodySpeedLimit: 500
+        RotationForce: 10
+        State: 0
+        Timer: 0
+        indiChargeSpeed: 0.6
+        sizeY: 3
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/StoneIndi.lua
+      vector3: 
+        Target: , x: 0, y: 0, z: 0
+        TargetDir: , x: 0, y: 0, z: 0
+        TargetEuler: , x: 0, y: 0, z: 0
+    RigidBody: 
+      float: 
+        GravityStrength: 10
+        Mass: 1
+        Bounciness: 0
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Identifier: 
+      string: 
+        ID: BossStone1
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 5, z: 0
+        Scale: , x: 0.5, y: 1, z: 0.5
+    ParticleEmitter: 
+      float: 
+        warmthUpTime: 0
+        lifeTime: 1
+        totalParticles: 256
+        emitRate: 0.01
+        gravityStrength: 50
+        velocityStrength: 200
+        velocityStrength_2: 0
+        degree: 0
+      string: 
+        Model_Directory: CompiledAssets\Models\ball.mdl
+      bool: 
+        emiting: 0
+        rangeVelocity: 0
+        rangeSize: 0
+        lookAtCam: 0
+      int: 
+        particlesPerEmit: 120
+        emitStyle: 2
+        particlesPerCyclic: 60
+      vector-string: 
+        Materials: , size: 0
+      vector3: 
+        offSetPosition: , x: 0, y: 0, z: 0
+        size: , x: 1, y: 1, z: 1
+        size_2: , x: 1, y: 1, z: 1
+        growth: , x: -0.1, y: -0.1, z: -0.1
+        directionVector: , x: 0, y: 0, z: 0
+  Entity: panmodel, Parent: 77
+    Transform: 
+      vector3: 
+        Position: , x: -4.02504, y: -2.15693, z: 6.66837
+        Rotation: , x: 270, y: -0, z: 0
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\pangolin_test3.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Blue
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BossSub1, Parent: 76
+    Transform: 
+      vector3: 
+        Position: , x: -13.3777, y: 35.4313, z: 128.904
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 10, y: 10, z: 10
+    Script: 
+      float: 
+        AttackCooldown: 0
+        AttackMovementSpeed: 0
+        AttackRangeLimit: 0
+        AttackTimerLimit: 4
+        IdleLimit: 0
+        LerpTimer: 0
+        RigidbodySpeedLimit: 500
+        RotationForce: 10
+        State: 0
+        Timer: 0
+        indiChargeSpeed: 0.6
+        sizeY: 3
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/StoneIndi.lua
+      vector3: 
+        Target: , x: 0, y: 0, z: 0
+        TargetDir: , x: 0, y: 0, z: 0
+        TargetEuler: , x: 0, y: 0, z: 0
+    RigidBody: 
+      float: 
+        GravityStrength: 10
+        Mass: 1
+        Bounciness: 0
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Identifier: 
+      string: 
+        ID: BossStone2
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 5, z: 0
+        Scale: , x: 0.5, y: 1, z: 0.5
+    ParticleEmitter: 
+      float: 
+        warmthUpTime: 0
+        lifeTime: 1
+        totalParticles: 256
+        emitRate: 0.01
+        gravityStrength: 50
+        velocityStrength: 200
+        velocityStrength_2: 0
+        degree: 0
+      string: 
+        Model_Directory: CompiledAssets\Models\ball.mdl
+      bool: 
+        emiting: 0
+        rangeVelocity: 0
+        rangeSize: 0
+        lookAtCam: 0
+      int: 
+        particlesPerEmit: 120
+        emitStyle: 2
+        particlesPerCyclic: 60
+      vector-string: 
+        Materials: , size: 0
+      vector3: 
+        offSetPosition: , x: 0, y: 0, z: 0
+        size: , x: 1, y: 1, z: 1
+        size_2: , x: 1, y: 1, z: 1
+        growth: , x: -0.1, y: -0.1, z: -0.1
+        directionVector: , x: 0, y: 0, z: 0
+  Entity: panmodel, Parent: 79
+    Transform: 
+      vector3: 
+        Position: , x: -4.02507, y: -2.15693, z: 6.66837
+        Rotation: , x: 270, y: -0, z: 0
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\pangolin_test3.mdl
+      vector-string: 
+        Materials: , size: 0
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BossSub1, Parent: 76
+    Transform: 
+      vector3: 
+        Position: , x: 43.2894, y: 35.4313, z: 125.507
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 10, y: 10, z: 10
+    Script: 
+      float: 
+        AttackCooldown: 0
+        AttackMovementSpeed: 0
+        AttackRangeLimit: 0
+        AttackTimerLimit: 4
+        IdleLimit: 0
+        LerpTimer: 0
+        RigidbodySpeedLimit: 500
+        RotationForce: 10
+        State: 0
+        Timer: 0
+        indiChargeSpeed: 0.6
+        sizeY: 3
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/StoneIndi.lua
+      vector3: 
+        Target: , x: 0, y: 0, z: 0
+        TargetDir: , x: 0, y: 0, z: 0
+        TargetEuler: , x: 0, y: 0, z: 0
+    RigidBody: 
+      float: 
+        GravityStrength: 10
+        Mass: 1
+        Bounciness: 0
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Identifier: 
+      string: 
+        ID: BossStone3
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 5, z: 0
+        Scale: , x: 0.5, y: 1, z: 0.5
+    ParticleEmitter: 
+      float: 
+        warmthUpTime: 0
+        lifeTime: 1
+        totalParticles: 256
+        emitRate: 0.01
+        gravityStrength: 50
+        velocityStrength: 200
+        velocityStrength_2: 0
+        degree: 0
+      string: 
+        Model_Directory: CompiledAssets\Models\ball.mdl
+      bool: 
+        emiting: 0
+        rangeVelocity: 0
+        rangeSize: 0
+        lookAtCam: 0
+      int: 
+        particlesPerEmit: 120
+        emitStyle: 2
+        particlesPerCyclic: 60
+      vector-string: 
+        Materials: , size: 0
+      vector3: 
+        offSetPosition: , x: 0, y: 0, z: 0
+        size: , x: 1, y: 1, z: 1
+        size_2: , x: 1, y: 1, z: 1
+        growth: , x: -0.1, y: -0.1, z: -0.1
+        directionVector: , x: 0, y: 0, z: 0
+  Entity: panmodel, Parent: 81
+    Transform: 
+      vector3: 
+        Position: , x: -4.02506, y: -2.15693, z: 6.66837
+        Rotation: , x: 270, y: -0, z: 0
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\pangolin_test3.mdl
+      vector-string: 
+        Materials: , size: 0
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BossSub1, Parent: 76
+    Transform: 
+      vector3: 
+        Position: , x: 98.6296, y: 35.4313, z: 122.114
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 10, y: 10, z: 10
+    Script: 
+      float: 
+        AttackCooldown: 0
+        AttackMovementSpeed: 0
+        AttackRangeLimit: 0
+        AttackTimerLimit: 4
+        IdleLimit: 0
+        LerpTimer: 0
+        RigidbodySpeedLimit: 500
+        RotationForce: 10
+        State: 0
+        Timer: 0
+        indiChargeSpeed: 0.6
+        sizeY: 3
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/StoneIndi.lua
+      vector3: 
+        Target: , x: 0, y: 0, z: 0
+        TargetDir: , x: 0, y: 0, z: 0
+        TargetEuler: , x: 0, y: 0, z: 0
+    RigidBody: 
+      float: 
+        GravityStrength: 10
+        Mass: 1
+        Bounciness: 0
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Identifier: 
+      string: 
+        ID: BossStone4
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 5, z: 0
+        Scale: , x: 0.5, y: 1, z: 0.5
+    ParticleEmitter: 
+      float: 
+        warmthUpTime: 0
+        lifeTime: 1
+        totalParticles: 256
+        emitRate: 0.01
+        gravityStrength: 50
+        velocityStrength: 200
+        velocityStrength_2: 0
+        degree: 0
+      string: 
+        Model_Directory: CompiledAssets\Models\ball.mdl
+      bool: 
+        emiting: 0
+        rangeVelocity: 0
+        rangeSize: 0
+        lookAtCam: 0
+      int: 
+        particlesPerEmit: 120
+        emitStyle: 2
+        particlesPerCyclic: 60
+      vector-string: 
+        Materials: , size: 0
+      vector3: 
+        offSetPosition: , x: 0, y: 0, z: 0
+        size: , x: 1, y: 1, z: 1
+        size_2: , x: 1, y: 1, z: 1
+        growth: , x: -0.1, y: -0.1, z: -0.1
+        directionVector: , x: 0, y: 0, z: 0
+  Entity: panmodel, Parent: 83
+    Transform: 
+      vector3: 
+        Position: , x: -4.02505, y: -2.15693, z: 6.66837
+        Rotation: , x: 270, y: -0, z: 0
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\pangolin_test3.mdl
+      vector-string: 
+        Materials: , size: 0
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BossSub1, Parent: 76
+    Transform: 
+      vector3: 
+        Position: , x: -85.5882, y: 35.4315, z: 67.5051
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 10, y: 10, z: 10
+    Script: 
+      float: 
+        AttackCooldown: 0
+        AttackMovementSpeed: 0
+        AttackRangeLimit: 0
+        AttackTimerLimit: 4
+        IdleLimit: 0
+        LerpTimer: 0
+        RigidbodySpeedLimit: 500
+        RotationForce: 10
+        State: 0
+        Timer: 0
+        indiChargeSpeed: 0.6
+        sizeY: 3
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/StoneIndi.lua
+      vector3: 
+        Target: , x: 0, y: 0, z: 0
+        TargetDir: , x: 0, y: 0, z: 0
+        TargetEuler: , x: 0, y: 0, z: 0
+    RigidBody: 
+      float: 
+        GravityStrength: 10
+        Mass: 1
+        Bounciness: 0
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Identifier: 
+      string: 
+        ID: BossStone5
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 5, z: 0
+        Scale: , x: 0.5, y: 1, z: 0.5
+    ParticleEmitter: 
+      float: 
+        warmthUpTime: 0
+        lifeTime: 1
+        totalParticles: 256
+        emitRate: 0.01
+        gravityStrength: 50
+        velocityStrength: 200
+        velocityStrength_2: 0
+        degree: 0
+      string: 
+        Model_Directory: CompiledAssets\Models\ball.mdl
+      bool: 
+        emiting: 0
+        rangeVelocity: 0
+        rangeSize: 0
+        lookAtCam: 0
+      int: 
+        particlesPerEmit: 120
+        emitStyle: 2
+        particlesPerCyclic: 60
+      vector-string: 
+        Materials: , size: 0
+      vector3: 
+        offSetPosition: , x: 0, y: 0, z: 0
+        size: , x: 1, y: 1, z: 1
+        size_2: , x: 1, y: 1, z: 1
+        growth: , x: -0.1, y: -0.1, z: -0.1
+        directionVector: , x: 0, y: 0, z: 0
+  Entity: panmodel, Parent: 85
+    Transform: 
+      vector3: 
+        Position: , x: -4.025, y: -2.15693, z: 6.66837
+        Rotation: , x: 270, y: -0, z: 0
+        Scale: , x: 0.1, y: 0.1, z: 0.1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\pangolin_test3.mdl
+      vector-string: 
+        Materials: , size: 0
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: -329.478, y: 6.96559, z: 283.996
+        Rotation: , x: 89.9998, y: 354.328, z: 180.001
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+      vector-string: 
+        Materials: , size: 9
+          Item0: Plant
+          Item1: Plant
+          Item2: Plant
+          Item3: Plant
+          Item4: Plant
+          Item5: Plant
+          Item6: Plant
+          Item7: Plant
+          Item8: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: -305.733, y: 3.83931, z: 186.491
+        Rotation: , x: 89.9998, y: 354.328, z: 180.001
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+      vector-string: 
+        Materials: , size: 9
+          Item0: Plant
+          Item1: Plant
+          Item2: Plant
+          Item3: Plant
+          Item4: Plant
+          Item5: Plant
+          Item6: Plant
+          Item7: Plant
+          Item8: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Collider1
+    Transform: 
+      vector3: 
+        Position: , x: 1000.52, y: 268.129, z: 1636.88
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    AABBCollider: 
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 200, y: 30, z: 10
+  Entity: Collider1
+    Transform: 
+      vector3: 
+        Position: , x: 1000.52, y: 268.129, z: -1797.47
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    AABBCollider: 
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 200, y: 30, z: 10
+  Entity: Collider1
+    Transform: 
+      vector3: 
+        Position: , x: 1380.89, y: 268.129, z: 8.10233
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    AABBCollider: 
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 40, y: 30, z: 36
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -522.652, y: 274.722, z: -940.449
+        Rotation: , x: 89.9996, y: 19.7351, z: -180
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -599.153, y: 393.823, z: -1413.24
+        Rotation: , x: -89.9986, y: -79.9598, z: -0.00106759
+        Scale: , x: 3, y: 3, z: 3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -432.469, y: 341.627, z: -1086.63
+        Rotation: , x: 89.9999, y: 355.723, z: 180
+        Scale: , x: 2.5, y: 2.5, z: 2.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -274.053, y: 279.03, z: -1174.71
+        Rotation: , x: 89.9994, y: 294.374, z: 180.001
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -356.052, y: 274.723, z: -1447.42
+        Rotation: , x: 89.9999, y: 31.115, z: 180
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -279.675, y: 274.723, z: -1575.27
+        Rotation: , x: 89.9997, y: -3.22485, z: -180
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -120.594, y: 409.811, z: -1570.85
+        Rotation: , x: 89.9999, y: 327.664, z: 180
+        Scale: , x: 3, y: 3, z: 3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: DirtPile
+    Transform: 
+      vector3: 
+        Position: , x: -283.953, y: 3.2092, z: -1180.47
+        Rotation: , x: 7.45661e-11, y: 45.6655, z: 359.999
+        Scale: , x: 0.5, y: 0.5, z: 0.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\uneven_ground_dirt_01.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Soil
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: -309.973, y: -7.59628, z: -338.832
+        Rotation: , x: 89.9998, y: 354.328, z: 180.001
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+      vector-string: 
+        Materials: , size: 9
+          Item0: Plant
+          Item1: Plant
+          Item2: Plant
+          Item3: Plant
+          Item4: Plant
+          Item5: Plant
+          Item6: Plant
+          Item7: Plant
+          Item8: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: -229.414, y: 0.218954, z: -405.483
+        Rotation: , x: 89.9998, y: 354.328, z: 180.001
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+      vector-string: 
+        Materials: , size: 9
+          Item0: Plant
+          Item1: Plant
+          Item2: Plant
+          Item3: Plant
+          Item4: Plant
+          Item5: Plant
+          Item6: Plant
+          Item7: Plant
+          Item8: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: -346.498, y: 15.9625, z: -414.699
+        Rotation: , x: 89.9998, y: 354.328, z: 180.001
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+      vector-string: 
+        Materials: , size: 9
+          Item0: Plant
+          Item1: Plant
+          Item2: Plant
+          Item3: Plant
+          Item4: Plant
+          Item5: Plant
+          Item6: Plant
+          Item7: Plant
+          Item8: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: TallRock
+    Transform: 
+      vector3: 
+        Position: , x: 103.416, y: -34.3687, z: -1588.47
+        Rotation: , x: 7.96617e-08, y: 46.641, z: 5.83101e-06
+        Scale: , x: 0.5, y: 0.5, z: 0.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_large_tall_01.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Rocks
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: SmallRock
+    Transform: 
+      vector3: 
+        Position: , x: 215.305, y: -40.1817, z: -1494.36
+        Rotation: , x: 7.36509e-06, y: 31.3478, z: 1.48194e-05
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_medium_02.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Rocks
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 1154.22, y: 398.169, z: -1747.29
+        Rotation: , x: 89.9997, y: -39.1358, z: -180
+        Scale: , x: 3, y: 3, z: 3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Metal
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: 895.861, y: 14.1925, z: -1406.01
+        Rotation: , x: 89.9998, y: 354.328, z: 180.001
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+      vector-string: 
+        Materials: , size: 9
+          Item0: Plant
+          Item1: Plant
+          Item2: Plant
+          Item3: Plant
+          Item4: Plant
+          Item5: Plant
+          Item6: Plant
+          Item7: Plant
+          Item8: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: 996.68, y: 24.1099, z: -1327.4
+        Rotation: , x: 89.9994, y: -71.0537, z: -179.998
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+      vector-string: 
+        Materials: , size: 9
+          Item0: Plant
+          Item1: Plant
+          Item2: Plant
+          Item3: Plant
+          Item4: Plant
+          Item5: Plant
+          Item6: Plant
+          Item7: Plant
+          Item8: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: 916.613, y: 6.63778, z: -1274.09
+        Rotation: , x: 89.9995, y: 296.4, z: 180.002
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+      vector-string: 
+        Materials: , size: 9
+          Item0: Plant
+          Item1: Plant
+          Item2: Plant
+          Item3: Plant
+          Item4: Plant
+          Item5: Plant
+          Item6: Plant
+          Item7: Plant
+          Item8: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 510.094, y: 403.599, z: -1768.61
+        Rotation: , x: 90, y: -28.5731, z: -179.999
+        Scale: , x: 3, y: 3, z: 3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Brown
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -63.1267, y: 327.712, z: -1756.5
+        Rotation: , x: 270, y: 80.5108, z: 360
+        Scale: , x: 2.5, y: 2.5, z: 2.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Brown
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -498.308, y: 403.598, z: -1701.91
+        Rotation: , x: 89.9999, y: 31.115, z: 180
+        Scale: , x: 3, y: 3, z: 3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Brown
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: 810.072, y: 403.599, z: -1776.82
+        Rotation: , x: 89.9998, y: 76.4078, z: -179.999
+        Scale: , x: 3, y: 3, z: 3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Brown
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: -30.1423, y: 10.2977, z: -998.327
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 3, y: 3, z: 3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: -154.718, y: 18.5644, z: -1016.86
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 1.5, y: 1.5, z: 1.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Fern
+    Transform: 
+      vector3: 
+        Position: , x: 1.88507, y: 4.02792, z: -1358.35
+        Rotation: , x: 89.9997, y: 0, z: 180
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_fern1_model.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Plant
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: Signboard
+    Transform: 
+      vector3: 
+        Position: , x: -249.252, y: -13.568, z: 116.837
+        Rotation: , x: 140.885, y: 77.8379, z: 140.247
+        Scale: , x: 0.4, y: 0.4, z: 0.4
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\sign_wooden_blank_01.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: DirtPile
+    Transform: 
+      vector3: 
+        Position: , x: -339.041, y: 3.21009, z: 1266.7
+        Rotation: , x: 180, y: 80.1486, z: 179.999
+        Scale: , x: 0.5, y: 0.5, z: 0.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\uneven_ground_dirt_01.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Soil
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -563.461, y: 403.595, z: 513.405
+        Rotation: , x: 89.9999, y: 31.115, z: 180
+        Scale: , x: 3, y: 3, z: 3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Brown
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -368.197, y: 403.594, z: 1616.62
+        Rotation: , x: 89.9998, y: 70.3462, z: -180
+        Scale: , x: 3, y: 3, z: 3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Brown
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+  Entity: PalmTree
+    Transform: 
+      vector3: 
+        Position: , x: -466.604, y: 323.908, z: 690.608
+        Rotation: , x: 89.9998, y: 75.031, z: -180
+        Scale: , x: 2.5, y: 2.5, z: 2.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_palmtree1_model.mdl
+      vector-string: 
+        Materials: , size: 4
+          Item0: Plant
+          Item1: Brown
+          Item2: Brown
+          Item3: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1

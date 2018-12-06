@@ -1,0 +1,47 @@
+Root: 
+  Prefab: , Name: CarrotSwordParticle
+    Transform: 
+      vector3: 
+        Position: , x: 23, y: 33.6365, z: 0
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 0, z: 1
+    ParticleEmitter: 
+      float: 
+        warmthUpTime: 0
+        lifeTime: 3
+        totalParticles: 30
+        emitRate: 0.5
+        gravityStrength: 0
+        velocityStrength: 10
+        velocityStrength_2: 0
+        size: 1
+        size_2: 1
+        growth: 0
+        degree: 0
+        initialOpacity: 1
+        initialDistance: 0
+        initialDistance_2: 0
+      string: 
+        Model_Directory: CompiledAssets\Models\ball.mdl
+        Texture: CompiledAssets\Sprites\yellow.dds
+      bool: 
+        emiting: 1
+        Emissive_Particle: 0
+        rangeVelocity: 0
+        rangeSize: 0
+        lookAtCam: 0
+        emitOnceStart: 0
+        rangeInitialDist: 0
+        randomRotation: 0
+        directionRotation: 1
+      int: 
+        particlesPerEmit: 3
+        emitStyle: 0
+        particlesPerCyclic: 60
+      vector-string: 
+        Materials: , size: 1
+          Item0: Metal
+      vector3: 
+        offSetPosition: , x: 0, y: 0, z: 0
+        directionVector: , x: 0, y: 0, z: 1
+    Children: 

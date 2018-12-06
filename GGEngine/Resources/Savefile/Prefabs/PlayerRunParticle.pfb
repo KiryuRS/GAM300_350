@@ -1,0 +1,57 @@
+Root: 
+  Prefab: , Name: PlayerRunParticle
+    Transform: 
+      vector3: 
+        Position: , x: -0.701163, y: 749.199, z: 2.98941
+        Rotation: , x: -0, y: 270, z: 0
+        Scale: , x: 0.833333, y: 0.833333, z: 0.833333
+    ParticleEmitter: 
+      float: 
+        warmthUpTime: 0
+        lifeTime: 0.3
+        totalParticles: 128
+        emitRate: 0.1
+        gravityStrength: -5
+        velocityStrength: 20
+        velocityStrength_2: 0
+        size: 0.2
+        size_2: 1
+        growth: 0.5
+        degree: 83.25
+        initialOpacity: 1
+        initialDistance: 0
+        initialDistance_2: 0
+      string: 
+        Model_Directory: CompiledAssets\Models\particle_smoke.mdl
+        Texture: CompiledAssets\Sprites\yellow.dds
+      bool: 
+        emiting: 0
+        Emissive_Particle: 0
+        rangeVelocity: 0
+        rangeSize: 0
+        lookAtCam: 0
+        emitOnceStart: 1
+        rangeInitialDist: 0
+        randomRotation: 0
+        directionRotation: 0
+      int: 
+        particlesPerEmit: 3
+        emitStyle: 1
+        particlesPerCyclic: 60
+      vector-string: 
+        Materials: , size: 1
+          Item0: Metal
+      vector3: 
+        offSetPosition: , x: 0, y: 0, z: 0
+        directionVector: , x: -0.999681, y: 0.0195248, z: 0.016
+        randomDistance: , x: 10, y: 10, z: 10
+    Identifier: 
+      string: 
+        ID: PlayerRunParticle
+    Script: 
+      float: 
+        timeBeforeDeath: 1
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/DestroyAfterInterval.lua
+    Children: 

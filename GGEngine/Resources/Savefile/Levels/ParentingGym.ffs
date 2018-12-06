@@ -1,0 +1,204 @@
+Settings: 
+  string: 
+    SkyboxLeft: CompiledAssets\Sprites\blood-stain-gorge_lf.dds
+    SkyboxRight: CompiledAssets\Sprites\blood-stain-gorge_rt.dds
+    SkyboxDown: CompiledAssets\Sprites\blood-stain-gorge_dn.dds
+    SkyboxUp: CompiledAssets\Sprites\blood-stain-gorge_up.dds
+    SkyboxBack: CompiledAssets\Sprites\blood-stain-gorge_bk.dds
+    SkyboxFront: CompiledAssets\Sprites\blood-stain-gorge_ft.dds
+Entities: 
+  Entity: Light
+    Transform: 
+      vector3: 
+        Position: , x: 270.369, y: 542.606, z: 0
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    PointLight: 
+      float: 
+        Light_Intensity: 2
+        Light_Radius: 53
+      vector4: 
+        Light_Diffuse: , x: 0.926471, y: 0.92647, z: 0.926461, w: 1
+        Light_Specular: , x: 0, y: 0, z: 0, w: 1
+        Light_Ambient: , x: 0, y: 0, z: 0, w: 1
+  Entity: sphere1
+    Transform: 
+      vector3: 
+        Position: , x: 2.86102e-06, y: -9.84107, z: -7.69193
+        Rotation: , x: 0, y: -0, z: 2.39057e-05
+        Scale: , x: 0.8, y: 0.8, z: 0.8
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\ball.mdl
+        Texture_Directory: CompiledAssets/Sprites/Tad.dds
+      int: 
+        Animation Number: 0
+    StaticMeshRenderer: 
+  Entity: cube1
+    Transform: 
+      vector3: 
+        Position: , x: -20.2975, y: 14.8885, z: 26.0347
+        Rotation: , x: 42, y: 0, z: 0
+        Scale: , x: 10, y: 10, z: 10
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets/Sprites/Tad.dds
+      int: 
+        Animation Number: 0
+    StaticMeshRenderer: 
+  Entity: cube2
+    Transform: 
+      vector3: 
+        Position: , x: 7.59243, y: -18.4022, z: 41.7276
+        Rotation: , x: 0, y: -0, z: 2.39057e-05
+        Scale: , x: 5, y: 5, z: 5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets/Sprites/Tad.dds
+      int: 
+        Animation Number: 0
+    StaticMeshRenderer: 
+  Entity: Ground
+    Transform: 
+      vector3: 
+        Position: , x: 49.0644, y: -33, z: -265.168
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 160, y: 0.2, z: 260
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets/Sprites/Tad.dds
+      int: 
+        Animation Number: 0
+    StaticMeshRenderer: 
+    PlaneCollider: 
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: Controller
+    Transform: 
+      vector3: 
+        Position: , x: 123.689, y: 9.25022, z: -302.907
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 10, y: 10, z: 30
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets/Sprites/Tad.dds
+      int: 
+        Animation Number: 0
+    StaticMeshRenderer: 
+  Entity: ball, Parent: 5
+    Transform: 
+      vector3: 
+        Position: , x: -12.3689, y: 3.12471, z: 1.76356
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 0.1, y: 0.1, z: 0.0333333
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\ball.mdl
+        Texture_Directory: CompiledAssets/Sprites/Tad.dds
+      int: 
+        Animation Number: 0
+    StaticMeshRenderer: 
+    SphereCollider: 
+      float: 
+        Radius: 10
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+    RigidBody: 
+      float: 
+        GravityStrength: 25
+        Mass: 1
+        Bounciness: 1.01
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 10
+        Velocity: , x: 0, y: 0, z: 0
+  Entity: Wall
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: -4, z: -155.764
+        Rotation: , x: -40, y: 0, z: 0
+        Scale: , x: 160, y: 1, z: 100
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets/Sprites/Tad.dds
+      int: 
+        Animation Number: 0
+    StaticMeshRenderer: 
+    PlaneCollider: 
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: Wall2
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: -4, z: -356
+        Rotation: , x: 40, y: 0, z: 0
+        Scale: , x: 160, y: 1, z: 100
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets/Sprites/Tad.dds
+      int: 
+        Animation Number: 0
+    StaticMeshRenderer: 
+    PlaneCollider: 
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: Wall3
+    Transform: 
+      vector3: 
+        Position: , x: -46.886, y: 0, z: -265.168
+        Rotation: , x: 0, y: 0, z: 315
+        Scale: , x: 180, y: 1, z: 300
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: CompiledAssets/Sprites/Tad.dds
+      int: 
+        Animation Number: 0
+    StaticMeshRenderer: 
+    PlaneCollider: 
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1

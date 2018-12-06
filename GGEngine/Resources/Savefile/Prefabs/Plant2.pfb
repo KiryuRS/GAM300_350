@@ -1,0 +1,48 @@
+Root: 
+  Prefab: , Name: Plant2
+    Transform: 
+      vector3: 
+        Position: , x: 1, y: 3.58598, z: 164.161
+        Rotation: , x: -90, y: 90, z: 0
+        Scale: , x: 0.8, y: 0.8, z: 0.8
+    Script: 
+      float: 
+        endY: 10
+        startY: 0
+      string: 
+        carrotDrawnPrefab: CompiledAssets/Models/emptycarrot.mdl
+        plantName: Tomato
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/PlantInfo.lua
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\farm_fighter_flower_model.mdl
+      vector-string: 
+        Materials: , size: 3
+          Item0: DeepGreen
+          Item1: Red
+          Item2: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 1
+        rotationAffect_90: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 7.7, z: 0
+        Scale: , x: 2.7, y: 2, z: 3.6
+    Identifier: 
+      string: 
+        ID: Plant
+    Children: 

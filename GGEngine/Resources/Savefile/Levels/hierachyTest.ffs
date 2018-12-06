@@ -1,0 +1,59 @@
+Settings: 
+  string: 
+    SkyboxLeft: CompiledAssets\Sprites\blood-stain-gorge_lf.dds
+    SkyboxRight: CompiledAssets\Sprites\blood-stain-gorge_rt.dds
+    SkyboxDown: CompiledAssets\Sprites\blood-stain-gorge_dn.dds
+    SkyboxUp: CompiledAssets\Sprites\blood-stain-gorge_up.dds
+    SkyboxBack: CompiledAssets\Sprites\blood-stain-gorge_bk.dds
+    SkyboxFront: CompiledAssets\Sprites\blood-stain-gorge_ft.dds
+  bool: 
+    Render Shadows: 1
+Entities: 
+  Entity: x
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: 0, z: 0
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: e, Parent: 0
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: 0, z: 0
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: d, Parent: 0
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: 0, z: 0
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: c, Parent: 0
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: 0, z: 0
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: b, Parent: 0
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: 0, z: 0
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: a, Parent: 0
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: 0, z: 0
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: z
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: 0, z: 0
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+  Entity: y
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: 0, z: 0
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 1, y: 1, z: 1

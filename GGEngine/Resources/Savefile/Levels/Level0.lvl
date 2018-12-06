@@ -1,0 +1,15 @@
+Configuration: 
+  string: 
+    Next Level: 
+  bool: 
+    Pauseable: 1
+  int: 
+    Space Size: 1
+Gamespace 0: 
+  string: 
+    Name: Day
+    File: Resources/Savefile/Levels/TestLevel.ffs
+  bool: 
+    Focus: 1
+    Active: 1
+    isLevel: 1

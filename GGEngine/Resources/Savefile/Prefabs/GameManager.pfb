@@ -1,0 +1,11 @@
+Root: 
+  Prefab: , Name: GameManager
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: 0, z: 0
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Script: 
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Manager.lua

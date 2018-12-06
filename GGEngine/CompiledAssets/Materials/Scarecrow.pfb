@@ -1,0 +1,18 @@
+Root: 
+  Material: , Name: Scarecrow
+    float: 
+      m_specular_power: 1
+      m_normal_power: 1
+      m_illumination_power: 1
+    string: 
+      diffuse_name: CompiledAssets\Sprites\scarecrow_n_png.dds
+      specular_name: 
+      normal_name: 
+      opacity_name: 
+      self_illumination_name: 
+    bool: 
+      HasDiffuse: 1
+      HasSpecular: 0
+      HasNormal: 0
+      HasOpacity: 0
+      HasSelfIllumination: 0

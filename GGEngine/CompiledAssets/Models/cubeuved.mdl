@@ -1,0 +1,190 @@
+ModelFile: 
+  vector-serialmesh: 
+    StaticMeshes: , size: 1
+      Item0: 
+        string: 
+          Translation Name: Box002_$AssimpFbx$_Translation
+          Pre Rotation Name: Box002_$AssimpFbx$_PreRotation
+          Rotation Name: 
+          Scaling Name: 
+        bool: 
+          GlobalExists: 1
+        vector-int: 
+          Faces: , size: 36
+            Item0: 0
+            Item1: 1
+            Item2: 2
+            Item3: 3
+            Item4: 4
+            Item5: 5
+            Item6: 6
+            Item7: 7
+            Item8: 8
+            Item9: 9
+            Item10: 10
+            Item11: 11
+            Item12: 12
+            Item13: 13
+            Item14: 14
+            Item15: 15
+            Item16: 16
+            Item17: 17
+            Item18: 18
+            Item19: 19
+            Item20: 20
+            Item21: 21
+            Item22: 22
+            Item23: 23
+            Item24: 24
+            Item25: 25
+            Item26: 26
+            Item27: 27
+            Item28: 28
+            Item29: 29
+            Item30: 30
+            Item31: 31
+            Item32: 32
+            Item33: 33
+            Item34: 34
+            Item35: 35
+          Bone Mapping Num: , size: 4
+            Item0: 1
+            Item1: 2
+            Item2: 3
+            Item3: 4
+        vector-string: 
+          Bone Mapping Name: , size: 4
+            Item0: Box002_$AssimpFbx$_Translation
+            Item1: Box002_$AssimpFbx$_PreRotation
+            Item2: Box002_$AssimpFbx$_GeometricTranslation
+            Item3: Box002
+        vector-vector2: 
+          UVs: , size: 36
+            Item0: , x: 1, y: 1
+            Item1: , x: 1, y: 0
+            Item2: , x: 0, y: 0
+            Item3: , x: 0, y: 0
+            Item4: , x: 0, y: 1
+            Item5: , x: 1, y: 1
+            Item6: , x: 0, y: 1
+            Item7: , x: 1, y: 1
+            Item8: , x: 1, y: 0
+            Item9: , x: 1, y: 0
+            Item10: , x: 0, y: 0
+            Item11: , x: 0, y: 1
+            Item12: , x: 0, y: 1
+            Item13: , x: 1, y: 1
+            Item14: , x: 1, y: 0
+            Item15: , x: 1, y: 0
+            Item16: , x: 0, y: 0
+            Item17: , x: 0, y: 1
+            Item18: , x: 0, y: 1
+            Item19: , x: 1, y: 1
+            Item20: , x: 1, y: 0
+            Item21: , x: 1, y: 0
+            Item22: , x: 0, y: 0
+            Item23: , x: 0, y: 1
+            Item24: , x: 0, y: 1
+            Item25: , x: 1, y: 1
+            Item26: , x: 1, y: 0
+            Item27: , x: 1, y: 0
+            Item28: , x: 0, y: 0
+            Item29: , x: 0, y: 1
+            Item30: , x: 0, y: 1
+            Item31: , x: 1, y: 1
+            Item32: , x: 1, y: 0
+            Item33: , x: 1, y: 0
+            Item34: , x: 0, y: 0
+            Item35: , x: 0, y: 1
+        vector-vector3: 
+          Vertices: , size: 36
+            Item0: , x: -0.5, y: -0.5, z: 0
+            Item1: , x: -0.5, y: 0.5, z: 0
+            Item2: , x: 0.5, y: 0.5, z: 0
+            Item3: , x: 0.5, y: 0.5, z: 0
+            Item4: , x: 0.5, y: -0.5, z: 0
+            Item5: , x: -0.5, y: -0.5, z: 0
+            Item6: , x: -0.5, y: -0.5, z: 1
+            Item7: , x: 0.5, y: -0.5, z: 1
+            Item8: , x: 0.5, y: 0.5, z: 1
+            Item9: , x: 0.5, y: 0.5, z: 1
+            Item10: , x: -0.5, y: 0.5, z: 1
+            Item11: , x: -0.5, y: -0.5, z: 1
+            Item12: , x: -0.5, y: -0.5, z: 0
+            Item13: , x: 0.5, y: -0.5, z: 0
+            Item14: , x: 0.5, y: -0.5, z: 1
+            Item15: , x: 0.5, y: -0.5, z: 1
+            Item16: , x: -0.5, y: -0.5, z: 1
+            Item17: , x: -0.5, y: -0.5, z: 0
+            Item18: , x: 0.5, y: -0.5, z: 0
+            Item19: , x: 0.5, y: 0.5, z: 0
+            Item20: , x: 0.5, y: 0.5, z: 1
+            Item21: , x: 0.5, y: 0.5, z: 1
+            Item22: , x: 0.5, y: -0.5, z: 1
+            Item23: , x: 0.5, y: -0.5, z: 0
+            Item24: , x: 0.5, y: 0.5, z: 0
+            Item25: , x: -0.5, y: 0.5, z: 0
+            Item26: , x: -0.5, y: 0.5, z: 1
+            Item27: , x: -0.5, y: 0.5, z: 1
+            Item28: , x: 0.5, y: 0.5, z: 1
+            Item29: , x: 0.5, y: 0.5, z: 0
+            Item30: , x: -0.5, y: 0.5, z: 0
+            Item31: , x: -0.5, y: -0.5, z: 0
+            Item32: , x: -0.5, y: -0.5, z: 1
+            Item33: , x: -0.5, y: -0.5, z: 1
+            Item34: , x: -0.5, y: 0.5, z: 1
+            Item35: , x: -0.5, y: 0.5, z: 0
+          Normals: , size: 36
+            Item0: , x: 0, y: 0, z: -1
+            Item1: , x: 0, y: 0, z: -1
+            Item2: , x: 0, y: 0, z: -1
+            Item3: , x: 0, y: 0, z: -1
+            Item4: , x: 0, y: 0, z: -1
+            Item5: , x: 0, y: 0, z: -1
+            Item6: , x: 0, y: 0, z: 1
+            Item7: , x: 0, y: 0, z: 1
+            Item8: , x: 0, y: 0, z: 1
+            Item9: , x: 0, y: 0, z: 1
+            Item10: , x: 0, y: 0, z: 1
+            Item11: , x: 0, y: 0, z: 1
+            Item12: , x: 0, y: -1, z: 0
+            Item13: , x: 0, y: -1, z: 0
+            Item14: , x: 0, y: -1, z: 0
+            Item15: , x: 0, y: -1, z: 0
+            Item16: , x: 0, y: -1, z: 0
+            Item17: , x: 0, y: -1, z: 0
+            Item18: , x: 1, y: 0, z: 0
+            Item19: , x: 1, y: 0, z: 0
+            Item20: , x: 1, y: 0, z: 0
+            Item21: , x: 1, y: 0, z: 0
+            Item22: , x: 1, y: 0, z: 0
+            Item23: , x: 1, y: 0, z: 0
+            Item24: , x: 0, y: 1, z: 0
+            Item25: , x: 0, y: 1, z: 0
+            Item26: , x: 0, y: 1, z: 0
+            Item27: , x: 0, y: 1, z: 0
+            Item28: , x: 0, y: 1, z: 0
+            Item29: , x: 0, y: 1, z: 0
+            Item30: , x: -1, y: 0, z: 0
+            Item31: , x: -1, y: 0, z: 0
+            Item32: , x: -1, y: 0, z: 0
+            Item33: , x: -1, y: 0, z: 0
+            Item34: , x: -1, y: 0, z: 0
+            Item35: , x: -1, y: 0, z: 0
+        matrix4: 
+          Transform: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+        vector-sbone: 
+          Bones: , size: 0
+        node: 
+          RootNode: 0|(1|Box002_$AssimpFbx$_Translation(2|Box002_$AssimpFbx$_PreRotation(3|Box002_$AssimpFbx$_GeometricTranslation(4|Box002()))))
+        vector-matrix4: 
+          Node Matrices: , size: 5
+            Item0: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item1: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0.5079, p: 1
+            Item2: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item3: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0.5079, o: -0.5, p: 1
+            Item4: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+  matrix4: 
+    GlobalTransform: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+  vector-anim: 
+    animations: , size: 0

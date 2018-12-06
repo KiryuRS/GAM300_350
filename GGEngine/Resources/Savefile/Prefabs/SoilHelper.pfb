@@ -1,0 +1,34 @@
+Root: 
+  Prefab: , Name: SoilHelper
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: 58.0279, z: 0
+        Rotation: , x: 80.2222, y: 0, z: 0
+        Scale: , x: 600, y: 300, z: 1
+    Sprite2D: 
+      float: 
+        Value: 0
+        Transparency: 1
+      string: 
+        Texture: CompiledAssets\Sprites\popup_enter combat.dds
+        onStart_animationName: 
+      bool: 
+        Radio: 0
+        Horizontal: 0
+        Vertical: 0
+        lookAtCam: 1
+        Always Front: 0
+        loop: 0
+        play_onStart: 0
+        Visible: 1
+      int: 
+        current_frame: 0
+      vector4: 
+        Tint: , x: 0, y: 0, z: 0, w: 0
+      unsigned: 
+        slices_Row: 1
+        slices_Col: 1
+    Identifier: 
+      string: 
+        ID: SoilHelper
+    Children: 

@@ -1,0 +1,25 @@
+Root: 
+  Prefab: , Name: PottedPlant
+    Transform: 
+      vector3: 
+        Position: , x: -299.896, y: -2.43374e-05, z: -74.9654
+        Rotation: , x: 89.9999, y: 47.7988, z: 180.001
+        Scale: , x: 0.9, y: 0.9, z: 0.9
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\pottedplant1.mdl
+      vector-string: 
+        Materials: , size: 3
+          Item0: DeepGreen
+          Item1: PotColour_Orange
+          Item2: DarkBrown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    Children: 

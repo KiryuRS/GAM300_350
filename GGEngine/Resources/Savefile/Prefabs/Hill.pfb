@@ -1,0 +1,23 @@
+Root: 
+  Prefab: , Name: Hill
+    Transform: 
+      vector3: 
+        Position: , x: -58.392, y: -736.369, z: -6654.56
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\hill_dirt_01.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    Children: 

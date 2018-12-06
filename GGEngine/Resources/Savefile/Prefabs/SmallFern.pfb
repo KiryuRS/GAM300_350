@@ -1,0 +1,111 @@
+Root: 
+  Prefab: , Name: SmallFern
+    Transform: 
+      vector3: 
+        Position: , x: 912.498, y: -8.72391, z: -418.471
+        Rotation: , x: 270, y: 0, z: 0
+        Scale: , x: 1.5, y: 1.5, z: 1.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\fern2.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: DarkGreen
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+    Children: 
+      Child0: , Name: SmallFern
+        Transform: 
+          vector3: 
+            Position: , x: -18.3218, y: -0.318481, z: 0.375855
+            Rotation: , x: 0, y: -0, z: -30.1679
+            Scale: , x: 0.666667, y: 0.666667, z: 0.666667
+        StaticMesh: 
+          string: 
+            Model_Directory: CompiledAssets\Models\fern2.mdl
+          vector-string: 
+            Materials: , size: 1
+              Item0: DarkGreen
+        StaticMeshRenderer: 
+          float: 
+            Transparency: 1
+          bool: 
+            Cast Shadow: 1
+            Receive Shadow: 1
+            Visible: 1
+          vector4: 
+            Tint: , x: 1, y: 1, z: 1, w: 1
+        Children: 
+      Child1: , Name: SmallFern
+        Transform: 
+          vector3: 
+            Position: , x: -10.6918, y: 15.8593, z: 0
+            Rotation: , x: 0, y: -0, z: 40.7597
+            Scale: , x: 1, y: 1, z: 1
+        StaticMesh: 
+          string: 
+            Model_Directory: CompiledAssets\Models\fern2.mdl
+          vector-string: 
+            Materials: , size: 1
+              Item0: DarkGreen
+        StaticMeshRenderer: 
+          float: 
+            Transparency: 1
+          bool: 
+            Cast Shadow: 1
+            Receive Shadow: 1
+            Visible: 1
+          vector4: 
+            Tint: , x: 1, y: 1, z: 1, w: 1
+        Children: 
+      Child2: , Name: SmallFern
+        Transform: 
+          vector3: 
+            Position: , x: 12.2773, y: 12.3033, z: 0
+            Rotation: , x: 0, y: -0, z: 0
+            Scale: , x: 1.33333, y: 1.33333, z: 1.33333
+        StaticMesh: 
+          string: 
+            Model_Directory: CompiledAssets\Models\fern2.mdl
+          vector-string: 
+            Materials: , size: 1
+              Item0: DarkGreen
+        StaticMeshRenderer: 
+          float: 
+            Transparency: 1
+          bool: 
+            Cast Shadow: 1
+            Receive Shadow: 1
+            Visible: 1
+          vector4: 
+            Tint: , x: 1, y: 1, z: 1, w: 1
+        Children: 
+      Child3: , Name: SmallFern
+        Transform: 
+          vector3: 
+            Position: , x: 4.20467, y: 26.6987, z: 0
+            Rotation: , x: 0, y: -0, z: 23.8286
+            Scale: , x: 0.666667, y: 0.666667, z: 0.666667
+        StaticMesh: 
+          string: 
+            Model_Directory: CompiledAssets\Models\fern2.mdl
+          vector-string: 
+            Materials: , size: 1
+              Item0: DarkGreen
+        StaticMeshRenderer: 
+          float: 
+            Transparency: 1
+          bool: 
+            Cast Shadow: 1
+            Receive Shadow: 1
+            Visible: 1
+          vector4: 
+            Tint: , x: 1, y: 1, z: 1, w: 1
+        Children: 

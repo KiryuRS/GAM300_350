@@ -1,0 +1,29 @@
+Root: 
+  Prefab: , Name: Enemy
+    Transform: 
+      vector3: 
+        Position: , x: 327.367, y: -22.2647, z: -119.598
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Script: 
+      vector-string: 
+        Scripts: , size: 0
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 20, y: 48, z: 13
+        Scale: , x: 4, y: 7, z: 10
+    SkeletalMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\gallina.mdl
+        Texture_Directory: CompiledAssets\Sprites\tad.dds
+      int: 
+        Animation Number: 0
+    SkeletalMeshRenderer: 
+    Identifier: 
+      string: 
+        ID: Enemy

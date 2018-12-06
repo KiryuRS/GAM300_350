@@ -1,0 +1,18 @@
+Root: 
+  Material: , Name: House
+    float: 
+      m_specular_power: 0
+      m_normal_power: 4.59183e-40
+      m_illumination_power: 3.85709e-39
+    string: 
+      diffuse_name: CompiledAssets\Sprites\lightbrown.dds
+      specular_name: CompiledAssets\Sprites\day_boy_diffuse.dds
+      normal_name: CompiledAssets\Sprites\delete.dds
+      opacity_name: CompiledAssets\Sprites\downarrow.dds
+      self_illumination_name: CompiledAssets\Sprites\fern_colour.dds
+    bool: 
+      HasDiffuse: 1
+      HasSpecular: 0
+      HasNormal: 0
+      HasOpacity: 0
+      HasSelfIllumination: 0

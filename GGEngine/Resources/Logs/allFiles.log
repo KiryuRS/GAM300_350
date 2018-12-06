@@ -1,0 +1,2430 @@
+[0]
+Resources/Audio/BGM/05 Strain.mp3
+{FILEITME}
+	LOW - 233461504
+	HIGH - 30702201 
+
+[1]
+Resources/Audio/BGM/Amb_TropicalForestLoop4.wav
+{FILEITME}
+	LOW - 220541504
+	HIGH - 30702201 
+
+[2]
+Resources/Audio/BGM/Combat.wav
+{FILEITME}
+	LOW - 259531504
+	HIGH - 30702201 
+
+[3]
+Resources/Audio/BGM/FarmingBGM.wav
+{FILEITME}
+	LOW - 253431504
+	HIGH - 30702201 
+
+[4]
+Resources/Audio/BGM/Mus115.yanfei.ng_project.wav
+{FILEITME}
+	LOW - 3072226480
+	HIGH - 30693745 
+
+[5]
+Resources/Audio/BGM/Never Gonna Give You Up.mp3
+{FILEITME}
+	LOW - 627988976
+	HIGH - 30693794 
+
+[6]
+Resources/Audio/LSFX/Walk.wav
+{FILEITME}
+	LOW - 3006406480
+	HIGH - 30693745 
+
+[7]
+Resources/Audio/SFX/Attack.wav
+{FILEITME}
+	LOW - 2704761376
+	HIGH - 30705019 
+
+[8]
+Resources/Audio/SFX/BossHit.wav
+{FILEITME}
+	LOW - 2704921376
+	HIGH - 30705019 
+
+[9]
+Resources/Audio/SFX/BossLand.wav
+{FILEITME}
+	LOW - 2709731376
+	HIGH - 30705019 
+
+[10]
+Resources/Audio/SFX/BossSplit.wav
+{FILEITME}
+	LOW - 2706011376
+	HIGH - 30705019 
+
+[11]
+Resources/Audio/SFX/Boss_Roll.wav
+{FILEITME}
+	LOW - 2705131376
+	HIGH - 30705019 
+
+[12]
+Resources/Audio/SFX/CarrotBreak.wav
+{FILEITME}
+	LOW - 2709151376
+	HIGH - 30705019 
+
+[13]
+Resources/Audio/SFX/Carrot_Swing.wav
+{FILEITME}
+	LOW - 2707821376
+	HIGH - 30705019 
+
+[14]
+Resources/Audio/SFX/Jump.wav
+{FILEITME}
+	LOW - 2986876480
+	HIGH - 30693745 
+
+[15]
+Resources/Audio/SFX/Plant.wav
+{FILEITME}
+	LOW - 2706731376
+	HIGH - 30705019 
+
+[16]
+Resources/Audio/SFX/PlayerGetHit.wav
+{FILEITME}
+	LOW - 39589424
+	HIGH - 30706431 
+
+[17]
+Resources/Audio/SFX/PlayerJump.wav
+{FILEITME}
+	LOW - 2707211376
+	HIGH - 30705019 
+
+[18]
+Resources/Audio/SFX/PlayerLoseHealth.wav
+{FILEITME}
+	LOW - 39689424
+	HIGH - 30706431 
+
+[19]
+Resources/Audio/SFX/Plough.wav
+{FILEITME}
+	LOW - 2709651376
+	HIGH - 30705019 
+
+[20]
+Resources/Audio/SFX/TaugeyRise.wav
+{FILEITME}
+	LOW - 2709951376
+	HIGH - 30705019 
+
+[21]
+Resources/Audio/SFX/Toss_Carrot.wav
+{FILEITME}
+	LOW - 2708871376
+	HIGH - 30705019 
+
+[22]
+Resources/Audio/SFX/WeaponDrop.wav
+{FILEITME}
+	LOW - 2709141376
+	HIGH - 30705019 
+
+[23]
+Resources/Model/100cm_deniseref.FBX
+{FILEITME}
+	LOW - 262431504
+	HIGH - 30702201 
+
+[24]
+Resources/Model/1Potato_Seedling.FBX
+{FILEITME}
+	LOW - 787977856
+	HIGH - 30700639 
+
+[25]
+Resources/Model/2Tomato.FBX
+{FILEITME}
+	LOW - 789807856
+	HIGH - 30700639 
+
+[26]
+Resources/Model/3Vegetales_Carrot1_model.FBX
+{FILEITME}
+	LOW - 790697856
+	HIGH - 30700639 
+
+[27]
+Resources/Model/4Cabbage.FBX
+{FILEITME}
+	LOW - 792087856
+	HIGH - 30700639 
+
+[28]
+Resources/Model/ANIM_N_Runstart.DAE
+{FILEITME}
+	LOW - 3119425488
+	HIGH - 30704022 
+
+[29]
+Resources/Model/ANIM_Scarecrow.DAE
+{FILEITME}
+	LOW - 1085962816
+	HIGH - 30705504 
+
+[30]
+Resources/Model/BananaTree.FBX
+{FILEITME}
+	LOW - 273551504
+	HIGH - 30702201 
+
+[31]
+Resources/Model/Bossolin.FBX
+{FILEITME}
+	LOW - 2331542160
+	HIGH - 30705415 
+
+[32]
+Resources/Model/Carrot.FBX
+{FILEITME}
+	LOW - 2710001376
+	HIGH - 30705019 
+
+[33]
+Resources/Model/CarrotKrisNew.FBX
+{FILEITME}
+	LOW - 41089424
+	HIGH - 30706431 
+
+[34]
+Resources/Model/Char_ExportTest1.DAE
+{FILEITME}
+	LOW - 798317856
+	HIGH - 30700639 
+
+[35]
+Resources/Model/Connect_Plot.FBX
+{FILEITME}
+	LOW - 3122785488
+	HIGH - 30704022 
+
+[36]
+Resources/Model/Cornered_Plot.FBX
+{FILEITME}
+	LOW - 3122875488
+	HIGH - 30704022 
+
+[37]
+Resources/Model/Crop_Carrot.FBX
+{FILEITME}
+	LOW - 2712621376
+	HIGH - 30705019 
+
+[38]
+Resources/Model/Crop_Flower.fbx
+{FILEITME}
+	LOW - 2711331376
+	HIGH - 30705019 
+
+[39]
+Resources/Model/Crop_Taugey.FBX
+{FILEITME}
+	LOW - 2716211376
+	HIGH - 30705019 
+
+[40]
+Resources/Model/CubeUVed.FBX
+{FILEITME}
+	LOW - 1082606624
+	HIGH - 30696981 
+
+[41]
+Resources/Model/D_GrowCrops_Hoe.DAE
+{FILEITME}
+	LOW - 40089424
+	HIGH - 30706431 
+
+[42]
+Resources/Model/D_HarvestKris.DAE
+{FILEITME}
+	LOW - 2711801376
+	HIGH - 30705019 
+
+[43]
+Resources/Model/D_Idle.DAE
+{FILEITME}
+	LOW - 2332402160
+	HIGH - 30705415 
+
+[44]
+Resources/Model/D_IdleHoe.DAE
+{FILEITME}
+	LOW - 2712971376
+	HIGH - 30705019 
+
+[45]
+Resources/Model/D_Jump.DAE
+{FILEITME}
+	LOW - 2712741376
+	HIGH - 30705019 
+
+[46]
+Resources/Model/D_JumpHoe.DAE
+{FILEITME}
+	LOW - 2338572160
+	HIGH - 30705415 
+
+[47]
+Resources/Model/D_PloughHoe.DAE
+{FILEITME}
+	LOW - 2332912160
+	HIGH - 30705415 
+
+[48]
+Resources/Model/D_Run.DAE
+{FILEITME}
+	LOW - 2714481376
+	HIGH - 30705019 
+
+[49]
+Resources/Model/D_RunHoe.DAE
+{FILEITME}
+	LOW - 2331862160
+	HIGH - 30705415 
+
+[50]
+Resources/Model/Dragon_AnimTest.DAE
+{FILEITME}
+	LOW - 984140848
+	HIGH - 30706487 
+
+[51]
+Resources/Model/EmptyCarrot.FBX
+{FILEITME}
+	LOW - 2717451376
+	HIGH - 30705019 
+
+[52]
+Resources/Model/Extra/Walking_InPlace.fbx
+{FILEITME}
+	LOW - 1038544864
+	HIGH - 30706666 
+
+[53]
+Resources/Model/Farm_Fighter_Fence_model.FBX
+{FILEITME}
+	LOW - 1033842224
+	HIGH - 30706506 
+
+[54]
+Resources/Model/Farm_Fighter_Fern1_model.FBX
+{FILEITME}
+	LOW - 276561504
+	HIGH - 30702201 
+
+[55]
+Resources/Model/Farm_Fighter_Flower_model.FBX
+{FILEITME}
+	LOW - 40329424
+	HIGH - 30706431 
+
+[56]
+Resources/Model/Farm_Fighter_PalmTree1_model.FBX
+{FILEITME}
+	LOW - 279771504
+	HIGH - 30702201 
+
+[57]
+Resources/Model/Fence.FBX
+{FILEITME}
+	LOW - 2715881376
+	HIGH - 30705019 
+
+[58]
+Resources/Model/Fence_New.FBX
+{FILEITME}
+	LOW - 2715491376
+	HIGH - 30705019 
+
+[59]
+Resources/Model/Fern2.FBX
+{FILEITME}
+	LOW - 2716361376
+	HIGH - 30705019 
+
+[60]
+Resources/Model/GrassClutter.FBX
+{FILEITME}
+	LOW - 2716721376
+	HIGH - 30705019 
+
+[61]
+Resources/Model/Ground_N1.FBX
+{FILEITME}
+	LOW - 2332132160
+	HIGH - 30705415 
+
+[62]
+Resources/Model/Ground_N2.FBX
+{FILEITME}
+	LOW - 2333052160
+	HIGH - 30705415 
+
+[63]
+Resources/Model/Ground_N3.FBX
+{FILEITME}
+	LOW - 2334112160
+	HIGH - 30705415 
+
+[64]
+Resources/Model/Hill_Dirt_01.fbx
+{FILEITME}
+	LOW - 279351504
+	HIGH - 30702201 
+
+[65]
+Resources/Model/House.FBX
+{FILEITME}
+	LOW - 49249424
+	HIGH - 30706431 
+
+[66]
+Resources/Model/KampungHouse.FBX
+{FILEITME}
+	LOW - 285151504
+	HIGH - 30702201 
+
+[67]
+Resources/Model/LongGrass.fbx
+{FILEITME}
+	LOW - 41959424
+	HIGH - 30706431 
+
+[68]
+Resources/Model/Mountain_Grass_01.fbx
+{FILEITME}
+	LOW - 281981504
+	HIGH - 30702201 
+
+[69]
+Resources/Model/N_Dodge.DAE
+{FILEITME}
+	LOW - 2717241376
+	HIGH - 30705019 
+
+[70]
+Resources/Model/N_DodgeHoe.DAE
+{FILEITME}
+	LOW - 2337432160
+	HIGH - 30705415 
+
+[71]
+Resources/Model/N_DodgeKris.DAE
+{FILEITME}
+	LOW - 2718281376
+	HIGH - 30705019 
+
+[72]
+Resources/Model/N_DoubleSlash_Kris.DAE
+{FILEITME}
+	LOW - 44309424
+	HIGH - 30706431 
+
+[73]
+Resources/Model/N_Flinch.DAE
+{FILEITME}
+	LOW - 2723121376
+	HIGH - 30705019 
+
+[74]
+Resources/Model/N_FlinchHoe.DAE
+{FILEITME}
+	LOW - 2337572160
+	HIGH - 30705415 
+
+[75]
+Resources/Model/N_FlinchKris.DAE
+{FILEITME}
+	LOW - 2726971376
+	HIGH - 30705019 
+
+[76]
+Resources/Model/N_Harvest.DAE
+{FILEITME}
+	LOW - 2337732160
+	HIGH - 30705415 
+
+[77]
+Resources/Model/N_HarvestKris.DAE
+{FILEITME}
+	LOW - 2719431376
+	HIGH - 30705019 
+
+[78]
+Resources/Model/N_Idle.DAE
+{FILEITME}
+	LOW - 2721471376
+	HIGH - 30705019 
+
+[79]
+Resources/Model/N_IdleHoe.DAE
+{FILEITME}
+	LOW - 2338362160
+	HIGH - 30705415 
+
+[80]
+Resources/Model/N_IdleKris.DAE
+{FILEITME}
+	LOW - 2723341376
+	HIGH - 30705019 
+
+[81]
+Resources/Model/N_Jump.DAE
+{FILEITME}
+	LOW - 2721211376
+	HIGH - 30705019 
+
+[82]
+Resources/Model/N_JumpHoe.DAE
+{FILEITME}
+	LOW - 2340952160
+	HIGH - 30705415 
+
+[83]
+Resources/Model/N_JumpKris.DAE
+{FILEITME}
+	LOW - 2722771376
+	HIGH - 30705019 
+
+[84]
+Resources/Model/N_PickUp_Hoe.DAE
+{FILEITME}
+	LOW - 2337172160
+	HIGH - 30705415 
+
+[85]
+Resources/Model/N_PickUp_Kris.DAE
+{FILEITME}
+	LOW - 2724161376
+	HIGH - 30705019 
+
+[86]
+Resources/Model/N_Run.DAE
+{FILEITME}
+	LOW - 2725951376
+	HIGH - 30705019 
+
+[87]
+Resources/Model/N_RunHoe.DAE
+{FILEITME}
+	LOW - 2339662160
+	HIGH - 30705415 
+
+[88]
+Resources/Model/N_RunKris.DAE
+{FILEITME}
+	LOW - 2725131376
+	HIGH - 30705019 
+
+[89]
+Resources/Model/N_RunningThrow_Charging.DAE
+{FILEITME}
+	LOW - 51229424
+	HIGH - 30706431 
+
+[90]
+Resources/Model/N_SingleSlash_Hoe.DAE
+{FILEITME}
+	LOW - 2340382160
+	HIGH - 30705415 
+
+[91]
+Resources/Model/N_SingleSlash_Kris.DAE
+{FILEITME}
+	LOW - 2341012160
+	HIGH - 30705415 
+
+[92]
+Resources/Model/N_StaticThrow_Charging.DAE
+{FILEITME}
+	LOW - 2726851376
+	HIGH - 30705019 
+
+[93]
+Resources/Model/N_StaticThrow_Throwing.DAE
+{FILEITME}
+	LOW - 2726561376
+	HIGH - 30705019 
+
+[94]
+Resources/Model/N_StaticThrow_Transtion.DAE
+{FILEITME}
+	LOW - 2732891376
+	HIGH - 30705019 
+
+[95]
+Resources/Model/N_TripleSlash_Kris.DAE
+{FILEITME}
+	LOW - 43219424
+	HIGH - 30706431 
+
+[96]
+Resources/Model/PANGOLIN_BABY_FINAL_MODEL.FBX
+{FILEITME}
+	LOW - 2342282160
+	HIGH - 30705415 
+
+[97]
+Resources/Model/PANGOLIN_CHARGE_DASH.DAE
+{FILEITME}
+	LOW - 2342132160
+	HIGH - 30705415 
+
+[98]
+Resources/Model/PANGOLIN_CHARGE_IDLE.DAE
+{FILEITME}
+	LOW - 46029424
+	HIGH - 30706431 
+
+[99]
+Resources/Model/PANGOLIN_CHARGE_START.DAE
+{FILEITME}
+	LOW - 2342912160
+	HIGH - 30705415 
+
+[100]
+Resources/Model/PANGOLIN_DEATH_1.DAE
+{FILEITME}
+	LOW - 2343462160
+	HIGH - 30705415 
+
+[101]
+Resources/Model/PANGOLIN_DEATH_2.DAE
+{FILEITME}
+	LOW - 2343992160
+	HIGH - 30705415 
+
+[102]
+Resources/Model/PANGOLIN_FLINCH.DAE
+{FILEITME}
+	LOW - 44359424
+	HIGH - 30706431 
+
+[103]
+Resources/Model/PANGOLIN_IDLE.DAE
+{FILEITME}
+	LOW - 44789424
+	HIGH - 30706431 
+
+[104]
+Resources/Model/PANGOLIN_RUN.DAE
+{FILEITME}
+	LOW - 2344122160
+	HIGH - 30705415 
+
+[105]
+Resources/Model/PANGOLIN_RUN_START.DAE
+{FILEITME}
+	LOW - 59819424
+	HIGH - 30706431 
+
+[106]
+Resources/Model/PANGOLIN_STUN.DAE
+{FILEITME}
+	LOW - 52799424
+	HIGH - 30706431 
+
+[107]
+Resources/Model/Pangolin.FBX
+{FILEITME}
+	LOW - 2340982160
+	HIGH - 30705415 
+
+[108]
+Resources/Model/PangolinBaby_01.FBX
+{FILEITME}
+	LOW - 290711504
+	HIGH - 30702201 
+
+[109]
+Resources/Model/Particle_Smoke.FBX
+{FILEITME}
+	LOW - 292901504
+	HIGH - 30702201 
+
+[110]
+Resources/Model/PotPlant2.FBX
+{FILEITME}
+	LOW - 2727781376
+	HIGH - 30705019 
+
+[111]
+Resources/Model/PottedPlant1.FBX
+{FILEITME}
+	LOW - 2727721376
+	HIGH - 30705019 
+
+[112]
+Resources/Model/RefCube_100cm.FBX
+{FILEITME}
+	LOW - 293141504
+	HIGH - 30702201 
+
+[113]
+Resources/Model/RefCube_1m.FBX
+{FILEITME}
+	LOW - 295531504
+	HIGH - 30702201 
+
+[114]
+Resources/Model/Rock_Large_Flat_Dirt_01.fbx
+{FILEITME}
+	LOW - 1083952816
+	HIGH - 30705504 
+
+[115]
+Resources/Model/Rock_Large_Tall_01.fbx
+{FILEITME}
+	LOW - 297011504
+	HIGH - 30702201 
+
+[116]
+Resources/Model/Rock_Medium_02.fbx
+{FILEITME}
+	LOW - 299761504
+	HIGH - 30702201 
+
+[117]
+Resources/Model/Rock_Medium_Dirt_02.fbx
+{FILEITME}
+	LOW - 298641504
+	HIGH - 30702201 
+
+[118]
+Resources/Model/Runtest3.DAE
+{FILEITME}
+	LOW - 801077856
+	HIGH - 30700639 
+
+[119]
+Resources/Model/ShortGrass.FBX
+{FILEITME}
+	LOW - 46949424
+	HIGH - 30706431 
+
+[120]
+Resources/Model/Shrub.FBX
+{FILEITME}
+	LOW - 3125495488
+	HIGH - 30704022 
+
+[121]
+Resources/Model/Sign_Wooden_Blank_01.fbx
+{FILEITME}
+	LOW - 3124295488
+	HIGH - 30704022 
+
+[122]
+Resources/Model/Soil_ActiveStatus.FBX
+{FILEITME}
+	LOW - 302141504
+	HIGH - 30702201 
+
+[123]
+Resources/Model/Soil_Fresh.FBX
+{FILEITME}
+	LOW - 301471504
+	HIGH - 30702201 
+
+[124]
+Resources/Model/Soil_Hoed.FBX
+{FILEITME}
+	LOW - 304551504
+	HIGH - 30702201 
+
+[125]
+Resources/Model/Soil_Plain.FBX
+{FILEITME}
+	LOW - 304121504
+	HIGH - 30702201 
+
+[126]
+Resources/Model/SoloPlot.FBX
+{FILEITME}
+	LOW - 3126675488
+	HIGH - 30704022 
+
+[127]
+Resources/Model/StonePath.FBX
+{FILEITME}
+	LOW - 1083992816
+	HIGH - 30705504 
+
+[128]
+Resources/Model/Tad.FBX
+{FILEITME}
+	LOW - 3027826480
+	HIGH - 30693745 
+
+[129]
+Resources/Model/TallGrass.FBX
+{FILEITME}
+	LOW - 47709424
+	HIGH - 30706431 
+
+[130]
+Resources/Model/Taugeh_Day.FBX
+{FILEITME}
+	LOW - 307001504
+	HIGH - 30702201 
+
+[131]
+Resources/Model/TestAnimationBlock.FBX
+{FILEITME}
+	LOW - 3025366480
+	HIGH - 30693745 
+
+[132]
+Resources/Model/TikiTorch.FBX
+{FILEITME}
+	LOW - 1085052816
+	HIGH - 30705504 
+
+[133]
+Resources/Model/Uneven_Ground_Dirt_01.fbx
+{FILEITME}
+	LOW - 309941504
+	HIGH - 30702201 
+
+[134]
+Resources/Model/Vegetales_Carrot2_model.FBX
+{FILEITME}
+	LOW - 3126385488
+	HIGH - 30704022 
+
+[135]
+Resources/Model/Vegetales_Kris_model.FBX
+{FILEITME}
+	LOW - 309901504
+	HIGH - 30702201 
+
+[136]
+Resources/Model/ball.fbx
+{FILEITME}
+	LOW - 3011716480
+	HIGH - 30693745 
+
+[137]
+Resources/Model/gallina.fbx
+{FILEITME}
+	LOW - 34167744
+	HIGH - 30697636 
+
+[138]
+Resources/Model/model.dae
+{FILEITME}
+	LOW - 34487744
+	HIGH - 30697636 
+
+[139]
+Resources/Model/palmtree2.FBX
+{FILEITME}
+	LOW - 3122785488
+	HIGH - 30704022 
+
+[140]
+Resources/Model/pangolin_test.FBX
+{FILEITME}
+	LOW - 284421504
+	HIGH - 30702201 
+
+[141]
+Resources/Model/pangolin_test2.FBX
+{FILEITME}
+	LOW - 288021504
+	HIGH - 30702201 
+
+[142]
+Resources/Model/pangolin_test3.FBX
+{FILEITME}
+	LOW - 290451504
+	HIGH - 30702201 
+
+[143]
+Resources/Model/plane.FBX
+{FILEITME}
+	LOW - 3121845488
+	HIGH - 30704022 
+
+[144]
+Resources/Model/platform.fbx
+{FILEITME}
+	LOW - 2990066480
+	HIGH - 30693745 
+
+[145]
+Resources/Model/rhino.FBX
+{FILEITME}
+	LOW - 2991736480
+	HIGH - 30693745 
+
+[146]
+Resources/Model/skybox_plane.FBX
+{FILEITME}
+	LOW - 3124735488
+	HIGH - 30704022 
+
+[147]
+Resources/Model/teapot.FBX
+{FILEITME}
+	LOW - 2995016480
+	HIGH - 30693745 
+
+[148]
+Resources/Model/watchtower.FBX
+{FILEITME}
+	LOW - 3045176480
+	HIGH - 30693745 
+
+[149]
+Resources/Savefile/EditorConfig.cfg
+{FILEITME}
+	LOW - 496655920
+	HIGH - 30706855 
+
+[150]
+Resources/Savefile/Levels/.xml
+{FILEITME}
+	LOW - 1689402448
+	HIGH - 30693762 
+
+[151]
+Resources/Savefile/Levels/Gui.ffs
+{FILEITME}
+	LOW - 1043922224
+	HIGH - 30706506 
+
+[152]
+Resources/Savefile/Levels/Level0.lvl
+{FILEITME}
+	LOW - 1064586016
+	HIGH - 30705054 
+
+[153]
+Resources/Savefile/Levels/MainMenu.ffs
+{FILEITME}
+	LOW - 496815920
+	HIGH - 30706855 
+
+[154]
+Resources/Savefile/Levels/MainMenu.lvl
+{FILEITME}
+	LOW - 407452512
+	HIGH - 30705478 
+
+[155]
+Resources/Savefile/Levels/ParentingGym.ffs
+{FILEITME}
+	LOW - 682682480
+	HIGH - 30700870 
+
+[156]
+Resources/Savefile/Levels/ParticlesIncluded.ffs
+{FILEITME}
+	LOW - 314651504
+	HIGH - 30702201 
+
+[157]
+Resources/Savefile/Levels/PhysicsGym.ffs
+{FILEITME}
+	LOW - 2348222160
+	HIGH - 30705415 
+
+[158]
+Resources/Savefile/Levels/TestLevel.ffs
+{FILEITME}
+	LOW - 499475920
+	HIGH - 30706855 
+
+[159]
+Resources/Savefile/Levels/TestLevel2.ffs
+{FILEITME}
+	LOW - 1041022224
+	HIGH - 30706506 
+
+[160]
+Resources/Savefile/Levels/TestLevelCorrectScale.ffs
+{FILEITME}
+	LOW - 321141504
+	HIGH - 30702201 
+
+[161]
+Resources/Savefile/Levels/TestLevelOld.ffs
+{FILEITME}
+	LOW - 1044142224
+	HIGH - 30706506 
+
+[162]
+Resources/Savefile/Levels/bLevel.ffs
+{FILEITME}
+	LOW - 3128715488
+	HIGH - 30704022 
+
+[163]
+Resources/Savefile/Levels/hierachyTest.ffs
+{FILEITME}
+	LOW - 312291504
+	HIGH - 30702201 
+
+[164]
+Resources/Savefile/Misc/Temp.cfg
+{FILEITME}
+	LOW - 497455920
+	HIGH - 30706855 
+
+[165]
+Resources/Savefile/Misc/TempSpaces.ffs
+{FILEITME}
+	LOW - 2376363280
+	HIGH - 30706695 
+
+[166]
+Resources/Savefile/Prefabs/BananaTree.pfb
+{FILEITME}
+	LOW - 2348742160
+	HIGH - 30705415 
+
+[167]
+Resources/Savefile/Prefabs/Boss1.pfb
+{FILEITME}
+	LOW - 2349802160
+	HIGH - 30705415 
+
+[168]
+Resources/Savefile/Prefabs/BossBall.pfb
+{FILEITME}
+	LOW - 2350152160
+	HIGH - 30705415 
+
+[169]
+Resources/Savefile/Prefabs/BossDefeatedParticle.pfb
+{FILEITME}
+	LOW - 49789424
+	HIGH - 30706431 
+
+[170]
+Resources/Savefile/Prefabs/BossHealth.pfb
+{FILEITME}
+	LOW - 2581916256
+	HIGH - 30706489 
+
+[171]
+Resources/Savefile/Prefabs/BossJoinParticle.pfb
+{FILEITME}
+	LOW - 51059424
+	HIGH - 30706431 
+
+[172]
+Resources/Savefile/Prefabs/BossSmokeParticle.pfb
+{FILEITME}
+	LOW - 51729424
+	HIGH - 30706431 
+
+[173]
+Resources/Savefile/Prefabs/BossSub1.pfb
+{FILEITME}
+	LOW - 52179424
+	HIGH - 30706431 
+
+[174]
+Resources/Savefile/Prefabs/BurstParticle.pfb
+{FILEITME}
+	LOW - 52549424
+	HIGH - 30706431 
+
+[175]
+Resources/Savefile/Prefabs/Camera.pfb
+{FILEITME}
+	LOW - 327771504
+	HIGH - 30702201 
+
+[176]
+Resources/Savefile/Prefabs/CarrotSword.pfb
+{FILEITME}
+	LOW - 52659424
+	HIGH - 30706431 
+
+[177]
+Resources/Savefile/Prefabs/CarrotSwordParticle.pfb
+{FILEITME}
+	LOW - 53489424
+	HIGH - 30706431 
+
+[178]
+Resources/Savefile/Prefabs/ChargeParticle.pfb
+{FILEITME}
+	LOW - 54229424
+	HIGH - 30706431 
+
+[179]
+Resources/Savefile/Prefabs/Collider1.pfb
+{FILEITME}
+	LOW - 2732131376
+	HIGH - 30705019 
+
+[180]
+Resources/Savefile/Prefabs/DirtPile.pfb
+{FILEITME}
+	LOW - 2732531376
+	HIGH - 30705019 
+
+[181]
+Resources/Savefile/Prefabs/DropParticle.pfb
+{FILEITME}
+	LOW - 55089424
+	HIGH - 30706431 
+
+[182]
+Resources/Savefile/Prefabs/ElevatedGround.pfb
+{FILEITME}
+	LOW - 2733911376
+	HIGH - 30705019 
+
+[183]
+Resources/Savefile/Prefabs/EmptySoil.pfb
+{FILEITME}
+	LOW - 55329424
+	HIGH - 30706431 
+
+[184]
+Resources/Savefile/Prefabs/Enemy.pfb
+{FILEITME}
+	LOW - 799377856
+	HIGH - 30700639 
+
+[185]
+Resources/Savefile/Prefabs/Fence.pfb
+{FILEITME}
+	LOW - 2351322160
+	HIGH - 30705415 
+
+[186]
+Resources/Savefile/Prefabs/Fern.pfb
+{FILEITME}
+	LOW - 499925920
+	HIGH - 30706855 
+
+[187]
+Resources/Savefile/Prefabs/GameManager.pfb
+{FILEITME}
+	LOW - 799187856
+	HIGH - 30700639 
+
+[188]
+Resources/Savefile/Prefabs/GlassClutter.pfb
+{FILEITME}
+	LOW - 2734551376
+	HIGH - 30705019 
+
+[189]
+Resources/Savefile/Prefabs/GlassClutter2.pfb
+{FILEITME}
+	LOW - 2734671376
+	HIGH - 30705019 
+
+[190]
+Resources/Savefile/Prefabs/GreenPointLightDay.pfb
+{FILEITME}
+	LOW - 1084652816
+	HIGH - 30705504 
+
+[191]
+Resources/Savefile/Prefabs/Ground.pfb
+{FILEITME}
+	LOW - 1084852816
+	HIGH - 30705504 
+
+[192]
+Resources/Savefile/Prefabs/GroundTile.pfb
+{FILEITME}
+	LOW - 1086802816
+	HIGH - 30705504 
+
+[193]
+Resources/Savefile/Prefabs/GroundTileCorner.pfb
+{FILEITME}
+	LOW - 1086532816
+	HIGH - 30705504 
+
+[194]
+Resources/Savefile/Prefabs/GroundTileSolo.pfb
+{FILEITME}
+	LOW - 1087442816
+	HIGH - 30705504 
+
+[195]
+Resources/Savefile/Prefabs/Health.pfb
+{FILEITME}
+	LOW - 2352722160
+	HIGH - 30705415 
+
+[196]
+Resources/Savefile/Prefabs/HealthPetal.pfb
+{FILEITME}
+	LOW - 55889424
+	HIGH - 30706431 
+
+[197]
+Resources/Savefile/Prefabs/Hill.pfb
+{FILEITME}
+	LOW - 2353522160
+	HIGH - 30705415 
+
+[198]
+Resources/Savefile/Prefabs/HoverTile.pfb
+{FILEITME}
+	LOW - 2736941376
+	HIGH - 30705019 
+
+[199]
+Resources/Savefile/Prefabs/KampungHouse.pfb
+{FILEITME}
+	LOW - 2353682160
+	HIGH - 30705415 
+
+[200]
+Resources/Savefile/Prefabs/LowHill.pfb
+{FILEITME}
+	LOW - 1087452816
+	HIGH - 30705504 
+
+[201]
+Resources/Savefile/Prefabs/PalmTree.pfb
+{FILEITME}
+	LOW - 1087512816
+	HIGH - 30705504 
+
+[202]
+Resources/Savefile/Prefabs/Plant1.pfb
+{FILEITME}
+	LOW - 2388685440
+	HIGH - 30706485 
+
+[203]
+Resources/Savefile/Prefabs/Plant2.pfb
+{FILEITME}
+	LOW - 57039424
+	HIGH - 30706431 
+
+[204]
+Resources/Savefile/Prefabs/Plant3.pfb
+{FILEITME}
+	LOW - 2743321376
+	HIGH - 30705019 
+
+[205]
+Resources/Savefile/Prefabs/Plant3_Carrot.pfb
+{FILEITME}
+	LOW - 2739371376
+	HIGH - 30705019 
+
+[206]
+Resources/Savefile/Prefabs/Plant4.pfb
+{FILEITME}
+	LOW - 2740371376
+	HIGH - 30705019 
+
+[207]
+Resources/Savefile/Prefabs/PlantWheel.pfb
+{FILEITME}
+	LOW - 2739421376
+	HIGH - 30705019 
+
+[208]
+Resources/Savefile/Prefabs/Platform1.pfb
+{FILEITME}
+	LOW - 4001111504
+	HIGH - 30696576 
+
+[209]
+Resources/Savefile/Prefabs/Player.pfb
+{FILEITME}
+	LOW - 57389424
+	HIGH - 30706431 
+
+[210]
+Resources/Savefile/Prefabs/PlayerLight.pfb
+{FILEITME}
+	LOW - 57549424
+	HIGH - 30706431 
+
+[211]
+Resources/Savefile/Prefabs/PlayerRunParticle.pfb
+{FILEITME}
+	LOW - 502675920
+	HIGH - 30706855 
+
+[212]
+Resources/Savefile/Prefabs/PointLightDay.pfb
+{FILEITME}
+	LOW - 1087632816
+	HIGH - 30705504 
+
+[213]
+Resources/Savefile/Prefabs/PottedPlant.pfb
+{FILEITME}
+	LOW - 1089232816
+	HIGH - 30705504 
+
+[214]
+Resources/Savefile/Prefabs/PottedPlant2.pfb
+{FILEITME}
+	LOW - 1089162816
+	HIGH - 30705504 
+
+[215]
+Resources/Savefile/Prefabs/RaisedLand.pfb
+{FILEITME}
+	LOW - 1089332816
+	HIGH - 30705504 
+
+[216]
+Resources/Savefile/Prefabs/Scarecrow.pfb
+{FILEITME}
+	LOW - 57929424
+	HIGH - 30706431 
+
+[217]
+Resources/Savefile/Prefabs/ShortGrass.pfb
+{FILEITME}
+	LOW - 58279424
+	HIGH - 30706431 
+
+[218]
+Resources/Savefile/Prefabs/Shrub.pfb
+{FILEITME}
+	LOW - 2354812160
+	HIGH - 30705415 
+
+[219]
+Resources/Savefile/Prefabs/SideWall.pfb
+{FILEITME}
+	LOW - 938388448
+	HIGH - 30698387 
+
+[220]
+Resources/Savefile/Prefabs/SlantWall.pfb
+{FILEITME}
+	LOW - 936998448
+	HIGH - 30698387 
+
+[221]
+Resources/Savefile/Prefabs/SmallFern.pfb
+{FILEITME}
+	LOW - 2742171376
+	HIGH - 30705019 
+
+[222]
+Resources/Savefile/Prefabs/SmallPalmTree.pfb
+{FILEITME}
+	LOW - 2749501376
+	HIGH - 30705019 
+
+[223]
+Resources/Savefile/Prefabs/SmallRock.pfb
+{FILEITME}
+	LOW - 2354902160
+	HIGH - 30705415 
+
+[224]
+Resources/Savefile/Prefabs/SmokeParticle.pfb
+{FILEITME}
+	LOW - 59089424
+	HIGH - 30706431 
+
+[225]
+Resources/Savefile/Prefabs/SoilHelper.pfb
+{FILEITME}
+	LOW - 59289424
+	HIGH - 30706431 
+
+[226]
+Resources/Savefile/Prefabs/TallGrass.pfb
+{FILEITME}
+	LOW - 59979424
+	HIGH - 30706431 
+
+[227]
+Resources/Savefile/Prefabs/TallRock.pfb
+{FILEITME}
+	LOW - 2355102160
+	HIGH - 30705415 
+
+[228]
+Resources/Savefile/Prefabs/Torch.pfb
+{FILEITME}
+	LOW - 59809424
+	HIGH - 30706431 
+
+[229]
+Resources/Savefile/Prefabs/TorchParticleOrange.pfb
+{FILEITME}
+	LOW - 60349424
+	HIGH - 30706431 
+
+[230]
+Resources/Savefile/Prefabs/TorchPointLight.pfb
+{FILEITME}
+	LOW - 60589424
+	HIGH - 30706431 
+
+[231]
+Resources/Savefile/Prefabs/TransformSmokeParticle.pfb
+{FILEITME}
+	LOW - 60739424
+	HIGH - 30706431 
+
+[232]
+Resources/Savefile/Prefabs/Wall.pfb
+{FILEITME}
+	LOW - 937998448
+	HIGH - 30698387 
+
+[233]
+Resources/Savefile/Prefabs/Wall2.pfb
+{FILEITME}
+	LOW - 938358448
+	HIGH - 30698387 
+
+[234]
+Resources/Savefile/Prefabs/bigPango.pfb
+{FILEITME}
+	LOW - 2349752160
+	HIGH - 30705415 
+
+[235]
+Resources/Savefile/Prefabs/chargeCircle.pfb
+{FILEITME}
+	LOW - 55729424
+	HIGH - 30706431 
+
+[236]
+Resources/Savefile/Prefabs/dropAimFx.pfb
+{FILEITME}
+	LOW - 54619424
+	HIGH - 30706431 
+
+[237]
+Resources/Savefile/Prefabs/dropFx.pfb
+{FILEITME}
+	LOW - 54969424
+	HIGH - 30706431 
+
+[238]
+Resources/Savefile/Prefabs/panmodel.pfb
+{FILEITME}
+	LOW - 56689424
+	HIGH - 30706431 
+
+[239]
+Resources/Scripts/BigPango.lua
+{FILEITME}
+	LOW - 502905920
+	HIGH - 30706855 
+
+[240]
+Resources/Scripts/BigPangoWango.cs
+{FILEITME}
+	LOW - 351531504
+	HIGH - 30702201 
+
+[241]
+Resources/Scripts/ButtonManager.lua
+{FILEITME}
+	LOW - 61769424
+	HIGH - 30706431 
+
+[242]
+Resources/Scripts/Camera.lua
+{FILEITME}
+	LOW - 2322040112
+	HIGH - 30704253 
+
+[243]
+Resources/Scripts/CarrotSword.lua
+{FILEITME}
+	LOW - 3136625488
+	HIGH - 30704022 
+
+[244]
+Resources/Scripts/DestroyAfterInterval.lua
+{FILEITME}
+	LOW - 503345920
+	HIGH - 30706855 
+
+[245]
+Resources/Scripts/DoorTrigger.lua
+{FILEITME}
+	LOW - 1866783760
+	HIGH - 30706440 
+
+[246]
+Resources/Scripts/FiveStone.lua
+{FILEITME}
+	LOW - 752765920
+	HIGH - 30706855 
+
+[247]
+Resources/Scripts/FiveStoneBoss.cs
+{FILEITME}
+	LOW - 801747856
+	HIGH - 30700639 
+
+[248]
+Resources/Scripts/GuiManager.lua
+{FILEITME}
+	LOW - 615821664
+	HIGH - 30706491 
+
+[249]
+Resources/Scripts/MamaWango.cs
+{FILEITME}
+	LOW - 356811504
+	HIGH - 30702201 
+
+[250]
+Resources/Scripts/Manager.lua
+{FILEITME}
+	LOW - 647975920
+	HIGH - 30706855 
+
+[251]
+Resources/Scripts/NullSchield.lua
+{FILEITME}
+	LOW - 63149424
+	HIGH - 30706431 
+
+[252]
+Resources/Scripts/PangoWango.cs
+{FILEITME}
+	LOW - 359191504
+	HIGH - 30702201 
+
+[253]
+Resources/Scripts/PlantInfo.lua
+{FILEITME}
+	LOW - 982110848
+	HIGH - 30706487 
+
+[254]
+Resources/Scripts/Player.lua
+{FILEITME}
+	LOW - 502935920
+	HIGH - 30706855 
+
+[255]
+Resources/Scripts/Soil.lua
+{FILEITME}
+	LOW - 3825122160
+	HIGH - 30706665 
+
+[256]
+Resources/Scripts/Sound.lua
+{FILEITME}
+	LOW - 3123916480
+	HIGH - 30693745 
+
+[257]
+Resources/Scripts/StoneIndi.lua
+{FILEITME}
+	LOW - 508295920
+	HIGH - 30706855 
+
+[258]
+Resources/Scripts/StoneIndiBehaviour.cs
+{FILEITME}
+	LOW - 805337856
+	HIGH - 30700639 
+
+[259]
+Resources/Scripts/dropAim.lua
+{FILEITME}
+	LOW - 62319424
+	HIGH - 30706431 
+
+[260]
+Resources/Sprites/Beansprouts.jpg
+{FILEITME}
+	LOW - 1046402224
+	HIGH - 30706506 
+
+[261]
+Resources/Sprites/Cabbage.jpg
+{FILEITME}
+	LOW - 1046512224
+	HIGH - 30706506 
+
+[262]
+Resources/Sprites/Carrot.jpg
+{FILEITME}
+	LOW - 1049572224
+	HIGH - 30706506 
+
+[263]
+Resources/Sprites/Editor/alerted.png
+{FILEITME}
+	LOW - 2947911904
+	HIGH - 30699176 
+
+[264]
+Resources/Sprites/Editor/collision.dds
+{FILEITME}
+	LOW - 2185022096
+	HIGH - 30695574 
+
+[265]
+Resources/Sprites/Editor/crosshair.dds
+{FILEITME}
+	LOW - 2185432096
+	HIGH - 30695574 
+
+[266]
+Resources/Sprites/Editor/delete.dds
+{FILEITME}
+	LOW - 2185722096
+	HIGH - 30695574 
+
+[267]
+Resources/Sprites/Editor/downarrow.dds
+{FILEITME}
+	LOW - 2185902096
+	HIGH - 30695574 
+
+[268]
+Resources/Sprites/Editor/folder.dds
+{FILEITME}
+	LOW - 2186612096
+	HIGH - 30695574 
+
+[269]
+Resources/Sprites/Editor/invisible.dds
+{FILEITME}
+	LOW - 2186562096
+	HIGH - 30695574 
+
+[270]
+Resources/Sprites/Editor/level.dds
+{FILEITME}
+	LOW - 2188252096
+	HIGH - 30695574 
+
+[271]
+Resources/Sprites/Editor/lua_logo.dds
+{FILEITME}
+	LOW - 2562863152
+	HIGH - 30697638 
+
+[272]
+Resources/Sprites/Editor/particlesIcon.dds
+{FILEITME}
+	LOW - 2187982096
+	HIGH - 30695574 
+
+[273]
+Resources/Sprites/Editor/prefab.dds
+{FILEITME}
+	LOW - 2188242096
+	HIGH - 30695574 
+
+[274]
+Resources/Sprites/Editor/refresh.dds
+{FILEITME}
+	LOW - 2188682096
+	HIGH - 30695574 
+
+[275]
+Resources/Sprites/Editor/relativeCrosshair.dds
+{FILEITME}
+	LOW - 2188602096
+	HIGH - 30695574 
+
+[276]
+Resources/Sprites/Editor/speaker.dds
+{FILEITME}
+	LOW - 2189332096
+	HIGH - 30695574 
+
+[277]
+Resources/Sprites/Editor/txtfile.dds
+{FILEITME}
+	LOW - 2189502096
+	HIGH - 30695574 
+
+[278]
+Resources/Sprites/Editor/unknown.dds
+{FILEITME}
+	LOW - 2190902096
+	HIGH - 30695574 
+
+[279]
+Resources/Sprites/Editor/uparrow.dds
+{FILEITME}
+	LOW - 2190652096
+	HIGH - 30695574 
+
+[280]
+Resources/Sprites/LoadingScreen.png
+{FILEITME}
+	LOW - 65149424
+	HIGH - 30706431 
+
+[281]
+Resources/Sprites/Menu/Asset_16.png
+{FILEITME}
+	LOW - 689939712
+	HIGH - 30706028 
+
+[282]
+Resources/Sprites/Menu/MainMenu_Panel.png
+{FILEITME}
+	LOW - 76949424
+	HIGH - 30706431 
+
+[283]
+Resources/Sprites/Menu/QuitGame Hover.png
+{FILEITME}
+	LOW - 70129424
+	HIGH - 30706431 
+
+[284]
+Resources/Sprites/Menu/QuitGame Press.png
+{FILEITME}
+	LOW - 78399424
+	HIGH - 30706431 
+
+[285]
+Resources/Sprites/Menu/StartGame Default.png
+{FILEITME}
+	LOW - 66939424
+	HIGH - 30706431 
+
+[286]
+Resources/Sprites/Menu/StartGame Hover.png
+{FILEITME}
+	LOW - 67329424
+	HIGH - 30706431 
+
+[287]
+Resources/Sprites/Menu/StartGame Press.png
+{FILEITME}
+	LOW - 67699424
+	HIGH - 30706431 
+
+[288]
+Resources/Sprites/Tomato.jpg
+{FILEITME}
+	LOW - 1050302224
+	HIGH - 30706506 
+
+[289]
+Resources/Sprites/UI/Boss_Health.png
+{FILEITME}
+	LOW - 985040848
+	HIGH - 30706487 
+
+[290]
+Resources/Sprites/UI/Boss_HealthNope2.png
+{FILEITME}
+	LOW - 985420848
+	HIGH - 30706487 
+
+[291]
+Resources/Sprites/UI/Health_Petal.png
+{FILEITME}
+	LOW - 69349424
+	HIGH - 30706431 
+
+[292]
+Resources/Sprites/UI/Health_PetalNope.png
+{FILEITME}
+	LOW - 69809424
+	HIGH - 30706431 
+
+[293]
+Resources/Sprites/UI/ItemBar_Boxgt_.png
+{FILEITME}
+	LOW - 72569424
+	HIGH - 30706431 
+
+[294]
+Resources/Sprites/UI/Item_Carrot.png
+{FILEITME}
+	LOW - 70749424
+	HIGH - 30706431 
+
+[295]
+Resources/Sprites/UI/Item_Carrotgt_.png
+{FILEITME}
+	LOW - 70089424
+	HIGH - 30706431 
+
+[296]
+Resources/Sprites/UI/Item_Flower.png
+{FILEITME}
+	LOW - 70319424
+	HIGH - 30706431 
+
+[297]
+Resources/Sprites/UI/Item_Flowergt_.png
+{FILEITME}
+	LOW - 71879424
+	HIGH - 30706431 
+
+[298]
+Resources/Sprites/UI/Item_Tauge.png
+{FILEITME}
+	LOW - 72299424
+	HIGH - 30706431 
+
+[299]
+Resources/Sprites/UI/Item_Taugegt_.png
+{FILEITME}
+	LOW - 72529424
+	HIGH - 30706431 
+
+[300]
+Resources/Sprites/UI/popup_Plant_Carrot.png
+{FILEITME}
+	LOW - 72769424
+	HIGH - 30706431 
+
+[301]
+Resources/Sprites/UI/popup_Plant_Flower.png
+{FILEITME}
+	LOW - 73199424
+	HIGH - 30706431 
+
+[302]
+Resources/Sprites/UI/popup_Plant_Tauge.png
+{FILEITME}
+	LOW - 74359424
+	HIGH - 30706431 
+
+[303]
+Resources/Sprites/UI/popup_Plough.png
+{FILEITME}
+	LOW - 74819424
+	HIGH - 30706431 
+
+[304]
+Resources/Sprites/UI/popup_Use_Carrot.png
+{FILEITME}
+	LOW - 75009424
+	HIGH - 30706431 
+
+[305]
+Resources/Sprites/UI/popup_Use_Flower.png
+{FILEITME}
+	LOW - 75029424
+	HIGH - 30706431 
+
+[306]
+Resources/Sprites/UI/popup_Use_Tauge.png
+{FILEITME}
+	LOW - 75219424
+	HIGH - 30706431 
+
+[307]
+Resources/Sprites/circleBar.png
+{FILEITME}
+	LOW - 64879424
+	HIGH - 30706431 
+
+[308]
+Resources/Texture/Acid_base.dds
+{FILEITME}
+	LOW - 3134336480
+	HIGH - 30693745 
+
+[309]
+Resources/Texture/BOSS_Diffuse.tga
+{FILEITME}
+	LOW - 91539424
+	HIGH - 30706431 
+
+[310]
+Resources/Texture/BigPangolin_png.png
+{FILEITME}
+	LOW - 89779424
+	HIGH - 30706431 
+
+[311]
+Resources/Texture/Black.png
+{FILEITME}
+	LOW - 2883851376
+	HIGH - 30705019 
+
+[312]
+Resources/Texture/Carrot_Green.png
+{FILEITME}
+	LOW - 2884861376
+	HIGH - 30705019 
+
+[313]
+Resources/Texture/Carrot_Orange.png
+{FILEITME}
+	LOW - 2884511376
+	HIGH - 30705019 
+
+[314]
+Resources/Texture/DAY_BOY_Diffuse.tga
+{FILEITME}
+	LOW - 80569424
+	HIGH - 30706431 
+
+[315]
+Resources/Texture/DarkBrown.png
+{FILEITME}
+	LOW - 3140265488
+	HIGH - 30704022 
+
+[316]
+Resources/Texture/DarkGreen.png
+{FILEITME}
+	LOW - 3140475488
+	HIGH - 30704022 
+
+[317]
+Resources/Texture/DeepGreen.png
+{FILEITME}
+	LOW - 2885371376
+	HIGH - 30705019 
+
+[318]
+Resources/Texture/DirtyGreen.png
+{FILEITME}
+	LOW - 3141275488
+	HIGH - 30704022 
+
+[319]
+Resources/Texture/FENCE_tex.tga
+{FILEITME}
+	LOW - 1065452224
+	HIGH - 30706506 
+
+[320]
+Resources/Texture/FenceBrown.png
+{FILEITME}
+	LOW - 2885251376
+	HIGH - 30705019 
+
+[321]
+Resources/Texture/Fern_Colour.png
+{FILEITME}
+	LOW - 375461504
+	HIGH - 30702201 
+
+[322]
+Resources/Texture/GrassColor.png
+{FILEITME}
+	LOW - 1090402816
+	HIGH - 30705504 
+
+[323]
+Resources/Texture/Grass_Colour.png
+{FILEITME}
+	LOW - 372151504
+	HIGH - 30702201 
+
+[324]
+Resources/Texture/Green.png
+{FILEITME}
+	LOW - 314337888
+	HIGH - 30700872 
+
+[325]
+Resources/Texture/Green1.png
+{FILEITME}
+	LOW - 374551504
+	HIGH - 30702201 
+
+[326]
+Resources/Texture/Ground.TGA
+{FILEITME}
+	LOW - 103389424
+	HIGH - 30706431 
+
+[327]
+Resources/Texture/GroundNew.TGA
+{FILEITME}
+	LOW - 91309424
+	HIGH - 30706431 
+
+[328]
+Resources/Texture/GroundNew_png.png
+{FILEITME}
+	LOW - 101539424
+	HIGH - 30706431 
+
+[329]
+Resources/Texture/Ground_png.png
+{FILEITME}
+	LOW - 106829424
+	HIGH - 30706431 
+
+[330]
+Resources/Texture/Hill_Colour.png
+{FILEITME}
+	LOW - 377821504
+	HIGH - 30702201 
+
+[331]
+Resources/Texture/HouseBG_png.png
+{FILEITME}
+	LOW - 96079424
+	HIGH - 30706431 
+
+[332]
+Resources/Texture/House_BG_N.tga
+{FILEITME}
+	LOW - 94339424
+	HIGH - 30706431 
+
+[333]
+Resources/Texture/House_Colour.png
+{FILEITME}
+	LOW - 380221504
+	HIGH - 30702201 
+
+[334]
+Resources/Texture/House_N.tga
+{FILEITME}
+	LOW - 98219424
+	HIGH - 30706431 
+
+[335]
+Resources/Texture/House_N_png.png
+{FILEITME}
+	LOW - 103699424
+	HIGH - 30706431 
+
+[336]
+Resources/Texture/LightBrown.png
+{FILEITME}
+	LOW - 3141045488
+	HIGH - 30704022 
+
+[337]
+Resources/Texture/NIGHT_BOY_Diffuse.tga
+{FILEITME}
+	LOW - 384011504
+	HIGH - 30702201 
+
+[338]
+Resources/Texture/Pangolin_N.tga
+{FILEITME}
+	LOW - 104999424
+	HIGH - 30706431 
+
+[339]
+Resources/Texture/PotColor.png
+{FILEITME}
+	LOW - 2885301376
+	HIGH - 30705019 
+
+[340]
+Resources/Texture/PotColor2.png
+{FILEITME}
+	LOW - 2887011376
+	HIGH - 30705019 
+
+[341]
+Resources/Texture/Red.png
+{FILEITME}
+	LOW - 2886551376
+	HIGH - 30705019 
+
+[342]
+Resources/Texture/Rock_Colour.png
+{FILEITME}
+	LOW - 387771504
+	HIGH - 30702201 
+
+[343]
+Resources/Texture/Scarecrow_N.tga
+{FILEITME}
+	LOW - 107829424
+	HIGH - 30706431 
+
+[344]
+Resources/Texture/Scarecrow_N_png.png
+{FILEITME}
+	LOW - 107259424
+	HIGH - 30706431 
+
+[345]
+Resources/Texture/SmallPangolin_png.png
+{FILEITME}
+	LOW - 103449424
+	HIGH - 30706431 
+
+[346]
+Resources/Texture/Soil_Colour.png
+{FILEITME}
+	LOW - 390271504
+	HIGH - 30702201 
+
+[347]
+Resources/Texture/Soilcolor.png
+{FILEITME}
+	LOW - 1090652816
+	HIGH - 30705504 
+
+[348]
+Resources/Texture/Tad.dds
+{FILEITME}
+	LOW - 2193392096
+	HIGH - 30695574 
+
+[349]
+Resources/Texture/Taugey_Darkgreen.png
+{FILEITME}
+	LOW - 2887381376
+	HIGH - 30705019 
+
+[350]
+Resources/Texture/Taugey_Green.png
+{FILEITME}
+	LOW - 2886921376
+	HIGH - 30705019 
+
+[351]
+Resources/Texture/Taugey_Lightgreen.png
+{FILEITME}
+	LOW - 2887261376
+	HIGH - 30705019 
+
+[352]
+Resources/Texture/TreeBarkColor.png
+{FILEITME}
+	LOW - 1091582816
+	HIGH - 30705504 
+
+[353]
+Resources/Texture/TreeBark_Colour.png
+{FILEITME}
+	LOW - 382571504
+	HIGH - 30702201 
+
+[354]
+Resources/Texture/TreeColor.png
+{FILEITME}
+	LOW - 1091642816
+	HIGH - 30705504 
+
+[355]
+Resources/Texture/Yellow.png
+{FILEITME}
+	LOW - 3142005488
+	HIGH - 30704022 
+
+[356]
+Resources/Texture/blue.png
+{FILEITME}
+	LOW - 311687888
+	HIGH - 30700872 
+
+[357]
+Resources/Texture/brown.png
+{FILEITME}
+	LOW - 313757888
+	HIGH - 30700872 
+
+[358]
+Resources/Texture/cbaaa-uu1xg.dds
+{FILEITME}
+	LOW - 2966877216
+	HIGH - 30696604 
+
+[359]
+Resources/Texture/cbux3-zlobu.dds
+{FILEITME}
+	LOW - 2966007216
+	HIGH - 30696604 
+
+[360]
+Resources/Texture/cbv9o-czr18.dds
+{FILEITME}
+	LOW - 2966527216
+	HIGH - 30696604 
+
+[361]
+Resources/Texture/fireOrange.png
+{FILEITME}
+	LOW - 77429424
+	HIGH - 30706431 
+
+[362]
+Resources/Texture/fireRed.png
+{FILEITME}
+	LOW - 78109424
+	HIGH - 30706431 
+
+[363]
+Resources/Texture/fireYellow.png
+{FILEITME}
+	LOW - 77639424
+	HIGH - 30706431 
+
+[364]
+Resources/Texture/heart.png
+{FILEITME}
+	LOW - 2360962160
+	HIGH - 30705415 
+
+[365]
+Resources/Texture/popup_Enter Combat.png
+{FILEITME}
+	LOW - 97009424
+	HIGH - 30706431 
+
+[366]
+Resources/Texture/sample.dds
+{FILEITME}
+	LOW - 2191072096
+	HIGH - 30695574 
+
+[367]
+Resources/Texture/sky/+x.png
+{FILEITME}
+	LOW - 104039424
+	HIGH - 30706431 
+
+[368]
+Resources/Texture/sky/+y.png
+{FILEITME}
+	LOW - 108129424
+	HIGH - 30706431 
+
+[369]
+Resources/Texture/sky/+z.png
+{FILEITME}
+	LOW - 106069424
+	HIGH - 30706431 
+
+[370]
+Resources/Texture/sky/-x.png
+{FILEITME}
+	LOW - 108739424
+	HIGH - 30706431 
+
+[371]
+Resources/Texture/sky/-y.png
+{FILEITME}
+	LOW - 107419424
+	HIGH - 30706431 
+
+[372]
+Resources/Texture/sky/-z.png
+{FILEITME}
+	LOW - 108769424
+	HIGH - 30706431 
+
+[373]
+Resources/Texture/sky/BlueSky_Back.png
+{FILEITME}
+	LOW - 106269424
+	HIGH - 30706431 
+
+[374]
+Resources/Texture/sky/PurpleSky_Back.png
+{FILEITME}
+	LOW - 2360832160
+	HIGH - 30705415 
+
+[375]
+Resources/Texture/sky/PurpleSky_Bottom.png
+{FILEITME}
+	LOW - 2361102160
+	HIGH - 30705415 
+
+[376]
+Resources/Texture/sky/PurpleSky_Front.png
+{FILEITME}
+	LOW - 2361242160
+	HIGH - 30705415 
+
+[377]
+Resources/Texture/sky/PurpleSky_Left.png
+{FILEITME}
+	LOW - 2361002160
+	HIGH - 30705415 
+
+[378]
+Resources/Texture/sky/PurpleSky_Right.png
+{FILEITME}
+	LOW - 2361672160
+	HIGH - 30705415 
+
+[379]
+Resources/Texture/sky/PurpleSky_Top.png
+{FILEITME}
+	LOW - 2362562160
+	HIGH - 30705415 
+
+[380]
+Resources/Texture/sky/SkyMidNight_Back.png
+{FILEITME}
+	LOW - 2365242160
+	HIGH - 30705415 
+
+[381]
+Resources/Texture/sky/SkyMidNight_Bottom.png
+{FILEITME}
+	LOW - 2363632160
+	HIGH - 30705415 
+
+[382]
+Resources/Texture/sky/SkyMidNight_Front.png
+{FILEITME}
+	LOW - 2363682160
+	HIGH - 30705415 
+
+[383]
+Resources/Texture/sky/SkyMidNight_Left.png
+{FILEITME}
+	LOW - 2363752160
+	HIGH - 30705415 
+
+[384]
+Resources/Texture/sky/SkyMidNight_Right.png
+{FILEITME}
+	LOW - 2364062160
+	HIGH - 30705415 
+
+[385]
+Resources/Texture/sky/SkyMidNight_Top.png
+{FILEITME}
+	LOW - 2364342160
+	HIGH - 30705415 
+
+[386]
+Resources/Texture/sky/SkyNight_Back.png
+{FILEITME}
+	LOW - 2364312160
+	HIGH - 30705415 
+
+[387]
+Resources/Texture/sky/SkyNight_Bottom.png
+{FILEITME}
+	LOW - 2365472160
+	HIGH - 30705415 
+
+[388]
+Resources/Texture/sky/SkyNight_Front.png
+{FILEITME}
+	LOW - 2366372160
+	HIGH - 30705415 
+
+[389]
+Resources/Texture/sky/SkyNight_Left.png
+{FILEITME}
+	LOW - 2366552160
+	HIGH - 30705415 
+
+[390]
+Resources/Texture/sky/SkyNight_Right.png
+{FILEITME}
+	LOW - 2366422160
+	HIGH - 30705415 
+
+[391]
+Resources/Texture/sky/SkyNight_Top.png
+{FILEITME}
+	LOW - 2366742160
+	HIGH - 30705415 
+
+[392]
+Resources/Texture/sky/SkyNoon_Back.png
+{FILEITME}
+	LOW - 2367482160
+	HIGH - 30705415 
+
+[393]
+Resources/Texture/sky/SkyNoon_Bottom.png
+{FILEITME}
+	LOW - 2367452160
+	HIGH - 30705415 
+
+[394]
+Resources/Texture/sky/SkyNoon_Front.png
+{FILEITME}
+	LOW - 2370082160
+	HIGH - 30705415 
+
+[395]
+Resources/Texture/sky/SkyNoon_Left.png
+{FILEITME}
+	LOW - 2368112160
+	HIGH - 30705415 
+
+[396]
+Resources/Texture/sky/SkyNoon_Right.png
+{FILEITME}
+	LOW - 2369662160
+	HIGH - 30705415 
+
+[397]
+Resources/Texture/sky/SkyNoon_Top.png
+{FILEITME}
+	LOW - 2369932160
+	HIGH - 30705415 
+
+[398]
+Resources/Texture/sky/blood-stain-gorge_bk.dds
+{FILEITME}
+	LOW - 2191512096
+	HIGH - 30695574 
+
+[399]
+Resources/Texture/sky/blood-stain-gorge_dn.dds
+{FILEITME}
+	LOW - 2194192096
+	HIGH - 30695574 
+
+[400]
+Resources/Texture/sky/blood-stain-gorge_ft.dds
+{FILEITME}
+	LOW - 2192182096
+	HIGH - 30695574 
+
+[401]
+Resources/Texture/sky/blood-stain-gorge_lf.dds
+{FILEITME}
+	LOW - 2193692096
+	HIGH - 30695574 
+
+[402]
+Resources/Texture/sky/blood-stain-gorge_rt.dds
+{FILEITME}
+	LOW - 2193632096
+	HIGH - 30695574 
+
+[403]
+Resources/Texture/sky/blood-stain-gorge_up.dds
+{FILEITME}
+	LOW - 2193982096
+	HIGH - 30695574 
+
+[404]
+Resources/Texture/watchtower.dds
+{FILEITME}
+	LOW - 2192332096
+	HIGH - 30695574 
+

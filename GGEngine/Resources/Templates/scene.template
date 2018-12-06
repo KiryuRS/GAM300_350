@@ -1,0 +1,16 @@
+start gamespace
+	name: 
+	file:
+	focus:
+	active:
+	layer:
+	isLevel:
+end gamespace
+
+start nextlevel
+	name: 
+end nextlevel
+
+start config
+	pauseable: 
+end config

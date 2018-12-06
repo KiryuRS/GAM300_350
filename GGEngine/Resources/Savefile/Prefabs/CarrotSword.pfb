@@ -1,0 +1,105 @@
+Root: 
+  Prefab: , Name: CarrotSword
+    Transform: 
+      vector3: 
+        Position: , x: -68.466, y: 276.386, z: 37.2848
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 2.5, y: 2.5, z: 2.5
+    Script: 
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/CarrotSword.lua
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\carrotkrisnew.mdl
+      vector-string: 
+        Materials: , size: 2
+          Item0: CarrotGreen
+          Item1: Orange
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+        rotationAffect_90: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Identifier: 
+      string: 
+        ID: CarrotSword
+    RigidBody: 
+      float: 
+        GravityStrength: 1000
+        Mass: 0.2
+        Bounciness: 0.1
+        Friction: 20
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Children: 
+      Child0: , Name: CarrotSwordParticle
+        Transform: 
+          vector3: 
+            Position: , x: 0, y: -6.4, z: -0.113921
+            Rotation: , x: 0, y: -0, z: 0
+            Scale: , x: 0.4, y: 0, z: 0.4
+        ParticleEmitter: 
+          float: 
+            warmthUpTime: 0
+            lifeTime: 2
+            totalParticles: 30
+            emitRate: 0.5
+            gravityStrength: 0
+            velocityStrength: 10
+            velocityStrength_2: 0
+            size: 1
+            size_2: 1
+            growth: 0
+            degree: 0
+            initialOpacity: 0.369
+            initialDistance: 0
+            initialDistance_2: 0
+          string: 
+            Model_Directory: CompiledAssets\Models\ball.mdl
+            Texture: CompiledAssets\Sprites\yellow.dds
+          bool: 
+            emiting: 1
+            Emissive_Particle: 0
+            rangeVelocity: 0
+            rangeSize: 0
+            lookAtCam: 0
+            emitOnceStart: 0
+            rangeInitialDist: 0
+            randomRotation: 0
+            directionRotation: 1
+          int: 
+            particlesPerEmit: 2
+            emitStyle: 0
+            particlesPerCyclic: 60
+          vector-string: 
+            Materials: , size: 1
+              Item0: Metal
+          vector3: 
+            offSetPosition: , x: 0, y: 0, z: 0
+            directionVector: , x: 0, y: 0, z: 1
+        Children: 

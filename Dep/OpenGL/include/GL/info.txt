@@ -1,0 +1,1 @@
+glew32.lib and glew32s.lib under x64

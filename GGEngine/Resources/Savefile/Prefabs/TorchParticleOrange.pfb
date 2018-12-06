@@ -1,0 +1,47 @@
+Root: 
+  Prefab: , Name: TorchParticleOrange
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: 0.565931, z: 0.229899
+        Rotation: , x: 1.0352e-05, y: -0, z: 0
+        Scale: , x: 1.3816, y: 0.341136, z: 1.3816
+    ParticleEmitter: 
+      float: 
+        warmthUpTime: 0
+        lifeTime: 2
+        totalParticles: 256
+        emitRate: 1
+        gravityStrength: 0
+        velocityStrength: 5
+        velocityStrength_2: 0
+        size: 0.3
+        size_2: 1
+        growth: 0
+        degree: 178.4
+        initialOpacity: 1
+        initialDistance: 0
+        initialDistance_2: 0
+      string: 
+        Model_Directory: CompiledAssets\Models\particle_smoke.mdl
+        Texture: CompiledAssets\Sprites\fireyellow.dds
+      bool: 
+        emiting: 1
+        Emissive_Particle: 1
+        rangeVelocity: 0
+        rangeSize: 0
+        lookAtCam: 0
+        emitOnceStart: 1
+        rangeInitialDist: 0
+        randomRotation: 1
+        directionRotation: 0
+      int: 
+        particlesPerEmit: 1
+        emitStyle: 2
+        particlesPerCyclic: 100
+      vector-string: 
+        Materials: , size: 1
+          Item0: Metal
+      vector3: 
+        offSetPosition: , x: 0, y: 0, z: 0
+        directionVector: , x: 0, y: -1, z: 0.016
+    Children: 

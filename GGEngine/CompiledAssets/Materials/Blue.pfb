@@ -1,0 +1,18 @@
+Root: 
+  Material: , Name: Blue
+    float: 
+      m_specular_power: 0
+      m_normal_power: 6.24492e-39
+      m_illumination_power: 8.44887e-39
+    string: 
+      diffuse_name: CompiledAssets\Sprites\blue.dds
+      specular_name: CompiledAssets\Sprites\blue.dds
+      normal_name: CompiledAssets\Sprites\blue.dds
+      opacity_name: CompiledAssets\Sprites\blue.dds
+      self_illumination_name: CompiledAssets\Sprites\blue.dds
+    bool: 
+      HasDiffuse: 1
+      HasSpecular: 0
+      HasNormal: 0
+      HasOpacity: 1
+      HasSelfIllumination: 0

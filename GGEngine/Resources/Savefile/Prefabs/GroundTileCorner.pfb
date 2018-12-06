@@ -1,0 +1,46 @@
+Root: 
+  Prefab: , Name: GroundTileCorner
+    Transform: 
+      vector3: 
+        Position: , x: 119.579, y: 54.678, z: -456.853
+        Rotation: , x: 270, y: 0, z: 0
+        Scale: , x: 2, y: 2, z: 2
+    Script: 
+      float: 
+        plantTime: 2
+      string: 
+        connectPrefab: CompiledAssets/Models/ground_n1.mdl
+        cornerPrefab: CompiledAssets/Models/ground_n2.mdl
+        plantPrefab: 
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Soil.lua
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\ground_n2.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: SoilColor
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 1
+        rotationAffect_90: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 0.1, z: 7
+    Identifier: 
+      string: 
+        ID: Soil
+    Children: 

@@ -1,0 +1,320 @@
+Root: 
+  Prefab: , Name: Player
+    Transform: 
+      vector3: 
+        Position: , x: -146.532, y: 5.65635, z: 5.26272
+        Rotation: , x: 0, y: 90, z: 0
+        Scale: , x: 1.2, y: 1.2, z: 1.2
+    Script: 
+      float: 
+        attackAnimPercentage: 0.5
+        attackPower: 1
+        attackRange: 350
+        attackSoundID: 4
+        carrotSwordBoost: 1
+        healIncrement: 3
+        jumpForce: 75
+        jumpSoundID: 0
+        maxHealth: 8
+        moveSpeed: 4000
+        pickupAnimPercentage: 0.5
+        plantSoundID: 2
+        ploughAnimPercentage: 0.5
+        ploughSoundID: 1
+        speedLimit: 60
+        taugeyRiseSoundID: 3
+        throwAnimPercentage: 0.75
+        throwStrength: 150
+        walkSoundID: 0
+      string: 
+        carrotSwordPrefab: CarrotSword
+        dayAttackAnim: CompiledAssets/Models/n_singleslash_hoe.mdl
+        dayHarvestAnim: CompiledAssets/Models/n_harvest.mdl
+        dayIdleAnim: CompiledAssets/Models/d_idle.mdl
+        dayJumpAnim: CompiledAssets/Models/d_jumphoe.mdl
+        dayPlough1Anim: CompiledAssets/Models/d_ploughhoe.mdl
+        dayPlough2Anim: CompiledAssets/Models/d_ploughhoe.mdl
+        dayWalkAnim: CompiledAssets/Models/d_runhoe.mdl
+        downKey: S
+        enemyName: BossStone
+        interactKey: E
+        jumpKey: SPACE
+        leftKey: A
+        lmouseKey: LMOUSE
+        nightAttackAnim: CompiledAssets/Models/n_singleslash_hoe.mdl
+        nightDodgeAnim: CompiledAssets/Models/n_dodgehoe.mdl
+        nightFlinchAnim: CompiledAssets/Models/n_flinchhoe.mdl
+        nightHarvestAnim: CompiledAssets/Models/n_harvest.mdl
+        nightIdleAnim: CompiledAssets/Models/n_idlehoe.mdl
+        nightJumpAnim: CompiledAssets/Models/n_jumphoe.mdl
+        nightMaterial: NightPlayer
+        nightPickupAnim: CompiledAssets/Models/n_pickup_kris.mdl
+        nightRunstartAnim: CompiledAssets/Models/anim_n_runstart.mdl
+        nightThrowAnim: CompiledAssets/Models/n_staticthrow_throwing.mdl
+        nightThrowchargeAnim: CompiledAssets/Models/n_staticthrow_charging.mdl
+        nightThrowtransitionAnim: CompiledAssets/Models/n_staticthrow_transtion.mdl
+        nightWalkAnim: CompiledAssets/Models/n_runhoe.mdl
+        plantPrefab1: Plant1
+        plantPrefab2: Plant2
+        plantPrefab3: Plant3
+        plantPrefab4: Plant4
+        rightKey: D
+        rmouseKey: RMOUSE
+        soilPrefab: GroundTileSolo
+        upKey: W
+      bool: 
+        isDay: 1
+        maskOn: 0
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Player.lua
+        plants: , size: 4
+          Item0: itembar_boxgt_.dds
+          Item1: item_taugegt_.dds
+          Item2: item_flowergt_.dds
+          Item3: item_carrotgt_.dds
+      vector3: 
+        carrotSwordOffset: , x: 0, y: 100, z: 0
+    RigidBody: 
+      float: 
+        GravityStrength: 1250
+        Mass: 0.2
+        Bounciness: 0
+        Friction: 7
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Controller: 
+      vector-string: 
+        Up_Key: , size: 0
+        Down_Key: , size: 0
+        Left_Key: , size: 0
+        Right_Key: , size: 0
+        Interact_Key: , size: 0
+        Interact2_Key: , size: 0
+        LeftClick_Key: , size: 0
+        RightClick_Key: , size: 0
+    Sound: 
+      float: 
+        Fade_Duration: 1
+      bool: 
+        Start_BGM: 1
+        Start_LSFX: 0
+      int: 
+        Start_BGM_ID: 0
+        Start_LSFX_ID: 0
+      vector-audioInfo: 
+        BGMs: , size: 1
+          Item0: 
+            float: 
+              Volume: 0.3
+              Spread3D: 180
+            string: 
+              File_Name: Resources/Audio/BGM/FarmingBGM.wav
+            bool: 
+              Audio3D: 0
+        SFXs: , size: 5
+          Item0: 
+            float: 
+              Volume: 2
+              Spread3D: 180
+            string: 
+              File_Name: Resources/Audio/SFX/PlayerJump.wav
+            bool: 
+              Audio3D: 0
+          Item1: 
+            float: 
+              Volume: 2
+              Spread3D: 180
+            string: 
+              File_Name: Resources/Audio/SFX/Plough.wav
+            bool: 
+              Audio3D: 0
+          Item2: 
+            float: 
+              Volume: 10
+              Spread3D: 180
+            string: 
+              File_Name: Resources/Audio/SFX/Plant.wav
+            bool: 
+              Audio3D: 1
+          Item3: 
+            float: 
+              Volume: 5
+              Spread3D: 180
+            string: 
+              File_Name: Resources/Audio/SFX/TaugeyRise.wav
+            bool: 
+              Audio3D: 1
+          Item4: 
+            float: 
+              Volume: 5
+              Spread3D: 180
+            string: 
+              File_Name: Resources/Audio/SFX/Attack.wav
+            bool: 
+              Audio3D: 1
+        LoopingSFXs: , size: 1
+          Item0: 
+            float: 
+              Volume: 1
+              Spread3D: 180
+            string: 
+              File_Name: Resources/Audio/LSFX/Walk.wav
+            bool: 
+              Audio3D: 0
+    Identifier: 
+      string: 
+        ID: player
+    SkeletalMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\d_idle.mdl
+      int: 
+        Animation Number: 0
+      vector-string: 
+        Materials: , size: 15
+          Item0: Player
+          Item1: Player
+          Item2: Player
+          Item3: Player
+          Item4: Player
+          Item5: Player
+          Item6: Player
+          Item7: Player
+          Item8: Player
+          Item9: Player
+          Item10: Player
+          Item11: Player
+          Item12: Player
+          Item13: Player
+          Item14: Player
+    SkeletalMeshRenderer: 
+      float: 
+        Transparency: 1
+        EarlyStopTime: 0
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Loop: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    CapsuleCollider: 
+      float: 
+        Radius: 20
+        Height: 25
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 3
+      vector3: 
+        offset: , x: 0, y: 37, z: 0
+    ParticleEmitter: 
+      float: 
+        warmthUpTime: 0
+        lifeTime: 0.5
+        totalParticles: 1024
+        emitRate: 0.001
+        gravityStrength: 100
+        velocityStrength: 150
+        velocityStrength_2: 5
+        size: 0.5
+        size_2: 1
+        growth: 0
+        degree: 0
+        initialOpacity: 1
+        initialDistance: 0
+        initialDistance_2: 0
+      string: 
+        Model_Directory: CompiledAssets\Models\particle_smoke.mdl
+        Texture: CompiledAssets\Sprites\treebark_colour.dds
+      bool: 
+        emiting: 0
+        rangeVelocity: 0
+        rangeSize: 0
+        lookAtCam: 0
+        emitOnceStart: 0
+        rangeInitialDist: 0
+        randomRotation: 0
+      int: 
+        particlesPerEmit: 60
+        emitStyle: 2
+        particlesPerCyclic: 60
+      vector-string: 
+        Materials: , size: 1
+          Item0: Metal
+      vector3: 
+        offSetPosition: , x: 0, y: 0, z: 0
+        directionVector: , x: 0, y: 0, z: 0
+    Children: 
+      Child0: , Name: PlayerLight
+        Transform: 
+          vector3: 
+            Position: , x: 4.3856, y: 23.2334, z: 3.86038
+            Rotation: , x: -0, y: -90, z: 0
+            Scale: , x: 0.833333, y: 0.833333, z: 0.833333
+        PointLight: 
+          float: 
+            Light_Intensity: 10
+            Light_Radius: 7
+          vector4: 
+            Light_Diffuse: , x: 1e-06, y: 1e-06, z: 9.9999e-07, w: 1
+            Light_Specular: , x: 9.9999e-07, y: 1e-06, z: 9.99998e-07, w: 1
+            Light_Ambient: , x: 0, y: 1e-06, z: 9.65909e-07, w: 1
+        Identifier: 
+          string: 
+            ID: PlayerLight
+        Children: 
+      Child1: , Name: PlayerRunParticle
+        Transform: 
+          vector3: 
+            Position: , x: -0.701163, y: 3.68362, z: 2.98941
+            Rotation: , x: -0, y: 270, z: 0
+            Scale: , x: 0.833333, y: 0.833333, z: 0.833333
+        ParticleEmitter: 
+          float: 
+            warmthUpTime: 0
+            lifeTime: 0.75
+            totalParticles: 128
+            emitRate: 0.1
+            gravityStrength: -5
+            velocityStrength: 20
+            velocityStrength_2: 0
+            size: 0
+            size_2: 1
+            growth: 0.75
+            degree: 0
+            initialOpacity: 1
+            initialDistance: 0
+            initialDistance_2: 0
+          string: 
+            Model_Directory: CompiledAssets\Models\particle_smoke.mdl
+            Texture: CompiledAssets\Sprites\yellow.dds
+          bool: 
+            emiting: 1
+            rangeVelocity: 0
+            rangeSize: 0
+            lookAtCam: 0
+            emitOnceStart: 0
+            rangeInitialDist: 0
+            randomRotation: 0
+          int: 
+            particlesPerEmit: 1
+            emitStyle: 4
+            particlesPerCyclic: 60
+          vector-string: 
+            Materials: , size: 1
+              Item0: Metal
+          vector3: 
+            offSetPosition: , x: 0, y: 0, z: 0
+            directionVector: , x: -0.999681, y: 0.0195248, z: 0.016
+        Children: 

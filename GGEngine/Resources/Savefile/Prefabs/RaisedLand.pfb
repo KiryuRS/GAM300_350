@@ -1,0 +1,39 @@
+Root: 
+  Prefab: , Name: RaisedLand
+    Transform: 
+      vector3: 
+        Position: , x: 127.937, y: 19.145, z: 59.1616
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 600, y: 600, z: 600
+    Script: 
+      vector-string: 
+        Scripts: , size: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: SoilColor
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+        rotationAffect_90: 0
+      int: 
+        ColliderLayerCode: 3
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Identifier: 
+      string: 
+        ID: RaisedLand
+    Children: 

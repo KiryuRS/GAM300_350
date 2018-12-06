@@ -1,0 +1,31 @@
+Root: 
+  Prefab: , Name: BananaTree
+    Transform: 
+      vector3: 
+        Position: , x: 3583.31, y: -7.5295, z: -44.4721
+        Rotation: , x: 89.9998, y: 354.328, z: 180.001
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bananatree.mdl
+      vector-string: 
+        Materials: , size: 9
+          Item0: Plant
+          Item1: Plant
+          Item2: Plant
+          Item3: Plant
+          Item4: Plant
+          Item5: Plant
+          Item6: Plant
+          Item7: Plant
+          Item8: Brown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    Children: 

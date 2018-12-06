@@ -1,0 +1,23 @@
+Root: 
+  Prefab: , Name: Shrub
+    Transform: 
+      vector3: 
+        Position: , x: 2736.41, y: -4.90752, z: -1052.31
+        Rotation: , x: 270, y: 298.778, z: 0
+        Scale: , x: 3, y: 3, z: 3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\shrub.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: DarkGreen
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    Children: 

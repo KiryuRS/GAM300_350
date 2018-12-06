@@ -1,0 +1,8 @@
+{
+    "editor.rulers": [
+        80
+    ],
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "off",
+    "editor.insertSpaces": false
+}

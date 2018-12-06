@@ -1,0 +1,23 @@
+Root: 
+  Prefab: , Name: DirtPile
+    Transform: 
+      vector3: 
+        Position: , x: -338.588, y: 3.21016, z: -505.001
+        Rotation: , x: 0, y: 70.1782, z: 359.999
+        Scale: , x: 0.3, y: 0.3, z: 0.3
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\uneven_ground_dirt_01.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Soil
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    Children: 

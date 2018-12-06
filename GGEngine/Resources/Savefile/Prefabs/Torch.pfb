@@ -1,0 +1,177 @@
+Root: 
+  Prefab: , Name: Torch
+    Transform: 
+      vector3: 
+        Position: , x: -247.544, y: -11.1436, z: 755.941
+        Rotation: , x: 266.37, y: -0, z: 0
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\tikitorch.mdl
+      vector-string: 
+        Materials: , size: 2
+          Item0: Brown
+          Item1: FenceBrown
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    Children: 
+      Child0: , Name: TorchPointLight
+        Transform: 
+          vector3: 
+            Position: , x: 8.17325, y: 0.731174, z: 70.5399
+            Rotation: , x: 96.784, y: -0, z: 0
+            Scale: , x: 0.5, y: 0.5, z: 0.5
+        PointLight: 
+          float: 
+            Light_Intensity: 150
+            Light_Radius: 3
+          vector4: 
+            Light_Diffuse: , x: 0.946078, y: 0.584342, z: 0, w: 1
+            Light_Specular: , x: 0.617647, y: 0.510301, z: 0.145329, w: 1
+            Light_Ambient: , x: 0.70098, y: 0.5854, z: 0.0652874, w: 1
+        Children: 
+      Child1: , Name: TorchParticleOrange
+        Transform: 
+          vector3: 
+            Position: , x: -0.247848, y: -0.449707, z: 61.0154
+            Rotation: , x: 89.084, y: -0, z: 0
+            Scale: , x: 0.3619, y: 1.46569, z: 0.3619
+        ParticleEmitter: 
+          float: 
+            warmthUpTime: 0
+            lifeTime: 2
+            totalParticles: 256
+            emitRate: 1
+            gravityStrength: 0
+            velocityStrength: 5
+            velocityStrength_2: 0
+            size: 0.4
+            size_2: 1
+            growth: 0
+            degree: 178.4
+            initialOpacity: 1
+            initialDistance: 0
+            initialDistance_2: 0
+          string: 
+            Model_Directory: CompiledAssets\Models\particle_smoke.mdl
+            Texture: CompiledAssets\Sprites\fireorange.dds
+          bool: 
+            emiting: 1
+            Emissive_Particle: 0
+            rangeVelocity: 0
+            rangeSize: 0
+            lookAtCam: 0
+            emitOnceStart: 1
+            rangeInitialDist: 0
+            randomRotation: 1
+            directionRotation: 0
+          int: 
+            particlesPerEmit: 1
+            emitStyle: 2
+            particlesPerCyclic: 100
+          vector-string: 
+            Materials: , size: 1
+              Item0: Metal
+          vector3: 
+            offSetPosition: , x: 0, y: 0, z: 0
+            directionVector: , x: 0, y: -1, z: 0.016
+        Children: 
+          Child0: , Name: TorchParticleYellow
+            Transform: 
+              vector3: 
+                Position: , x: 0, y: 3.65506, z: 7.94492e-06
+                Rotation: , x: 0, y: -0, z: 0
+                Scale: , x: 1, y: 1, z: 1
+            ParticleEmitter: 
+              float: 
+                warmthUpTime: 0
+                lifeTime: 4
+                totalParticles: 256
+                emitRate: 1
+                gravityStrength: 0
+                velocityStrength: 5
+                velocityStrength_2: 0
+                size: 0.8
+                size_2: 1
+                growth: 0
+                degree: 178.4
+                initialOpacity: 0.138
+                initialDistance: 0
+                initialDistance_2: 0
+              string: 
+                Model_Directory: CompiledAssets\Models\particle_smoke.mdl
+                Texture: CompiledAssets\Sprites\black.dds
+              bool: 
+                emiting: 1
+                Emissive_Particle: 1
+                rangeVelocity: 0
+                rangeSize: 0
+                lookAtCam: 0
+                emitOnceStart: 1
+                rangeInitialDist: 0
+                randomRotation: 1
+                directionRotation: 0
+              int: 
+                particlesPerEmit: 1
+                emitStyle: 2
+                particlesPerCyclic: 100
+              vector-string: 
+                Materials: , size: 1
+                  Item0: Metal
+              vector3: 
+                offSetPosition: , x: 0, y: 0, z: 0
+                directionVector: , x: 0, y: -1, z: 0.016
+            Children: 
+          Child1: , Name: TorchParticleOrange
+            Transform: 
+              vector3: 
+                Position: , x: 0, y: 0.565931, z: 0.229899
+                Rotation: , x: 1.0352e-05, y: -0, z: 0
+                Scale: , x: 1.3816, y: 0.341136, z: 1.3816
+            ParticleEmitter: 
+              float: 
+                warmthUpTime: 0
+                lifeTime: 2
+                totalParticles: 256
+                emitRate: 1
+                gravityStrength: 0
+                velocityStrength: 5
+                velocityStrength_2: 0
+                size: 0.3
+                size_2: 1
+                growth: 0
+                degree: 178.4
+                initialOpacity: 1
+                initialDistance: 0
+                initialDistance_2: 0
+              string: 
+                Model_Directory: CompiledAssets\Models\particle_smoke.mdl
+                Texture: CompiledAssets\Sprites\fireyellow.dds
+              bool: 
+                emiting: 1
+                Emissive_Particle: 0
+                rangeVelocity: 0
+                rangeSize: 0
+                lookAtCam: 0
+                emitOnceStart: 1
+                rangeInitialDist: 0
+                randomRotation: 1
+                directionRotation: 0
+              int: 
+                particlesPerEmit: 1
+                emitStyle: 2
+                particlesPerCyclic: 100
+              vector-string: 
+                Materials: , size: 1
+                  Item0: Metal
+              vector3: 
+                offSetPosition: , x: 0, y: 0, z: 0
+                directionVector: , x: 0, y: -1, z: 0.016
+            Children: 

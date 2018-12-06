@@ -1,0 +1,698 @@
+Root: 
+  Prefab: , Name: Boss1
+    Transform: 
+      vector3: 
+        Position: , x: 261.698, y: -1.63311, z: -633.53
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Script: 
+      float: 
+        AttackCooldown: 3
+        AttackLimit: 1
+        AttackMovementSpeed: 10
+        DropBaseCooldown: 10
+        DropChargeTime: 1
+        DropCooldown: 0
+        DropTimer: 1
+        DropdownHeight: 100
+        GeneralCooldown: 0
+        IdleLimit: 1
+        PangosOnPoint: 0
+        SpinBaseCooldown: 15
+        SpinCooldown: 0
+        SpinDelayTime: 1.5
+        SpinSpeed: 10
+        lastState: 3
+        maxHP: 10
+        pangosLanded: 0
+        pangosOnPoint: 0
+        state: 0
+        timer: 0
+      bool: 
+        DropCharge: 0
+        DropMode: 0
+        Dropping: 0
+        SpinMode: 0
+        SpinPrep: 0
+        Spinning: 0
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/FiveStone.lua
+      vector3: 
+        bigPangPos: , x: 0, y: 0, z: 0
+        mamaPosition: , x: 0, y: 0, z: 0
+    Identifier: 
+      string: 
+        ID: Enemy
+    Children: 
+      Child0: , Name: BossSub1
+        Transform: 
+          vector3: 
+            Position: , x: -119.589, y: 0, z: 0
+            Rotation: , x: 0, y: -0, z: 0
+            Scale: , x: 10, y: 10, z: 10
+        Script: 
+          float: 
+            Index: 0
+            JumpState: 0
+            NextState: 0
+            State: 0
+            anticipateTime: 2
+            attackAccel: 640
+            attackDist: 800
+            attackSpeed: 640
+            chaseAccel: 128
+            chaseSpeed: 160
+            coolDownTime: 2
+            curDT: 0
+            jumpStateTimer: 0
+            moveAccel: 0
+            moveSpeed: 0
+            moveStopDist: 0
+            timer: 0
+          bool: 
+            jumpAttackExplosion: 0
+            moveReverse: 0
+            moveUpdatePos: 1
+          vector-string: 
+            Scripts: , size: 1
+              Item0: Resources/Scripts/StoneIndi.lua
+          vector3: 
+            MamaCenter: , x: 0, y: 0, z: 0
+            attackTarget: , x: 0, y: 0, z: 0
+            bigMamaPosition: , x: 0, y: 0, z: 0
+            dir: , x: 0, y: 0, z: 0
+            draw: , x: 0, y: 0, z: 0
+            draw2: , x: 0, y: 0, z: 0
+            draw3: , x: 0, y: 0, z: 0
+            moveDestPos: , x: 0, y: 0, z: 0
+        RigidBody: 
+          float: 
+            GravityStrength: 20
+            Mass: 1
+            Bounciness: 0
+            Friction: 0
+          bool: 
+            isGravity: 1
+            isKinematic: 0
+            constraintPositionX: 0
+            constraintPositionY: 0
+            constraintPositionZ: 0
+            constraintRotateX: 0
+            constraintRotateY: 0
+            constraintRotateZ: 0
+          vector3: 
+            Force: , x: 0, y: 0, z: 0
+            Velocity: , x: 0, y: 0, z: 0
+        Identifier: 
+          string: 
+            ID: BossStone5
+        AABBCollider: 
+          bool: 
+            Debug Draw: 1
+            isTrigger: 0
+            rotationAffect_90: 0
+          int: 
+            ColliderLayerCode: 1
+          vector3: 
+            offset: , x: 0, y: 20, z: 0
+            Scale: , x: 0.2, y: 0.2, z: 0.3
+        ParticleEmitter: 
+          float: 
+            warmthUpTime: 0
+            lifeTime: 1
+            totalParticles: 256
+            emitRate: 0.01
+            gravityStrength: 50
+            velocityStrength: 200
+            velocityStrength_2: 0
+            degree: 0
+            initialOpacity: 1
+            initialDistance: 0
+            initialDistance_2: 0
+          string: 
+            Model_Directory: CompiledAssets\Models\ball.mdl
+            Texture: CompiledAssets/Sprites/sample.dds
+          bool: 
+            emiting: 0
+            rangeVelocity: 0
+            rangeSize: 0
+            lookAtCam: 0
+            emitOnceStart: 0
+            rangeInitialDist: 0
+            randomRotation: 0
+          int: 
+            particlesPerEmit: 120
+            emitStyle: 2
+            particlesPerCyclic: 60
+          vector-string: 
+            Materials: , size: 0
+          vector3: 
+            offSetPosition: , x: 0, y: 0, z: 0
+            size: , x: 1, y: 1, z: 1
+            size_2: , x: 1, y: 1, z: 1
+            growth: , x: -0.1, y: -0.1, z: -0.1
+            directionVector: , x: 0, y: 0, z: 0
+        Children: 
+          Child0: , Name: panmodel
+            Transform: 
+              vector3: 
+                Position: , x: 0, y: 0, z: 0
+                Rotation: , x: -90, y: 0, z: 0
+                Scale: , x: 0.1, y: 0.1, z: 0.1
+            StaticMesh: 
+              string: 
+                Model_Directory: CompiledAssets\Models\pangolin_test3.mdl
+              vector-string: 
+                Materials: , size: 0
+            StaticMeshRenderer: 
+              float: 
+                Transparency: 1
+              bool: 
+                Cast Shadow: 1
+                Receive Shadow: 1
+                Visible: 1
+              vector4: 
+                Tint: , x: 1, y: 1, z: 1, w: 0
+            Children: 
+      Child1: , Name: BossSub1
+        Transform: 
+          vector3: 
+            Position: , x: -59.3498, y: 0, z: 0
+            Rotation: , x: 0, y: -0, z: 0
+            Scale: , x: 10, y: 10, z: 10
+        Script: 
+          float: 
+            Index: 0
+            JumpState: 0
+            NextState: 0
+            State: 0
+            anticipateTime: 2
+            attackAccel: 640
+            attackDist: 800
+            attackSpeed: 640
+            chaseAccel: 128
+            chaseSpeed: 160
+            coolDownTime: 2
+            curDT: 0
+            jumpStateTimer: 0
+            moveAccel: 0
+            moveSpeed: 0
+            moveStopDist: 0
+            timer: 0
+          bool: 
+            jumpAttackExplosion: 0
+            moveReverse: 0
+            moveUpdatePos: 1
+          vector-string: 
+            Scripts: , size: 1
+              Item0: Resources/Scripts/StoneIndi.lua
+          vector3: 
+            MamaCenter: , x: 0, y: 0, z: 0
+            attackTarget: , x: 0, y: 0, z: 0
+            bigMamaPosition: , x: 0, y: 0, z: 0
+            dir: , x: 0, y: 0, z: 0
+            draw: , x: 0, y: 0, z: 0
+            draw2: , x: 0, y: 0, z: 0
+            draw3: , x: 0, y: 0, z: 0
+            moveDestPos: , x: 0, y: 0, z: 0
+        RigidBody: 
+          float: 
+            GravityStrength: 20
+            Mass: 1
+            Bounciness: 0
+            Friction: 0
+          bool: 
+            isGravity: 1
+            isKinematic: 0
+            constraintPositionX: 0
+            constraintPositionY: 0
+            constraintPositionZ: 0
+            constraintRotateX: 0
+            constraintRotateY: 0
+            constraintRotateZ: 0
+          vector3: 
+            Force: , x: 0, y: 0, z: 0
+            Velocity: , x: 0, y: 0, z: 0
+        Identifier: 
+          string: 
+            ID: BossStone4
+        AABBCollider: 
+          bool: 
+            Debug Draw: 1
+            isTrigger: 0
+            rotationAffect_90: 0
+          int: 
+            ColliderLayerCode: 1
+          vector3: 
+            offset: , x: 0, y: 20, z: 0
+            Scale: , x: 0.2, y: 0.2, z: 0.3
+        ParticleEmitter: 
+          float: 
+            warmthUpTime: 0
+            lifeTime: 1
+            totalParticles: 256
+            emitRate: 0.01
+            gravityStrength: 50
+            velocityStrength: 200
+            velocityStrength_2: 0
+            degree: 0
+            initialOpacity: 1
+            initialDistance: 0
+            initialDistance_2: 0
+          string: 
+            Model_Directory: CompiledAssets\Models\ball.mdl
+            Texture: CompiledAssets/Sprites/sample.dds
+          bool: 
+            emiting: 0
+            rangeVelocity: 0
+            rangeSize: 0
+            lookAtCam: 0
+            emitOnceStart: 0
+            rangeInitialDist: 0
+            randomRotation: 0
+          int: 
+            particlesPerEmit: 120
+            emitStyle: 2
+            particlesPerCyclic: 60
+          vector-string: 
+            Materials: , size: 0
+          vector3: 
+            offSetPosition: , x: 0, y: 0, z: 0
+            size: , x: 1, y: 1, z: 1
+            size_2: , x: 1, y: 1, z: 1
+            growth: , x: -0.1, y: -0.1, z: -0.1
+            directionVector: , x: 0, y: 0, z: 0
+        Children: 
+          Child0: , Name: panmodel
+            Transform: 
+              vector3: 
+                Position: , x: 0, y: 0, z: 0
+                Rotation: , x: -90, y: -0, z: 0
+                Scale: , x: 0.1, y: 0.1, z: 0.1
+            StaticMesh: 
+              string: 
+                Model_Directory: CompiledAssets\Models\pangolin_test3.mdl
+              vector-string: 
+                Materials: , size: 0
+            StaticMeshRenderer: 
+              float: 
+                Transparency: 1
+              bool: 
+                Cast Shadow: 1
+                Receive Shadow: 1
+                Visible: 1
+              vector4: 
+                Tint: , x: 1, y: 1, z: 1, w: 0
+            Children: 
+      Child2: , Name: BossSub1
+        Transform: 
+          vector3: 
+            Position: , x: -168.149, y: 0, z: 0
+            Rotation: , x: 0, y: -0, z: 0
+            Scale: , x: 10, y: 10, z: 10
+        Script: 
+          float: 
+            Index: 0
+            JumpState: 0
+            NextState: 0
+            State: 0
+            anticipateTime: 2
+            attackAccel: 640
+            attackDist: 800
+            attackSpeed: 640
+            chaseAccel: 128
+            chaseSpeed: 160
+            coolDownTime: 2
+            curDT: 0
+            jumpStateTimer: 0
+            moveAccel: 0
+            moveSpeed: 0
+            moveStopDist: 0
+            timer: 0
+          bool: 
+            jumpAttackExplosion: 0
+            moveReverse: 0
+            moveUpdatePos: 1
+          vector-string: 
+            Scripts: , size: 1
+              Item0: Resources/Scripts/StoneIndi.lua
+          vector3: 
+            MamaCenter: , x: 0, y: 0, z: 0
+            attackTarget: , x: 0, y: 0, z: 0
+            bigMamaPosition: , x: 0, y: 0, z: 0
+            dir: , x: 0, y: 0, z: 0
+            draw: , x: 0, y: 0, z: 0
+            draw2: , x: 0, y: 0, z: 0
+            draw3: , x: 0, y: 0, z: 0
+            moveDestPos: , x: 0, y: 0, z: 0
+        RigidBody: 
+          float: 
+            GravityStrength: 20
+            Mass: 1
+            Bounciness: 0
+            Friction: 0
+          bool: 
+            isGravity: 1
+            isKinematic: 0
+            constraintPositionX: 0
+            constraintPositionY: 0
+            constraintPositionZ: 0
+            constraintRotateX: 0
+            constraintRotateY: 0
+            constraintRotateZ: 0
+          vector3: 
+            Force: , x: 0, y: 0, z: 0
+            Velocity: , x: 0, y: 0, z: 0
+        Identifier: 
+          string: 
+            ID: BossStone3
+        AABBCollider: 
+          bool: 
+            Debug Draw: 1
+            isTrigger: 0
+            rotationAffect_90: 0
+          int: 
+            ColliderLayerCode: 1
+          vector3: 
+            offset: , x: 0, y: 20, z: 0
+            Scale: , x: 0.2, y: 0.2, z: 0.3
+        ParticleEmitter: 
+          float: 
+            warmthUpTime: 0
+            lifeTime: 1
+            totalParticles: 256
+            emitRate: 0.01
+            gravityStrength: 50
+            velocityStrength: 200
+            velocityStrength_2: 0
+            degree: 0
+            initialOpacity: 1
+            initialDistance: 0
+            initialDistance_2: 0
+          string: 
+            Model_Directory: CompiledAssets\Models\ball.mdl
+            Texture: CompiledAssets/Sprites/sample.dds
+          bool: 
+            emiting: 0
+            rangeVelocity: 0
+            rangeSize: 0
+            lookAtCam: 0
+            emitOnceStart: 0
+            rangeInitialDist: 0
+            randomRotation: 0
+          int: 
+            particlesPerEmit: 120
+            emitStyle: 2
+            particlesPerCyclic: 60
+          vector-string: 
+            Materials: , size: 0
+          vector3: 
+            offSetPosition: , x: 0, y: 0, z: 0
+            size: , x: 1, y: 1, z: 1
+            size_2: , x: 1, y: 1, z: 1
+            growth: , x: -0.1, y: -0.1, z: -0.1
+            directionVector: , x: 0, y: 0, z: 0
+        Children: 
+          Child0: , Name: panmodel
+            Transform: 
+              vector3: 
+                Position: , x: 0, y: 0, z: 0
+                Rotation: , x: -90, y: -0, z: 0
+                Scale: , x: 0.1, y: 0.1, z: 0.1
+            StaticMesh: 
+              string: 
+                Model_Directory: CompiledAssets\Models\pangolin_test3.mdl
+              vector-string: 
+                Materials: , size: 0
+            StaticMeshRenderer: 
+              float: 
+                Transparency: 1
+              bool: 
+                Cast Shadow: 1
+                Receive Shadow: 1
+                Visible: 1
+              vector4: 
+                Tint: , x: 1, y: 1, z: 1, w: 0
+            Children: 
+      Child3: , Name: BossSub1
+        Transform: 
+          vector3: 
+            Position: , x: -231.974, y: 0, z: 0
+            Rotation: , x: 0, y: -0, z: 0
+            Scale: , x: 10, y: 10, z: 10
+        Script: 
+          float: 
+            Index: 0
+            JumpState: 0
+            NextState: 0
+            State: 0
+            anticipateTime: 2
+            attackAccel: 640
+            attackDist: 800
+            attackSpeed: 640
+            chaseAccel: 128
+            chaseSpeed: 160
+            coolDownTime: 2
+            curDT: 0
+            jumpStateTimer: 0
+            moveAccel: 0
+            moveSpeed: 0
+            moveStopDist: 0
+            timer: 0
+          bool: 
+            jumpAttackExplosion: 0
+            moveReverse: 0
+            moveUpdatePos: 1
+          vector-string: 
+            Scripts: , size: 1
+              Item0: Resources/Scripts/StoneIndi.lua
+          vector3: 
+            MamaCenter: , x: 0, y: 0, z: 0
+            attackTarget: , x: 0, y: 0, z: 0
+            bigMamaPosition: , x: 0, y: 0, z: 0
+            dir: , x: 0, y: 0, z: 0
+            draw: , x: 0, y: 0, z: 0
+            draw2: , x: 0, y: 0, z: 0
+            draw3: , x: 0, y: 0, z: 0
+            moveDestPos: , x: 0, y: 0, z: 0
+        RigidBody: 
+          float: 
+            GravityStrength: 20
+            Mass: 1
+            Bounciness: 0
+            Friction: 0
+          bool: 
+            isGravity: 1
+            isKinematic: 0
+            constraintPositionX: 0
+            constraintPositionY: 0
+            constraintPositionZ: 0
+            constraintRotateX: 0
+            constraintRotateY: 0
+            constraintRotateZ: 0
+          vector3: 
+            Force: , x: 0, y: 0, z: 0
+            Velocity: , x: 0, y: 0, z: 0
+        Identifier: 
+          string: 
+            ID: BossStone2
+        AABBCollider: 
+          bool: 
+            Debug Draw: 1
+            isTrigger: 0
+            rotationAffect_90: 0
+          int: 
+            ColliderLayerCode: 1
+          vector3: 
+            offset: , x: 0, y: 20, z: 0
+            Scale: , x: 0.2, y: 0.2, z: 0.3
+        ParticleEmitter: 
+          float: 
+            warmthUpTime: 0
+            lifeTime: 1
+            totalParticles: 256
+            emitRate: 0.01
+            gravityStrength: 50
+            velocityStrength: 200
+            velocityStrength_2: 0
+            degree: 0
+            initialOpacity: 1
+            initialDistance: 0
+            initialDistance_2: 0
+          string: 
+            Model_Directory: CompiledAssets\Models\ball.mdl
+            Texture: CompiledAssets/Sprites/sample.dds
+          bool: 
+            emiting: 0
+            rangeVelocity: 0
+            rangeSize: 0
+            lookAtCam: 0
+            emitOnceStart: 0
+            rangeInitialDist: 0
+            randomRotation: 0
+          int: 
+            particlesPerEmit: 120
+            emitStyle: 2
+            particlesPerCyclic: 60
+          vector-string: 
+            Materials: , size: 0
+          vector3: 
+            offSetPosition: , x: 0, y: 0, z: 0
+            size: , x: 1, y: 1, z: 1
+            size_2: , x: 1, y: 1, z: 1
+            growth: , x: -0.1, y: -0.1, z: -0.1
+            directionVector: , x: 0, y: 0, z: 0
+        Children: 
+          Child0: , Name: panmodel
+            Transform: 
+              vector3: 
+                Position: , x: 0, y: 0, z: 0
+                Rotation: , x: -90, y: -0, z: 0
+                Scale: , x: 0.1, y: 0.1, z: 0.1
+            StaticMesh: 
+              string: 
+                Model_Directory: CompiledAssets\Models\pangolin_test3.mdl
+              vector-string: 
+                Materials: , size: 0
+            StaticMeshRenderer: 
+              float: 
+                Transparency: 1
+              bool: 
+                Cast Shadow: 1
+                Receive Shadow: 1
+                Visible: 1
+              vector4: 
+                Tint: , x: 1, y: 1, z: 1, w: 0
+            Children: 
+      Child4: , Name: BossSub1
+        Transform: 
+          vector3: 
+            Position: , x: -231.974, y: 0, z: 0
+            Rotation: , x: 0, y: -0, z: 0
+            Scale: , x: 10, y: 10, z: 10
+        Script: 
+          float: 
+            Index: 0
+            JumpState: 0
+            NextState: 0
+            State: 0
+            anticipateTime: 2
+            attackAccel: 640
+            attackDist: 800
+            attackSpeed: 640
+            chaseAccel: 128
+            chaseSpeed: 160
+            coolDownTime: 2
+            curDT: 0
+            jumpStateTimer: 0
+            moveAccel: 0
+            moveSpeed: 0
+            moveStopDist: 0
+            timer: 0
+          bool: 
+            jumpAttackExplosion: 0
+            moveReverse: 0
+            moveUpdatePos: 1
+          vector-string: 
+            Scripts: , size: 1
+              Item0: Resources/Scripts/StoneIndi.lua
+          vector3: 
+            MamaCenter: , x: 0, y: 0, z: 0
+            attackTarget: , x: 0, y: 0, z: 0
+            bigMamaPosition: , x: 0, y: 0, z: 0
+            dir: , x: 0, y: 0, z: 0
+            draw: , x: 0, y: 0, z: 0
+            draw2: , x: 0, y: 0, z: 0
+            draw3: , x: 0, y: 0, z: 0
+            moveDestPos: , x: 0, y: 0, z: 0
+        RigidBody: 
+          float: 
+            GravityStrength: 20
+            Mass: 1
+            Bounciness: 0
+            Friction: 0
+          bool: 
+            isGravity: 1
+            isKinematic: 0
+            constraintPositionX: 0
+            constraintPositionY: 0
+            constraintPositionZ: 0
+            constraintRotateX: 0
+            constraintRotateY: 0
+            constraintRotateZ: 0
+          vector3: 
+            Force: , x: 0, y: 0, z: 0
+            Velocity: , x: 0, y: 0, z: 0
+        Identifier: 
+          string: 
+            ID: BossStone1
+        AABBCollider: 
+          bool: 
+            Debug Draw: 1
+            isTrigger: 0
+            rotationAffect_90: 0
+          int: 
+            ColliderLayerCode: 1
+          vector3: 
+            offset: , x: 0, y: 20, z: 0
+            Scale: , x: 0.2, y: 0.2, z: 0.3
+        ParticleEmitter: 
+          float: 
+            warmthUpTime: 0
+            lifeTime: 1
+            totalParticles: 256
+            emitRate: 0.01
+            gravityStrength: 50
+            velocityStrength: 200
+            velocityStrength_2: 0
+            degree: 0
+            initialOpacity: 1
+            initialDistance: 0
+            initialDistance_2: 0
+          string: 
+            Model_Directory: CompiledAssets\Models\ball.mdl
+            Texture: CompiledAssets/Sprites/sample.dds
+          bool: 
+            emiting: 0
+            rangeVelocity: 0
+            rangeSize: 0
+            lookAtCam: 0
+            emitOnceStart: 0
+            rangeInitialDist: 0
+            randomRotation: 0
+          int: 
+            particlesPerEmit: 120
+            emitStyle: 2
+            particlesPerCyclic: 60
+          vector-string: 
+            Materials: , size: 0
+          vector3: 
+            offSetPosition: , x: 0, y: 0, z: 0
+            size: , x: 1, y: 1, z: 1
+            size_2: , x: 1, y: 1, z: 1
+            growth: , x: -0.1, y: -0.1, z: -0.1
+            directionVector: , x: 0, y: 0, z: 0
+        Children: 
+          Child0: , Name: panmodel
+            Transform: 
+              vector3: 
+                Position: , x: 0, y: 0, z: 0
+                Rotation: , x: -90, y: -0, z: 0
+                Scale: , x: 0.1, y: 0.1, z: 0.1
+            StaticMesh: 
+              string: 
+                Model_Directory: CompiledAssets\Models\pangolin_test3.mdl
+              vector-string: 
+                Materials: , size: 1
+                  Item0: Blue
+            StaticMeshRenderer: 
+              float: 
+                Transparency: 1
+              bool: 
+                Cast Shadow: 1
+                Receive Shadow: 1
+                Visible: 1
+              vector4: 
+                Tint: , x: 1, y: 1, z: 1, w: 0
+            Children: 

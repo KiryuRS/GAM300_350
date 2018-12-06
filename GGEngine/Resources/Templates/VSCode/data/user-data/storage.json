@@ -1,0 +1,34 @@
+{
+    "telemetry.machineId": "8f9ff110a0e7b4419e4cfd550c5e3377b193e6c21fb2ddd0253d51bc88eac8d3",
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e1e",
+    "windowsState": {
+        "openedWindows": [],
+        "lastActiveWindow": {
+            "folderUri": {
+                "$mid": 1,
+                "fsPath": "c:\\Users\\t.weigangkenneth\\source\\Workspaces\\GAM_300_350\\GGEngine\\GGEngine\\Resources\\Scripts",
+                "external": "file:///c%3A/Users/t.weigangkenneth/source/Workspaces/GAM_300_350/GGEngine/GGEngine/Resources/Scripts",
+                "path": "/c:/Users/t.weigangkenneth/source/Workspaces/GAM_300_350/GGEngine/GGEngine/Resources/Scripts",
+                "scheme": "file"
+            },
+            "backupPath": "C:\\Users\\t.weigangkenneth\\source\\Workspaces\\GAM_300_350\\GGEngine\\GGEngine\\Resources\\Templates\\VSCode\\data\\user-data\\Backups\\60a4ddac563faa57d56ac08482c5d2a7",
+            "uiState": {
+                "mode": 0,
+                "x": -8,
+                "y": -8,
+                "width": 1936,
+                "height": 1176
+            }
+        }
+    },
+    "pickerWorkingDir": "C:\\Users\\t.weigangkenneth\\source\\Workspaces\\GAM_300_350\\GGEngine\\GGEngine\\Resources",
+    "openedPathsList": {
+        "workspaces2": [
+            "file:///c%3A/Users/t.weigangkenneth/source/Workspaces/GAM_300_350/GGEngine/GGEngine/Resources/Scripts"
+        ],
+        "files2": [
+            "file:///c%3A/Users/t.weigangkenneth/source/Workspaces/GAM_300_350/GGEngine/GGEngine/Resources/Scripts/ButtonManager.lua"
+        ]
+    }
+}

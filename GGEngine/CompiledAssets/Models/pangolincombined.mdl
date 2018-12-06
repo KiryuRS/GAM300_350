@@ -1,0 +1,103 @@
+ModelFile: 
+  vector-serialmesh: 
+    StaticMeshes: , size: 1
+      Item0: 
+        string: 
+          Translation Name: 
+          Pre Rotation Name: NGon001_$AssimpFbx$_PreRotation
+          Rotation Name: 
+          Scaling Name: NGon001_$AssimpFbx$_Scaling
+        bool: 
+          GlobalExists: 1
+        vector-int: 
+          Faces: , size: 30
+            Item0: 0
+            Item1: 1
+            Item2: 2
+            Item3: 3
+            Item4: 4
+            Item5: 5
+            Item6: 6
+            Item7: 7
+            Item8: 8
+            Item9: 9
+            Item10: 10
+            Item11: 11
+            Item12: 12
+            Item13: 13
+            Item14: 14
+            Item15: 15
+            Item16: 16
+            Item17: 17
+            Item18: 18
+            Item19: 19
+            Item20: 20
+            Item21: 21
+            Item22: 22
+            Item23: 23
+            Item24: 24
+            Item25: 25
+            Item26: 26
+            Item27: 27
+            Item28: 28
+            Item29: 29
+          Bone Mapping Num: , size: 3
+            Item0: 1
+            Item1: 2
+            Item2: 3
+        vector-string: 
+          Bone Mapping Name: , size: 3
+            Item0: NGon001_$AssimpFbx$_PreRotation
+            Item1: NGon001_$AssimpFbx$_Scaling
+            Item2: NGon001
+        vector-vector2: 
+          UVs: , size: 0
+        vector-vector3: 
+          Vertices: , size: 30
+            Item0: , x: -49.8819, y: 36.2413, z: 0
+            Item1: , x: -49.8819, y: -36.2413, z: 0
+            Item2: , x: 3.8147e-07, y: -3.8147e-07, z: 27.9206
+            Item3: , x: -49.8819, y: -36.2413, z: 0
+            Item4: , x: 19.0532, y: -58.6396, z: 0
+            Item5: , x: 3.8147e-07, y: -3.8147e-07, z: 27.9206
+            Item6: , x: 19.0532, y: -58.6396, z: 0
+            Item7: , x: 61.6574, y: 0, z: 0
+            Item8: , x: 3.8147e-07, y: -3.8147e-07, z: 27.9206
+            Item9: , x: 61.6574, y: 0, z: 0
+            Item10: , x: 19.0532, y: 58.6396, z: 0
+            Item11: , x: 3.8147e-07, y: -3.8147e-07, z: 27.9206
+            Item12: , x: 19.0532, y: 58.6396, z: 0
+            Item13: , x: -49.8819, y: 36.2413, z: 0
+            Item14: , x: 3.8147e-07, y: -3.8147e-07, z: 27.9206
+            Item15: , x: -49.8819, y: 36.2413, z: 0
+            Item16: , x: 3.8147e-07, y: -3.8147e-07, z: -27.9206
+            Item17: , x: -49.8819, y: -36.2413, z: 0
+            Item18: , x: -49.8819, y: -36.2413, z: 0
+            Item19: , x: 3.8147e-07, y: -3.8147e-07, z: -27.9206
+            Item20: , x: 19.0532, y: -58.6396, z: 0
+            Item21: , x: 19.0532, y: -58.6396, z: 0
+            Item22: , x: 3.8147e-07, y: -3.8147e-07, z: -27.9206
+            Item23: , x: 61.6574, y: 0, z: 0
+            Item24: , x: 61.6574, y: 0, z: 0
+            Item25: , x: 3.8147e-07, y: -3.8147e-07, z: -27.9206
+            Item26: , x: 19.0532, y: 58.6396, z: 0
+            Item27: , x: 19.0532, y: 58.6396, z: 0
+            Item28: , x: 3.8147e-07, y: -3.8147e-07, z: -27.9206
+            Item29: , x: -49.8819, y: 36.2413, z: 0
+          Normals: , size: 0
+        matrix4: 
+          Transform: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+        vector-sbone: 
+          Bones: , size: 0
+        node: 
+          RootNode: 0|(1|NGon001_$AssimpFbx$_PreRotation(2|NGon001_$AssimpFbx$_Scaling(3|NGon001())))
+        vector-matrix4: 
+          Node Matrices: , size: 4
+            Item0: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item1: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item2: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1.28635, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item3: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+  matrix4: 
+    GlobalTransform: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+  vector-anim: 
+    animations: , size: 0

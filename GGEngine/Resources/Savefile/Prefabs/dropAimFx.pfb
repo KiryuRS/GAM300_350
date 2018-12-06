@@ -1,0 +1,60 @@
+Root: 
+  Prefab: , Name: dropAimFx
+    Transform: 
+      vector3: 
+        Position: , x: 465.568, y: 1.17021, z: 0
+        Rotation: , x: 270, y: 0, z: 0
+        Scale: , x: 500, y: 500, z: 1
+    Identifier: 
+      string: 
+        ID: dropAimFx2
+    Script: 
+      float: 
+        decreaseSpeed: 200
+        maxSize: 500
+        minSize: 100
+      bool: 
+        active: 0
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/dropAim.lua
+    ParticleEmitter: 
+      float: 
+        warmthUpTime: 0
+        lifeTime: 1
+        totalParticles: 1024
+        emitRate: 0.001
+        gravityStrength: 0
+        velocityStrength: 100
+        velocityStrength_2: 0
+        size: 0.5
+        size_2: 1
+        growth: -3
+        degree: 0
+        initialOpacity: 1
+        initialDistance: 0
+        initialDistance_2: 0
+      string: 
+        Model_Directory: CompiledAssets\Models\plane.mdl
+        Texture: CompiledAssets\Sprites\red.dds
+      bool: 
+        emiting: 0
+        Emissive_Particle: 0
+        rangeVelocity: 0
+        rangeSize: 1
+        lookAtCam: 0
+        emitOnceStart: 0
+        rangeInitialDist: 0
+        randomRotation: 1
+        directionRotation: 0
+      int: 
+        particlesPerEmit: 1
+        emitStyle: 1
+        particlesPerCyclic: 1000
+      vector-string: 
+        Materials: , size: 1
+          Item0: Metal
+      vector3: 
+        offSetPosition: , x: 0, y: 0, z: 0
+        directionVector: , x: 0.016, y: 1, z: 0.016
+    Children: 

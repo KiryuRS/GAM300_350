@@ -1,0 +1,23 @@
+Root: 
+  Prefab: , Name: SmallRock
+    Transform: 
+      vector3: 
+        Position: , x: 2784.7, y: -34.7531, z: 313.39
+        Rotation: , x: 1.70061e-05, y: -87.2742, z: 3.41061e-13
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_medium_02.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Rocks
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    Children: 

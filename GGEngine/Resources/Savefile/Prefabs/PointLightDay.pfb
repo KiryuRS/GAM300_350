@@ -1,0 +1,16 @@
+Root: 
+  Prefab: , Name: PointLightDay
+    Transform: 
+      vector3: 
+        Position: , x: -226.826, y: 99.2278, z: 1366.95
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    PointLight: 
+      float: 
+        Light_Intensity: 1
+        Light_Radius: 40
+      vector4: 
+        Light_Diffuse: , x: 0.487889, y: 0.921569, z: 0.526155, w: 1
+        Light_Specular: , x: 0, y: 0, z: 0, w: 1
+        Light_Ambient: , x: 0, y: 0, z: 0, w: 1
+    Children: 

@@ -1,0 +1,18 @@
+Root: 
+  Material: , Name: Plant
+    float: 
+      m_specular_power: 0
+      m_normal_power: 1.41531e-43
+      m_illumination_power: 0
+    string: 
+      diffuse_name: CompiledAssets\Sprites\fern_colour.dds
+      specular_name: CompiledAssets\Sprites\day_boy_diffuse.dds
+      normal_name: CompiledAssets\Sprites\downarrow.dds
+      opacity_name: CompiledAssets\Sprites\folder.dds
+      self_illumination_name: CompiledAssets\Sprites\fern_colour.dds
+    bool: 
+      HasDiffuse: 1
+      HasSpecular: 0
+      HasNormal: 0
+      HasOpacity: 0
+      HasSelfIllumination: 0

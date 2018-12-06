@@ -1,0 +1,16 @@
+Root: 
+  Prefab: , Name: GreenPointLightDay
+    Transform: 
+      vector3: 
+        Position: , x: 2528.64, y: 305.4, z: 215.836
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    PointLight: 
+      float: 
+        Light_Intensity: 1
+        Light_Radius: 30
+      vector4: 
+        Light_Diffuse: , x: 0.387255, y: 1, z: 0.405277, w: 1
+        Light_Specular: , x: 0, y: 0, z: 0, w: 1
+        Light_Ambient: , x: 0, y: 0, z: 0, w: 1
+    Children: 

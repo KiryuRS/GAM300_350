@@ -1,0 +1,23 @@
+Root: 
+  Prefab: , Name: KampungHouse
+    Transform: 
+      vector3: 
+        Position: , x: 3309.66, y: -2.69263, z: -920.669
+        Rotation: , x: 89.9999, y: 342.188, z: 180
+        Scale: , x: 1, y: 1, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\kampunghouse.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: House
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    Children: 

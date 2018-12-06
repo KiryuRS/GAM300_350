@@ -1,0 +1,16 @@
+Root: 
+  Prefab: , Name: TorchPointLight
+    Transform: 
+      vector3: 
+        Position: , x: 8.17325, y: -1.45502, z: 68.0461
+        Rotation: , x: 96.784, y: -0, z: 0
+        Scale: , x: 0.5, y: 0.5, z: 0.5
+    PointLight: 
+      float: 
+        Light_Intensity: 20
+        Light_Radius: 5
+      vector4: 
+        Light_Diffuse: , x: 0.946078, y: 0.584342, z: 0, w: 1
+        Light_Specular: , x: 0.617647, y: 0.510301, z: 0.145329, w: 1
+        Light_Ambient: , x: 0.70098, y: 0.5854, z: 0.0652874, w: 1
+    Children: 

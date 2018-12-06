@@ -1,0 +1,80 @@
+Root: 
+  Prefab: , Name: chargeCircle
+    Transform: 
+      vector3: 
+        Position: , x: 7.18853e-17, y: 0.320547, z: -3.89498e-06
+        Rotation: , x: 270, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Sprite2D: 
+      float: 
+        Value: 0
+        Transparency: 1
+      string: 
+        Texture: CompiledAssets\Sprites\circlebar.dds
+        onStart_animationName: 
+      bool: 
+        Radio: 0
+        Horizontal: 0
+        Vertical: 0
+        lookAtCam: 0
+        Always Front: 0
+        loop: 0
+        play_onStart: 0
+        Visible: 1
+      int: 
+        current_frame: 0
+      vector4: 
+        Tint: , x: 0.818627, y: 0.361159, z: 0.361159, w: 1
+      unsigned: 
+        slices_Row: 1
+        slices_Col: 1
+    Script: 
+      float: 
+        decreaseSpeed: 40
+        maxSize: 50
+        minSize: 10
+      bool: 
+        active: 0
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/dropAim.lua
+    ParticleEmitter: 
+      float: 
+        warmthUpTime: 0
+        lifeTime: 1
+        totalParticles: 1024
+        emitRate: 0.01
+        gravityStrength: 0
+        velocityStrength: 100
+        velocityStrength_2: 0
+        size: 1
+        size_2: 1
+        growth: 0
+        degree: 51.75
+        initialOpacity: 0.307
+        initialDistance: 0
+        initialDistance_2: 0
+      string: 
+        Model_Directory: CompiledAssets\Models\ball.mdl
+        Texture: CompiledAssets\Sprites\red.dds
+      bool: 
+        emiting: 0
+        Emissive_Particle: 0
+        rangeVelocity: 0
+        rangeSize: 0
+        lookAtCam: 0
+        emitOnceStart: 0
+        rangeInitialDist: 0
+        randomRotation: 1
+        directionRotation: 0
+      int: 
+        particlesPerEmit: 5
+        emitStyle: 2
+        particlesPerCyclic: 120
+      vector-string: 
+        Materials: , size: 1
+          Item0: Metal
+      vector3: 
+        offSetPosition: , x: 0, y: 0, z: 0
+        directionVector: , x: 0, y: 1, z: 0
+    Children: 

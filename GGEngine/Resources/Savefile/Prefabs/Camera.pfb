@@ -1,0 +1,75 @@
+Root: 
+  Prefab: , Name: Camera
+    Transform: 
+      vector3: 
+        Position: , x: -186.316, y: 134.18, z: 3.38089
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Script: 
+      float: 
+        camera_rotation: 1
+        camera_speed: 0.5
+        field_of_view: 45
+        gamma: 2.2
+        hdrExposure: 1
+        maxLength: 180
+        mouse_scroll: 0
+        old_y_movement: 0
+        original_camera_speed: 0
+        rotate_speed: 0.02
+      string: 
+        change_cam_mode_key: TAB
+        target_name: Player
+      bool: 
+        bloom: 0
+        free_will_cam: 0
+        orthographic: 0
+        perspective: 1
+        target_rotation: 0
+        trans_pos_active: 1
+      vector2: 
+        cp_info: , x: 0.01, y: 1500
+        old_mouse_position: , x: 0, y: 0
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Camera.lua
+      vector4: 
+        vp_info: , x: 0, y: 0, z: 0.00392157, w: 0.00392157
+      vector3: 
+        old_displacement: , x: 0, y: 0, z: 0
+        position: , x: 0, y: 0, z: 10
+    Camera: 
+      float: 
+        Camera_Speed: 0.5
+        Camera_Rotation: 1
+        Clipping_Plane_Near: 0.01
+        Clipping_Plane_Far: 1500
+        Field_Of_View: 45
+        HDR_Exposure_Rate: 1
+        Camera_Gamma: 2.2
+      string: 
+        Target_Name_Identifier: player
+      bool: 
+        Disable: 0
+        Perspective_View: 1
+        Orthographic_View: 0
+        Free_Will_Camera: 0
+        Camera_Bloom: 0
+      int: 
+        Viewport_Width: 1
+        Viewport_Height: 1
+      vector2: 
+        Viewport_Start_Position: , x: 0, y: 0
+    Identifier: 
+      string: 
+        ID: Camera
+    Controller: 
+      vector-string: 
+        Up_Key: , size: 0
+        Down_Key: , size: 0
+        Left_Key: , size: 0
+        Right_Key: , size: 0
+        Interact_Key: , size: 0
+        Interact2_Key: , size: 0
+        LeftClick_Key: , size: 0
+        RightClick_Key: , size: 0

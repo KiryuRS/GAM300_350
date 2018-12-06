@@ -1,0 +1,26 @@
+Root: 
+  Prefab: , Name: PlantWheel
+    Transform: 
+      vector3: 
+        Position: , x: 73.8896, y: 83.8447, z: -137.409
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 300, z: 300
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\cubeuved.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Acid
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+    Identifier: 
+      string: 
+        ID: PlantWheel
+    Children: 

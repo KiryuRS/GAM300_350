@@ -1,0 +1,85 @@
+Root: 
+  Prefab: , Name: BigPango
+    Transform: 
+      vector3: 
+        Position: , x: -198.317, y: 245.29, z: -420.343
+        Rotation: , x: 2.33587e-05, y: 0, z: 1.4941e-06
+        Scale: , x: 1, y: 1, z: 1
+    Identifier: 
+      string: 
+        ID: BigPango
+    SphereCollider: 
+      float: 
+        Radius: 75
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 2
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+    Script: 
+      float: 
+        State: 0
+        chargeSpinAccel: 360
+        curHorzSpeed: 800
+        curSpinSpeed: 0
+        distRolled: 0
+        hozDecelleration: 1600
+        maxDistToRoll: 2000
+        maxHorzSpeed: 800
+        maxRestTime: 2
+        maxRollSpinSpeed: 720
+        pangoRadius: 2.12
+        restTimer: 0
+        spinDecelleration: 480
+      bool: 
+        collided: 0
+        soundPlayed: 0
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/BigPango.lua
+      vector3: 
+        dir: , x: 0, y: 0, z: 0
+        lastRot: , x: 0, y: 0, z: 0
+    RigidBody: 
+      float: 
+        GravityStrength: 10
+        Mass: 5
+        Bounciness: 0
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Children: 
+      Child0: , Name: BossBall
+        Transform: 
+          vector3: 
+            Position: , x: 6.82631e-07, y: 0, z: 0
+            Rotation: , x: 360, y: 0, z: 0
+            Scale: , x: 25, y: 25, z: 25
+        StaticMesh: 
+          string: 
+            Model_Directory: CompiledAssets\Models\ball.mdl
+          vector-string: 
+            Materials: , size: 1
+              Item0: Player
+        StaticMeshRenderer: 
+          float: 
+            Transparency: 1
+          bool: 
+            Cast Shadow: 1
+            Receive Shadow: 1
+            Visible: 1
+          vector4: 
+            Tint: , x: 1, y: 1, z: 1, w: 0
+        Children: 

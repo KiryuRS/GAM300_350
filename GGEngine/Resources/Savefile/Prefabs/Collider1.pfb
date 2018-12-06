@@ -1,0 +1,16 @@
+Root: 
+  Prefab: , Name: Collider1
+    Transform: 
+      vector3: 
+        Position: , x: 2854.81, y: 268.129, z: 8.10233
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    AABBCollider: 
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 10, y: 30, z: 200

@@ -1,0 +1,19 @@
+Root: 
+  Prefab: , Name: PlayerLight
+    Transform: 
+      vector3: 
+        Position: , x: 4.3856, y: 23.2334, z: 3.86038
+        Rotation: , x: -0, y: -90, z: 0
+        Scale: , x: 0.833333, y: 0.833333, z: 0.833333
+    PointLight: 
+      float: 
+        Light_Intensity: 10
+        Light_Radius: 7
+      vector4: 
+        Light_Diffuse: , x: 0.462921, y: 0.470588, z: 0.209919, w: 1
+        Light_Specular: , x: 0.00302768, y: 0.205882, z: 0.169, w: 1
+        Light_Ambient: , x: 0, y: 1e-06, z: 9.65909e-07, w: 1
+    Identifier: 
+      string: 
+        ID: PlayerLight
+    Children: 

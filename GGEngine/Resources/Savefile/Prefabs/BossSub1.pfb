@@ -1,0 +1,199 @@
+Root: 
+  Prefab: , Name: BossSub1
+    Transform: 
+      vector3: 
+        Position: , x: -262.074, y: 5.87723e-14, z: 4.83682e-09
+        Rotation: , x: 0, y: -0, z: 0
+        Scale: , x: 10, y: 10, z: 10
+    Script: 
+      float: 
+        DropSpeed: 600
+        Index: 0
+        JumpState: 0
+        NextState: 0
+        State: 0
+        anticipateTime: 2
+        attackAccel: 640
+        attackDist: 800
+        attackSpeed: 640
+        chaseAccel: 128
+        chaseSpeed: 160
+        coolDownTime: 2
+        curDT: 0
+        jumpStateTimer: 0
+        moveAccel: 0
+        moveSpeed: 0
+        moveSpeedLimit: 600
+        moveStopDist: 0
+        timer: 0
+      string: 
+        anim_charge_dash: charge_dash
+        anim_charge_idle: charge_idle
+        anim_charge_start: charge_start
+        anim_death1: death1
+        anim_death2: death2
+        anim_flinch: flinch
+        anim_idle: idle
+        anim_run: run
+        anim_run_start: run_start
+        anim_stun: stun
+        dropFxName: dropAimFx
+      bool: 
+        awakeDrop: 0
+        jumpAttackExplosion: 0
+        moveReverse: 0
+        moveUpdatePos: 1
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/StoneIndi.lua
+      vector3: 
+        MamaCenter: , x: 0, y: 0, z: 0
+        attackTarget: , x: 0, y: 0, z: 0
+        bigMamaPosition: , x: 0, y: 0, z: 0
+        dir: , x: 0, y: 0, z: 0
+        draw: , x: 0, y: 0, z: 0
+        draw2: , x: 0, y: 0, z: 0
+        draw3: , x: 0, y: 0, z: 0
+        moveDestPos: , x: 0, y: 0, z: 0
+        toBeLocation: , x: 0, y: 0, z: 0
+    RigidBody: 
+      float: 
+        GravityStrength: 20
+        Mass: 1
+        Bounciness: 0
+        Friction: 0
+      bool: 
+        isGravity: 1
+        isKinematic: 0
+        constraintPositionX: 0
+        constraintPositionY: 0
+        constraintPositionZ: 0
+        constraintRotateX: 0
+        constraintRotateY: 0
+        constraintRotateZ: 0
+      vector3: 
+        Force: , x: 0, y: 0, z: 0
+        Velocity: , x: 0, y: 0, z: 0
+    Identifier: 
+      string: 
+        ID: BossStone1
+    AABBCollider: 
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+        rotationAffect_90: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 20, z: 0
+        Scale: , x: 0.2, y: 0.2, z: 0.2
+    ParticleEmitter: 
+      float: 
+        warmthUpTime: 0
+        lifeTime: 0.3
+        totalParticles: 256
+        emitRate: 0.01
+        gravityStrength: 50
+        velocityStrength: 150
+        velocityStrength_2: 0
+        size: 0.5
+        size_2: 1
+        growth: 0
+        degree: 92.8
+        initialOpacity: 1
+        initialDistance: 0
+        initialDistance_2: 0
+      string: 
+        Model_Directory: CompiledAssets\Models\particle_smoke.mdl
+        Texture: CompiledAssets\Sprites\pangolin_n.dds
+      bool: 
+        emiting: 0
+        rangeVelocity: 0
+        rangeSize: 0
+        lookAtCam: 0
+        emitOnceStart: 0
+        rangeInitialDist: 0
+        randomRotation: 1
+        directionRotation: 0
+      int: 
+        particlesPerEmit: 120
+        emitStyle: 1
+        particlesPerCyclic: 60
+      vector-string: 
+        Materials: , size: 1
+          Item0: Metal
+      vector3: 
+        offSetPosition: , x: 0, y: 0, z: 0
+        directionVector: , x: 0.016, y: 1, z: 0.492
+    Children: 
+      Child0: , Name: panmodel
+        Transform: 
+          vector3: 
+            Position: , x: 0, y: 0, z: 0
+            Rotation: , x: 0, y: -0, z: 0
+            Scale: , x: 0.1, y: 0.1, z: 0.1
+        SkeletalMesh: 
+          string: 
+            Model_Directory: CompiledAssets\Models\pangolin_combined.mdl
+          int: 
+            Animation Number: 6
+          vector-string: 
+            Materials: , size: 7
+              Item0: SmallPangolin
+              Item1: Metal
+              Item2: Metal
+              Item3: Metal
+              Item4: Metal
+              Item5: Metal
+              Item6: Metal
+        SkeletalMeshRenderer: 
+          float: 
+            Transparency: 1
+            EarlyStopTime: 0
+          bool: 
+            Cast Shadow: 1
+            Receive Shadow: 1
+            Loop: 1
+          vector4: 
+            Tint: , x: 1, y: 1, z: 1, w: 0
+        Children: 
+      Child1: , Name: chargeCircle
+        Transform: 
+          vector3: 
+            Position: , x: 7.18853e-17, y: 0.320547, z: -3.89498e-06
+            Rotation: , x: 270, y: 0, z: 0
+            Scale: , x: 10, y: 10, z: 1
+        Sprite2D: 
+          float: 
+            Value: 0
+            Transparency: 1
+          string: 
+            Texture: CompiledAssets\Sprites\circlebar.dds
+            onStart_animationName: 
+          bool: 
+            Radio: 0
+            Horizontal: 0
+            Vertical: 0
+            lookAtCam: 0
+            Always Front: 0
+            loop: 0
+            play_onStart: 0
+            Visible: 1
+          int: 
+            current_frame: 0
+          vector4: 
+            Tint: , x: 0.818627, y: 0.361159, z: 0.361159, w: 1
+          unsigned: 
+            slices_Row: 1
+            slices_Col: 1
+        Script: 
+          float: 
+            decreaseSpeed: 40
+            maxSize: 50
+            minSize: 10
+          bool: 
+            active: 0
+          vector-string: 
+            Scripts: , size: 1
+              Item0: Resources/Scripts/dropAim.lua
+        Children: 

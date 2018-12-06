@@ -1,0 +1,41 @@
+Root: 
+  Prefab: , Name: Scarecrow
+    Transform: 
+      vector3: 
+        Position: , x: 731.575, y: -9.91888, z: 304.276
+        Rotation: , x: 0, y: -90, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    SkeletalMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\anim_scarecrow.mdl
+      int: 
+        Animation Number: 0
+      vector-string: 
+        Materials: , size: 3
+          Item0: Scarecrow
+          Item1: Scarecrow
+          Item2: Scarecrow
+    SkeletalMeshRenderer: 
+      float: 
+        Transparency: 1
+        EarlyStopTime: 0.8
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Loop: 0
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 1
+        rotationAffect_90: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 38, z: 0
+        Scale: , x: 1, y: 2, z: 0.4
+    Identifier: 
+      string: 
+        ID: Scarecrow
+    Children: 

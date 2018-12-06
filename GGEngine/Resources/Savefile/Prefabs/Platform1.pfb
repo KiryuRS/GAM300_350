@@ -1,0 +1,25 @@
+Root: 
+  Prefab: , Name: Platform1
+    Transform: 
+      vector3: 
+        Position: , x: 47, y: -10, z: 0
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 40, y: 5, z: 60
+    Script: 
+      vector-string: 
+        Scripts: , size: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: Resources/Texture/sample.dds
+      vector3: 
+        Scale: , x: 1, y: 1, z: 1
+    StaticMeshRenderer: 
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        Scale: , x: 1, y: 1, z: 1

@@ -1,0 +1,67 @@
+Root: 
+  Prefab: , Name: GlassClutter2
+    Transform: 
+      vector3: 
+        Position: , x: 1448.87, y: -7.16766, z: -495.57
+        Rotation: , x: 90, y: 284.116, z: 180
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\grassclutter.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: DarkGreen
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+    Children: 
+      Child0: , Name: GlassClutter
+        Transform: 
+          vector3: 
+            Position: , x: -6.30412, y: 6.18429, z: -7.44367e-07
+            Rotation: , x: -2.03555e-13, y: -2.03555e-13, z: 0
+            Scale: , x: 1, y: 1, z: 1
+        StaticMesh: 
+          string: 
+            Model_Directory: CompiledAssets\Models\grassclutter.mdl
+          vector-string: 
+            Materials: , size: 1
+              Item0: DarkGreen
+        StaticMeshRenderer: 
+          float: 
+            Transparency: 1
+          bool: 
+            Cast Shadow: 1
+            Receive Shadow: 1
+            Visible: 1
+          vector4: 
+            Tint: , x: 1, y: 1, z: 1, w: 1
+        Children: 
+      Child1: , Name: GlassClutter
+        Transform: 
+          vector3: 
+            Position: , x: 5.36749, y: 5.97451, z: -3.61814e-08
+            Rotation: , x: -2.03555e-13, y: -2.03555e-13, z: 0
+            Scale: , x: 1, y: 1, z: 1
+        StaticMesh: 
+          string: 
+            Model_Directory: CompiledAssets\Models\grassclutter.mdl
+          vector-string: 
+            Materials: , size: 1
+              Item0: DarkGreen
+        StaticMeshRenderer: 
+          float: 
+            Transparency: 1
+          bool: 
+            Cast Shadow: 1
+            Receive Shadow: 1
+            Visible: 1
+          vector4: 
+            Tint: , x: 1, y: 1, z: 1, w: 1
+        Children: 

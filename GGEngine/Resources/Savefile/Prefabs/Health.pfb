@@ -1,0 +1,32 @@
+Root: 
+  Prefab: , Name: Health
+    Transform: 
+      vector3: 
+        Position: , x: 558.89, y: 29.845, z: -145.409
+        Rotation: , x: 2.94518, y: -74.4605, z: -0
+        Scale: , x: 300, y: 300, z: 300
+    Identifier: 
+      string: 
+        ID: HealthSample
+    Sprite2D: 
+      float: 
+        Value: 0
+        Transparency: 1
+      string: 
+        Texture: CompiledAssets\Sprites\heart.dds
+        onStart_animationName: 
+      bool: 
+        Radio: 0
+        Horizontal: 0
+        Vertical: 0
+        lookAtCam: 1
+        Always Front: 1
+        loop: 0
+        play_onStart: 0
+        Visible: 1
+      int: 
+        current_frame: 0
+      unsigned: 
+        slices_Row: 1
+        slices_Col: 1
+    Children: 

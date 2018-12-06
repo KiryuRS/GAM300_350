@@ -1,0 +1,10 @@
+DATE: 05-12-2018 02:33:12
+=============== START LOGGING ===============
+{ 05-12-2018 02:32:39 }  SYSTEM:: 8 concurrent threads are supported.
+{ 05-12-2018 02:32:40 }  :: Recompiled shaders!
+{ 05-12-2018 02:32:40 }  SYSTEM:: FMOD Version: v1.10.8
+{ 05-12-2018 02:32:42 }  SYSTEM:: ImGui Version: 1.66 WIP
+{ 05-12-2018 02:32:42 }  SYSTEM:: Setup Components elapsed: 0
+{ 05-12-2018 02:32:42 }  SYSTEM:: Loaded scene: "Resources/Savefile/Levels/TestLevel.ffs"
+{ 05-12-2018 02:32:42 }  SYSTEM:: DevIL's version: 180
+=============== END LOGGING ===============

@@ -1,0 +1,46 @@
+Root: 
+  Prefab: , Name: EmptySoil
+    Transform: 
+      vector3: 
+        Position: , x: 127.691, y: -4.67169, z: -310.239
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 600, y: 2, z: 600
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: GrassColor
+    StaticMeshRenderer: 
+      float: 
+        Transparency: -11.1
+      bool: 
+        Cast Shadow: 0
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 1
+        rotationAffect_90: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Identifier: 
+      string: 
+        ID: EmptySoil
+    Script: 
+      float: 
+        plantTime: 3
+      string: 
+        connectPrefab: CompiledAssets/Models/connect_plot.mdl
+        cornerPrefab: CompiledAssets/Models/cornered_plot.mdl
+        plantPrefab: 
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/Soil.lua
+    Children: 

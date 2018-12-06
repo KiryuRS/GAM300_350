@@ -1,0 +1,1366 @@
+ModelFile: 
+  vector-serialmesh: 
+    StaticMeshes: , size: 5
+      Item0: 
+        string: 
+          Translation Name: Box003_$AssimpFbx$_Translation
+          Pre Rotation Name: Box003_$AssimpFbx$_PreRotation
+          Rotation Name: NGon002_$AssimpFbx$_Rotation
+          Scaling Name: NGon002_$AssimpFbx$_Scaling
+        bool: 
+          GlobalExists: 1
+        vector-int: 
+          Faces: , size: 30
+            Item0: 0
+            Item1: 1
+            Item2: 2
+            Item3: 3
+            Item4: 4
+            Item5: 5
+            Item6: 6
+            Item7: 7
+            Item8: 8
+            Item9: 9
+            Item10: 10
+            Item11: 11
+            Item12: 12
+            Item13: 13
+            Item14: 14
+            Item15: 15
+            Item16: 16
+            Item17: 17
+            Item18: 18
+            Item19: 19
+            Item20: 20
+            Item21: 21
+            Item22: 22
+            Item23: 23
+            Item24: 24
+            Item25: 25
+            Item26: 26
+            Item27: 27
+            Item28: 28
+            Item29: 29
+          Bone Mapping Num: , size: 16
+            Item0: 1
+            Item1: 2
+            Item2: 3
+            Item3: 4
+            Item4: 5
+            Item5: 6
+            Item6: 7
+            Item7: 8
+            Item8: 9
+            Item9: 10
+            Item10: 11
+            Item11: 12
+            Item12: 13
+            Item13: 14
+            Item14: 15
+            Item15: 16
+        vector-string: 
+          Bone Mapping Name: , size: 16
+            Item0: NGon001_$AssimpFbx$_PreRotation
+            Item1: NGon001_$AssimpFbx$_Scaling
+            Item2: NGon001
+            Item3: NGon002_$AssimpFbx$_PreRotation
+            Item4: NGon002_$AssimpFbx$_Rotation
+            Item5: NGon002_$AssimpFbx$_Scaling
+            Item6: NGon002
+            Item7: Box001_$AssimpFbx$_Translation
+            Item8: Box001_$AssimpFbx$_PreRotation
+            Item9: Box001
+            Item10: Box002_$AssimpFbx$_Translation
+            Item11: Box002_$AssimpFbx$_PreRotation
+            Item12: Box002
+            Item13: Box003_$AssimpFbx$_Translation
+            Item14: Box003_$AssimpFbx$_PreRotation
+            Item15: Box003
+        vector-vector2: 
+          UVs: , size: 0
+        vector-vector3: 
+          Vertices: , size: 30
+            Item0: , x: -49.8819, y: 36.2413, z: 0
+            Item1: , x: -49.8819, y: -36.2413, z: 0
+            Item2: , x: 3.8147e-07, y: -3.8147e-07, z: 27.9206
+            Item3: , x: -49.8819, y: -36.2413, z: 0
+            Item4: , x: 19.0532, y: -58.6396, z: 0
+            Item5: , x: 3.8147e-07, y: -3.8147e-07, z: 27.9206
+            Item6: , x: 19.0532, y: -58.6396, z: 0
+            Item7: , x: 61.6574, y: 0, z: 0
+            Item8: , x: 3.8147e-07, y: -3.8147e-07, z: 27.9206
+            Item9: , x: 61.6574, y: 0, z: 0
+            Item10: , x: 19.0532, y: 58.6396, z: 0
+            Item11: , x: 3.8147e-07, y: -3.8147e-07, z: 27.9206
+            Item12: , x: 19.0532, y: 58.6396, z: 0
+            Item13: , x: -49.8819, y: 36.2413, z: 0
+            Item14: , x: 3.8147e-07, y: -3.8147e-07, z: 27.9206
+            Item15: , x: -49.8819, y: 36.2413, z: 0
+            Item16: , x: 3.8147e-07, y: -3.8147e-07, z: -27.9206
+            Item17: , x: -49.8819, y: -36.2413, z: 0
+            Item18: , x: -49.8819, y: -36.2413, z: 0
+            Item19: , x: 3.8147e-07, y: -3.8147e-07, z: -27.9206
+            Item20: , x: 19.0532, y: -58.6396, z: 0
+            Item21: , x: 19.0532, y: -58.6396, z: 0
+            Item22: , x: 3.8147e-07, y: -3.8147e-07, z: -27.9206
+            Item23: , x: 61.6574, y: 0, z: 0
+            Item24: , x: 61.6574, y: 0, z: 0
+            Item25: , x: 3.8147e-07, y: -3.8147e-07, z: -27.9206
+            Item26: , x: 19.0532, y: 58.6396, z: 0
+            Item27: , x: 19.0532, y: 58.6396, z: 0
+            Item28: , x: 3.8147e-07, y: -3.8147e-07, z: -27.9206
+            Item29: , x: -49.8819, y: 36.2413, z: 0
+          Normals: , size: 0
+        matrix4: 
+          Transform: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+        vector-sbone: 
+          Bones: , size: 0
+        node: 
+          RootNode: 0|(1|NGon001_$AssimpFbx$_PreRotation(2|NGon001_$AssimpFbx$_Scaling(3|NGon001()))4|NGon002_$AssimpFbx$_PreRotation(5|NGon002_$AssimpFbx$_Rotation(6|NGon002_$AssimpFbx$_Scaling(7|NGon002())))8|Box001_$AssimpFbx$_Translation(9|Box001_$AssimpFbx$_PreRotation(10|Box001()))11|Box002_$AssimpFbx$_Translation(12|Box002_$AssimpFbx$_PreRotation(13|Box002()))14|Box003_$AssimpFbx$_Translation(15|Box003_$AssimpFbx$_PreRotation(16|Box003())))
+        vector-matrix4: 
+          Node Matrices: , size: 17
+            Item0: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item1: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item2: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1.28635, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item3: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item4: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item5: , i: 1, a: -4.37114e-08, b: 0, c: -1, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item6: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1.28635, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item7: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item8: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 11.0291, o: 26.8864, p: 1
+            Item9: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item10: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item11: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 6.20541, o: -26.9472, p: 1
+            Item12: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item13: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item14: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 9.06091, o: -0, p: 1
+            Item15: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item16: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+      Item1: 
+        string: 
+          Translation Name: Box003_$AssimpFbx$_Translation
+          Pre Rotation Name: Box003_$AssimpFbx$_PreRotation
+          Rotation Name: NGon002_$AssimpFbx$_Rotation
+          Scaling Name: NGon002_$AssimpFbx$_Scaling
+        bool: 
+          GlobalExists: 1
+        vector-int: 
+          Faces: , size: 12
+            Item0: 0
+            Item1: 1
+            Item2: 2
+            Item3: 3
+            Item4: 4
+            Item5: 5
+            Item6: 6
+            Item7: 7
+            Item8: 8
+            Item9: 9
+            Item10: 10
+            Item11: 11
+          Bone Mapping Num: , size: 16
+            Item0: 1
+            Item1: 2
+            Item2: 3
+            Item3: 4
+            Item4: 5
+            Item5: 6
+            Item6: 7
+            Item7: 8
+            Item8: 9
+            Item9: 10
+            Item10: 11
+            Item11: 12
+            Item12: 13
+            Item13: 14
+            Item14: 15
+            Item15: 16
+        vector-string: 
+          Bone Mapping Name: , size: 16
+            Item0: NGon001_$AssimpFbx$_PreRotation
+            Item1: NGon001_$AssimpFbx$_Scaling
+            Item2: NGon001
+            Item3: NGon002_$AssimpFbx$_PreRotation
+            Item4: NGon002_$AssimpFbx$_Rotation
+            Item5: NGon002_$AssimpFbx$_Scaling
+            Item6: NGon002
+            Item7: Box001_$AssimpFbx$_Translation
+            Item8: Box001_$AssimpFbx$_PreRotation
+            Item9: Box001
+            Item10: Box002_$AssimpFbx$_Translation
+            Item11: Box002_$AssimpFbx$_PreRotation
+            Item12: Box002
+            Item13: Box003_$AssimpFbx$_Translation
+            Item14: Box003_$AssimpFbx$_PreRotation
+            Item15: Box003
+        vector-vector2: 
+          UVs: , size: 0
+        vector-vector3: 
+          Vertices: , size: 12
+            Item0: , x: -49.8819, y: 36.2413, z: 0
+            Item1: , x: -49.8819, y: -36.2413, z: 0
+            Item2: , x: 3.8147e-07, y: -3.8147e-07, z: 27.9206
+            Item3: , x: -49.8819, y: 36.2413, z: 0
+            Item4: , x: 3.8147e-07, y: -3.8147e-07, z: -27.9206
+            Item5: , x: -49.8819, y: -36.2413, z: 0
+            Item6: , x: -49.8819, y: -36.2413, z: 0
+            Item7: , x: 3.8147e-07, y: -3.8147e-07, z: -27.9206
+            Item8: , x: 3.8147e-07, y: -3.8147e-07, z: 27.9206
+            Item9: , x: 3.8147e-07, y: -3.8147e-07, z: 27.9206
+            Item10: , x: 3.8147e-07, y: -3.8147e-07, z: -27.9206
+            Item11: , x: -49.8819, y: 36.2413, z: 0
+          Normals: , size: 0
+        matrix4: 
+          Transform: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+        vector-sbone: 
+          Bones: , size: 0
+        node: 
+          RootNode: 0|(1|NGon001_$AssimpFbx$_PreRotation(2|NGon001_$AssimpFbx$_Scaling(3|NGon001()))4|NGon002_$AssimpFbx$_PreRotation(5|NGon002_$AssimpFbx$_Rotation(6|NGon002_$AssimpFbx$_Scaling(7|NGon002())))8|Box001_$AssimpFbx$_Translation(9|Box001_$AssimpFbx$_PreRotation(10|Box001()))11|Box002_$AssimpFbx$_Translation(12|Box002_$AssimpFbx$_PreRotation(13|Box002()))14|Box003_$AssimpFbx$_Translation(15|Box003_$AssimpFbx$_PreRotation(16|Box003())))
+        vector-matrix4: 
+          Node Matrices: , size: 17
+            Item0: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item1: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item2: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1.28635, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item3: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item4: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item5: , i: 1, a: -4.37114e-08, b: 0, c: -1, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item6: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1.28635, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item7: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item8: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 11.0291, o: 26.8864, p: 1
+            Item9: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item10: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item11: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 6.20541, o: -26.9472, p: 1
+            Item12: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item13: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item14: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 9.06091, o: -0, p: 1
+            Item15: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item16: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+      Item2: 
+        string: 
+          Translation Name: Box003_$AssimpFbx$_Translation
+          Pre Rotation Name: Box003_$AssimpFbx$_PreRotation
+          Rotation Name: NGon002_$AssimpFbx$_Rotation
+          Scaling Name: NGon002_$AssimpFbx$_Scaling
+        bool: 
+          GlobalExists: 1
+        vector-int: 
+          Faces: , size: 36
+            Item0: 0
+            Item1: 1
+            Item2: 2
+            Item3: 0
+            Item4: 2
+            Item5: 3
+            Item6: 4
+            Item7: 5
+            Item8: 6
+            Item9: 4
+            Item10: 6
+            Item11: 7
+            Item12: 8
+            Item13: 9
+            Item14: 10
+            Item15: 8
+            Item16: 10
+            Item17: 11
+            Item18: 12
+            Item19: 13
+            Item20: 14
+            Item21: 12
+            Item22: 14
+            Item23: 15
+            Item24: 16
+            Item25: 17
+            Item26: 18
+            Item27: 16
+            Item28: 18
+            Item29: 19
+            Item30: 20
+            Item31: 21
+            Item32: 22
+            Item33: 20
+            Item34: 22
+            Item35: 23
+          Bone Mapping Num: , size: 16
+            Item0: 1
+            Item1: 2
+            Item2: 3
+            Item3: 4
+            Item4: 5
+            Item5: 6
+            Item6: 7
+            Item7: 8
+            Item8: 9
+            Item9: 10
+            Item10: 11
+            Item11: 12
+            Item12: 13
+            Item13: 14
+            Item14: 15
+            Item15: 16
+        vector-string: 
+          Bone Mapping Name: , size: 16
+            Item0: NGon001_$AssimpFbx$_PreRotation
+            Item1: NGon001_$AssimpFbx$_Scaling
+            Item2: NGon001
+            Item3: NGon002_$AssimpFbx$_PreRotation
+            Item4: NGon002_$AssimpFbx$_Rotation
+            Item5: NGon002_$AssimpFbx$_Scaling
+            Item6: NGon002
+            Item7: Box001_$AssimpFbx$_Translation
+            Item8: Box001_$AssimpFbx$_PreRotation
+            Item9: Box001
+            Item10: Box002_$AssimpFbx$_Translation
+            Item11: Box002_$AssimpFbx$_PreRotation
+            Item12: Box002
+            Item13: Box003_$AssimpFbx$_Translation
+            Item14: Box003_$AssimpFbx$_PreRotation
+            Item15: Box003
+        vector-vector2: 
+          UVs: , size: 24
+            Item0: , x: 1, y: 1
+            Item1: , x: 1, y: 0
+            Item2: , x: 0, y: 0
+            Item3: , x: 0, y: 1
+            Item4: , x: 0, y: 1
+            Item5: , x: 1, y: 1
+            Item6: , x: 1, y: 0
+            Item7: , x: 0, y: 0
+            Item8: , x: 0, y: 1
+            Item9: , x: 1, y: 1
+            Item10: , x: 1, y: 0
+            Item11: , x: 0, y: 0
+            Item12: , x: 0, y: 1
+            Item13: , x: 1, y: 1
+            Item14: , x: 1, y: 0
+            Item15: , x: 0, y: 0
+            Item16: , x: 0, y: 1
+            Item17: , x: 1, y: 1
+            Item18: , x: 1, y: 0
+            Item19: , x: 0, y: 0
+            Item20: , x: 0, y: 1
+            Item21: , x: 1, y: 1
+            Item22: , x: 1, y: 0
+            Item23: , x: 0, y: 0
+        vector-vector3: 
+          Vertices: , size: 24
+            Item0: , x: -10.0677, y: -17.138, z: 0
+            Item1: , x: -10.0677, y: 17.138, z: 0
+            Item2: , x: 10.0677, y: 17.138, z: 0
+            Item3: , x: 10.0677, y: -17.138, z: 0
+            Item4: , x: -10.0677, y: -17.138, z: 12.7903
+            Item5: , x: 10.0677, y: -17.138, z: 12.7903
+            Item6: , x: 10.0677, y: 17.138, z: 12.7903
+            Item7: , x: -10.0677, y: 17.138, z: 12.7903
+            Item8: , x: -10.0677, y: -17.138, z: 0
+            Item9: , x: 10.0677, y: -17.138, z: 0
+            Item10: , x: 10.0677, y: -17.138, z: 12.7903
+            Item11: , x: -10.0677, y: -17.138, z: 12.7903
+            Item12: , x: 10.0677, y: -17.138, z: 0
+            Item13: , x: 10.0677, y: 17.138, z: 0
+            Item14: , x: 10.0677, y: 17.138, z: 12.7903
+            Item15: , x: 10.0677, y: -17.138, z: 12.7903
+            Item16: , x: 10.0677, y: 17.138, z: 0
+            Item17: , x: -10.0677, y: 17.138, z: 0
+            Item18: , x: -10.0677, y: 17.138, z: 12.7903
+            Item19: , x: 10.0677, y: 17.138, z: 12.7903
+            Item20: , x: -10.0677, y: 17.138, z: 0
+            Item21: , x: -10.0677, y: -17.138, z: 0
+            Item22: , x: -10.0677, y: -17.138, z: 12.7903
+            Item23: , x: -10.0677, y: 17.138, z: 12.7903
+          Normals: , size: 24
+            Item0: , x: 0, y: 0, z: -1
+            Item1: , x: 0, y: 0, z: -1
+            Item2: , x: 0, y: 0, z: -1
+            Item3: , x: 0, y: 0, z: -1
+            Item4: , x: 0, y: 0, z: 1
+            Item5: , x: 0, y: 0, z: 1
+            Item6: , x: 0, y: 0, z: 1
+            Item7: , x: 0, y: 0, z: 1
+            Item8: , x: 0, y: -1, z: 0
+            Item9: , x: 0, y: -1, z: 0
+            Item10: , x: 0, y: -1, z: 0
+            Item11: , x: 0, y: -1, z: 0
+            Item12: , x: 1, y: 0, z: 0
+            Item13: , x: 1, y: 0, z: 0
+            Item14: , x: 1, y: 0, z: 0
+            Item15: , x: 1, y: 0, z: 0
+            Item16: , x: 0, y: 1, z: 0
+            Item17: , x: 0, y: 1, z: 0
+            Item18: , x: 0, y: 1, z: 0
+            Item19: , x: 0, y: 1, z: 0
+            Item20: , x: -1, y: 0, z: 0
+            Item21: , x: -1, y: 0, z: 0
+            Item22: , x: -1, y: 0, z: 0
+            Item23: , x: -1, y: 0, z: 0
+        matrix4: 
+          Transform: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+        vector-sbone: 
+          Bones: , size: 0
+        node: 
+          RootNode: 0|(1|NGon001_$AssimpFbx$_PreRotation(2|NGon001_$AssimpFbx$_Scaling(3|NGon001()))4|NGon002_$AssimpFbx$_PreRotation(5|NGon002_$AssimpFbx$_Rotation(6|NGon002_$AssimpFbx$_Scaling(7|NGon002())))8|Box001_$AssimpFbx$_Translation(9|Box001_$AssimpFbx$_PreRotation(10|Box001()))11|Box002_$AssimpFbx$_Translation(12|Box002_$AssimpFbx$_PreRotation(13|Box002()))14|Box003_$AssimpFbx$_Translation(15|Box003_$AssimpFbx$_PreRotation(16|Box003())))
+        vector-matrix4: 
+          Node Matrices: , size: 17
+            Item0: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item1: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item2: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1.28635, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item3: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item4: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item5: , i: 1, a: -4.37114e-08, b: 0, c: -1, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item6: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1.28635, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item7: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item8: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 11.0291, o: 26.8864, p: 1
+            Item9: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item10: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item11: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 6.20541, o: -26.9472, p: 1
+            Item12: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item13: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item14: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 9.06091, o: -0, p: 1
+            Item15: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item16: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+      Item3: 
+        string: 
+          Translation Name: Box003_$AssimpFbx$_Translation
+          Pre Rotation Name: Box003_$AssimpFbx$_PreRotation
+          Rotation Name: NGon002_$AssimpFbx$_Rotation
+          Scaling Name: NGon002_$AssimpFbx$_Scaling
+        bool: 
+          GlobalExists: 1
+        vector-int: 
+          Faces: , size: 36
+            Item0: 0
+            Item1: 1
+            Item2: 2
+            Item3: 0
+            Item4: 2
+            Item5: 3
+            Item6: 4
+            Item7: 5
+            Item8: 6
+            Item9: 4
+            Item10: 6
+            Item11: 7
+            Item12: 8
+            Item13: 9
+            Item14: 10
+            Item15: 8
+            Item16: 10
+            Item17: 11
+            Item18: 12
+            Item19: 13
+            Item20: 14
+            Item21: 12
+            Item22: 14
+            Item23: 15
+            Item24: 16
+            Item25: 17
+            Item26: 18
+            Item27: 16
+            Item28: 18
+            Item29: 19
+            Item30: 20
+            Item31: 21
+            Item32: 22
+            Item33: 20
+            Item34: 22
+            Item35: 23
+          Bone Mapping Num: , size: 16
+            Item0: 1
+            Item1: 2
+            Item2: 3
+            Item3: 4
+            Item4: 5
+            Item5: 6
+            Item6: 7
+            Item7: 8
+            Item8: 9
+            Item9: 10
+            Item10: 11
+            Item11: 12
+            Item12: 13
+            Item13: 14
+            Item14: 15
+            Item15: 16
+        vector-string: 
+          Bone Mapping Name: , size: 16
+            Item0: NGon001_$AssimpFbx$_PreRotation
+            Item1: NGon001_$AssimpFbx$_Scaling
+            Item2: NGon001
+            Item3: NGon002_$AssimpFbx$_PreRotation
+            Item4: NGon002_$AssimpFbx$_Rotation
+            Item5: NGon002_$AssimpFbx$_Scaling
+            Item6: NGon002
+            Item7: Box001_$AssimpFbx$_Translation
+            Item8: Box001_$AssimpFbx$_PreRotation
+            Item9: Box001
+            Item10: Box002_$AssimpFbx$_Translation
+            Item11: Box002_$AssimpFbx$_PreRotation
+            Item12: Box002
+            Item13: Box003_$AssimpFbx$_Translation
+            Item14: Box003_$AssimpFbx$_PreRotation
+            Item15: Box003
+        vector-vector2: 
+          UVs: , size: 24
+            Item0: , x: 1, y: 1
+            Item1: , x: 1, y: 0
+            Item2: , x: 0, y: 0
+            Item3: , x: 0, y: 1
+            Item4: , x: 0, y: 1
+            Item5: , x: 1, y: 1
+            Item6: , x: 1, y: 0
+            Item7: , x: 0, y: 0
+            Item8: , x: 0, y: 1
+            Item9: , x: 1, y: 1
+            Item10: , x: 1, y: 0
+            Item11: , x: 0, y: 0
+            Item12: , x: 0, y: 1
+            Item13: , x: 1, y: 1
+            Item14: , x: 1, y: 0
+            Item15: , x: 0, y: 0
+            Item16: , x: 0, y: 1
+            Item17: , x: 1, y: 1
+            Item18: , x: 1, y: 0
+            Item19: , x: 0, y: 0
+            Item20: , x: 0, y: 1
+            Item21: , x: 1, y: 1
+            Item22: , x: 1, y: 0
+            Item23: , x: 0, y: 0
+        vector-vector3: 
+          Vertices: , size: 24
+            Item0: , x: -5.07521, y: -25.0144, z: 0
+            Item1: , x: -5.07521, y: 25.0144, z: 0
+            Item2: , x: 5.07521, y: 25.0144, z: 0
+            Item3: , x: 5.07521, y: -25.0144, z: 0
+            Item4: , x: -5.07521, y: -25.0144, z: 6.30094
+            Item5: , x: 5.07521, y: -25.0144, z: 6.30094
+            Item6: , x: 5.07521, y: 25.0144, z: 6.30094
+            Item7: , x: -5.07521, y: 25.0144, z: 6.30094
+            Item8: , x: -5.07521, y: -25.0144, z: 0
+            Item9: , x: 5.07521, y: -25.0144, z: 0
+            Item10: , x: 5.07521, y: -25.0144, z: 6.30094
+            Item11: , x: -5.07521, y: -25.0144, z: 6.30094
+            Item12: , x: 5.07521, y: -25.0144, z: 0
+            Item13: , x: 5.07521, y: 25.0144, z: 0
+            Item14: , x: 5.07521, y: 25.0144, z: 6.30094
+            Item15: , x: 5.07521, y: -25.0144, z: 6.30094
+            Item16: , x: 5.07521, y: 25.0144, z: 0
+            Item17: , x: -5.07521, y: 25.0144, z: 0
+            Item18: , x: -5.07521, y: 25.0144, z: 6.30094
+            Item19: , x: 5.07521, y: 25.0144, z: 6.30094
+            Item20: , x: -5.07521, y: 25.0144, z: 0
+            Item21: , x: -5.07521, y: -25.0144, z: 0
+            Item22: , x: -5.07521, y: -25.0144, z: 6.30094
+            Item23: , x: -5.07521, y: 25.0144, z: 6.30094
+          Normals: , size: 24
+            Item0: , x: 0, y: 0, z: -1
+            Item1: , x: 0, y: 0, z: -1
+            Item2: , x: 0, y: 0, z: -1
+            Item3: , x: 0, y: 0, z: -1
+            Item4: , x: 0, y: 0, z: 1
+            Item5: , x: 0, y: 0, z: 1
+            Item6: , x: 0, y: 0, z: 1
+            Item7: , x: 0, y: 0, z: 1
+            Item8: , x: 0, y: -1, z: 0
+            Item9: , x: 0, y: -1, z: 0
+            Item10: , x: 0, y: -1, z: 0
+            Item11: , x: 0, y: -1, z: 0
+            Item12: , x: 1, y: 0, z: 0
+            Item13: , x: 1, y: 0, z: 0
+            Item14: , x: 1, y: 0, z: 0
+            Item15: , x: 1, y: 0, z: 0
+            Item16: , x: 0, y: 1, z: 0
+            Item17: , x: 0, y: 1, z: 0
+            Item18: , x: 0, y: 1, z: 0
+            Item19: , x: 0, y: 1, z: 0
+            Item20: , x: -1, y: 0, z: 0
+            Item21: , x: -1, y: 0, z: 0
+            Item22: , x: -1, y: 0, z: 0
+            Item23: , x: -1, y: 0, z: 0
+        matrix4: 
+          Transform: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+        vector-sbone: 
+          Bones: , size: 0
+        node: 
+          RootNode: 0|(1|NGon001_$AssimpFbx$_PreRotation(2|NGon001_$AssimpFbx$_Scaling(3|NGon001()))4|NGon002_$AssimpFbx$_PreRotation(5|NGon002_$AssimpFbx$_Rotation(6|NGon002_$AssimpFbx$_Scaling(7|NGon002())))8|Box001_$AssimpFbx$_Translation(9|Box001_$AssimpFbx$_PreRotation(10|Box001()))11|Box002_$AssimpFbx$_Translation(12|Box002_$AssimpFbx$_PreRotation(13|Box002()))14|Box003_$AssimpFbx$_Translation(15|Box003_$AssimpFbx$_PreRotation(16|Box003())))
+        vector-matrix4: 
+          Node Matrices: , size: 17
+            Item0: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item1: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item2: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1.28635, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item3: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item4: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item5: , i: 1, a: -4.37114e-08, b: 0, c: -1, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item6: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1.28635, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item7: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item8: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 11.0291, o: 26.8864, p: 1
+            Item9: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item10: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item11: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 6.20541, o: -26.9472, p: 1
+            Item12: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item13: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item14: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 9.06091, o: -0, p: 1
+            Item15: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item16: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+      Item4: 
+        string: 
+          Translation Name: Box003_$AssimpFbx$_Translation
+          Pre Rotation Name: Box003_$AssimpFbx$_PreRotation
+          Rotation Name: NGon002_$AssimpFbx$_Rotation
+          Scaling Name: NGon002_$AssimpFbx$_Scaling
+        bool: 
+          GlobalExists: 1
+        vector-int: 
+          Faces: , size: 228
+            Item0: 0
+            Item1: 1
+            Item2: 2
+            Item3: 0
+            Item4: 2
+            Item5: 3
+            Item6: 4
+            Item7: 5
+            Item8: 6
+            Item9: 4
+            Item10: 6
+            Item11: 7
+            Item12: 8
+            Item13: 9
+            Item14: 10
+            Item15: 8
+            Item16: 10
+            Item17: 11
+            Item18: 12
+            Item19: 13
+            Item20: 14
+            Item21: 12
+            Item22: 14
+            Item23: 15
+            Item24: 16
+            Item25: 17
+            Item26: 18
+            Item27: 16
+            Item28: 18
+            Item29: 19
+            Item30: 20
+            Item31: 21
+            Item32: 22
+            Item33: 20
+            Item34: 22
+            Item35: 23
+            Item36: 24
+            Item37: 25
+            Item38: 26
+            Item39: 24
+            Item40: 26
+            Item41: 27
+            Item42: 28
+            Item43: 29
+            Item44: 30
+            Item45: 28
+            Item46: 30
+            Item47: 31
+            Item48: 32
+            Item49: 33
+            Item50: 34
+            Item51: 32
+            Item52: 34
+            Item53: 35
+            Item54: 36
+            Item55: 37
+            Item56: 38
+            Item57: 36
+            Item58: 38
+            Item59: 39
+            Item60: 40
+            Item61: 41
+            Item62: 42
+            Item63: 40
+            Item64: 42
+            Item65: 43
+            Item66: 44
+            Item67: 45
+            Item68: 46
+            Item69: 44
+            Item70: 46
+            Item71: 47
+            Item72: 48
+            Item73: 49
+            Item74: 50
+            Item75: 48
+            Item76: 50
+            Item77: 51
+            Item78: 52
+            Item79: 53
+            Item80: 54
+            Item81: 52
+            Item82: 54
+            Item83: 55
+            Item84: 56
+            Item85: 57
+            Item86: 58
+            Item87: 56
+            Item88: 58
+            Item89: 59
+            Item90: 60
+            Item91: 61
+            Item92: 62
+            Item93: 60
+            Item94: 62
+            Item95: 63
+            Item96: 64
+            Item97: 65
+            Item98: 66
+            Item99: 64
+            Item100: 66
+            Item101: 67
+            Item102: 68
+            Item103: 69
+            Item104: 70
+            Item105: 68
+            Item106: 70
+            Item107: 71
+            Item108: 72
+            Item109: 73
+            Item110: 74
+            Item111: 72
+            Item112: 74
+            Item113: 75
+            Item114: 76
+            Item115: 77
+            Item116: 78
+            Item117: 76
+            Item118: 78
+            Item119: 79
+            Item120: 80
+            Item121: 81
+            Item122: 82
+            Item123: 80
+            Item124: 82
+            Item125: 83
+            Item126: 84
+            Item127: 85
+            Item128: 86
+            Item129: 84
+            Item130: 86
+            Item131: 87
+            Item132: 88
+            Item133: 89
+            Item134: 90
+            Item135: 88
+            Item136: 90
+            Item137: 91
+            Item138: 92
+            Item139: 93
+            Item140: 94
+            Item141: 92
+            Item142: 94
+            Item143: 95
+            Item144: 96
+            Item145: 97
+            Item146: 98
+            Item147: 96
+            Item148: 98
+            Item149: 99
+            Item150: 100
+            Item151: 101
+            Item152: 102
+            Item153: 100
+            Item154: 102
+            Item155: 103
+            Item156: 104
+            Item157: 105
+            Item158: 106
+            Item159: 104
+            Item160: 106
+            Item161: 107
+            Item162: 108
+            Item163: 109
+            Item164: 110
+            Item165: 108
+            Item166: 110
+            Item167: 111
+            Item168: 112
+            Item169: 113
+            Item170: 114
+            Item171: 112
+            Item172: 114
+            Item173: 115
+            Item174: 116
+            Item175: 117
+            Item176: 118
+            Item177: 116
+            Item178: 118
+            Item179: 119
+            Item180: 120
+            Item181: 121
+            Item182: 122
+            Item183: 120
+            Item184: 122
+            Item185: 123
+            Item186: 124
+            Item187: 125
+            Item188: 126
+            Item189: 124
+            Item190: 126
+            Item191: 127
+            Item192: 128
+            Item193: 129
+            Item194: 130
+            Item195: 128
+            Item196: 130
+            Item197: 131
+            Item198: 132
+            Item199: 133
+            Item200: 134
+            Item201: 132
+            Item202: 134
+            Item203: 135
+            Item204: 136
+            Item205: 137
+            Item206: 138
+            Item207: 136
+            Item208: 138
+            Item209: 139
+            Item210: 140
+            Item211: 141
+            Item212: 142
+            Item213: 140
+            Item214: 142
+            Item215: 143
+            Item216: 144
+            Item217: 145
+            Item218: 146
+            Item219: 144
+            Item220: 146
+            Item221: 147
+            Item222: 148
+            Item223: 149
+            Item224: 150
+            Item225: 148
+            Item226: 150
+            Item227: 151
+          Bone Mapping Num: , size: 16
+            Item0: 1
+            Item1: 2
+            Item2: 3
+            Item3: 4
+            Item4: 5
+            Item5: 6
+            Item6: 7
+            Item7: 8
+            Item8: 9
+            Item9: 10
+            Item10: 11
+            Item11: 12
+            Item12: 13
+            Item13: 14
+            Item14: 15
+            Item15: 16
+        vector-string: 
+          Bone Mapping Name: , size: 16
+            Item0: NGon001_$AssimpFbx$_PreRotation
+            Item1: NGon001_$AssimpFbx$_Scaling
+            Item2: NGon001
+            Item3: NGon002_$AssimpFbx$_PreRotation
+            Item4: NGon002_$AssimpFbx$_Rotation
+            Item5: NGon002_$AssimpFbx$_Scaling
+            Item6: NGon002
+            Item7: Box001_$AssimpFbx$_Translation
+            Item8: Box001_$AssimpFbx$_PreRotation
+            Item9: Box001
+            Item10: Box002_$AssimpFbx$_Translation
+            Item11: Box002_$AssimpFbx$_PreRotation
+            Item12: Box002
+            Item13: Box003_$AssimpFbx$_Translation
+            Item14: Box003_$AssimpFbx$_PreRotation
+            Item15: Box003
+        vector-vector2: 
+          UVs: , size: 152
+            Item0: , x: 1, y: 1
+            Item1: , x: 1, y: 0.666667
+            Item2: , x: 0.5, y: 0.666667
+            Item3: , x: 0.5, y: 1
+            Item4: , x: 0.5, y: 1
+            Item5: , x: 0.5, y: 0.666667
+            Item6: , x: 0, y: 0.666667
+            Item7: , x: 0, y: 1
+            Item8: , x: 1, y: 0.666667
+            Item9: , x: 1, y: 0.333333
+            Item10: , x: 0.5, y: 0.333333
+            Item11: , x: 0.5, y: 0.666667
+            Item12: , x: 0.5, y: 0.666667
+            Item13: , x: 0.5, y: 0.333333
+            Item14: , x: 0, y: 0.333333
+            Item15: , x: 0, y: 0.666667
+            Item16: , x: 1, y: 0.333333
+            Item17: , x: 1, y: 0
+            Item18: , x: 0.5, y: 0
+            Item19: , x: 0.5, y: 0.333333
+            Item20: , x: 0.5, y: 0.333333
+            Item21: , x: 0.5, y: 0
+            Item22: , x: 0, y: 0
+            Item23: , x: 0, y: 0.333333
+            Item24: , x: 0, y: 1
+            Item25: , x: 0.5, y: 1
+            Item26: , x: 0.5, y: 0.666667
+            Item27: , x: 0, y: 0.666667
+            Item28: , x: 0.5, y: 1
+            Item29: , x: 1, y: 1
+            Item30: , x: 1, y: 0.666667
+            Item31: , x: 0.5, y: 0.666667
+            Item32: , x: 0, y: 0.666667
+            Item33: , x: 0.5, y: 0.666667
+            Item34: , x: 0.5, y: 0.333333
+            Item35: , x: 0, y: 0.333333
+            Item36: , x: 0.5, y: 0.666667
+            Item37: , x: 1, y: 0.666667
+            Item38: , x: 1, y: 0.333333
+            Item39: , x: 0.5, y: 0.333333
+            Item40: , x: 0, y: 0.333333
+            Item41: , x: 0.5, y: 0.333333
+            Item42: , x: 0.5, y: 0
+            Item43: , x: 0, y: 0
+            Item44: , x: 0.5, y: 0.333333
+            Item45: , x: 1, y: 0.333333
+            Item46: , x: 1, y: 0
+            Item47: , x: 0.5, y: 0
+            Item48: , x: 0, y: 1
+            Item49: , x: 0.5, y: 1
+            Item50: , x: 0.5, y: 0
+            Item51: , x: 0, y: 0
+            Item52: , x: 0.5, y: 1
+            Item53: , x: 1, y: 1
+            Item54: , x: 1, y: 0
+            Item55: , x: 0.5, y: 0
+            Item56: , x: 0, y: 1
+            Item57: , x: 0.333333, y: 1
+            Item58: , x: 0.333333, y: 0
+            Item59: , x: 0, y: 0
+            Item60: , x: 0.333333, y: 1
+            Item61: , x: 0.666667, y: 1
+            Item62: , x: 0.666667, y: 0
+            Item63: , x: 0.333333, y: 0
+            Item64: , x: 0.666667, y: 1
+            Item65: , x: 1, y: 1
+            Item66: , x: 1, y: 0
+            Item67: , x: 0.666667, y: 0
+            Item68: , x: 0, y: 1
+            Item69: , x: 0.5, y: 1
+            Item70: , x: 0.5, y: 0
+            Item71: , x: 0, y: 0
+            Item72: , x: 0.5, y: 1
+            Item73: , x: 1, y: 1
+            Item74: , x: 1, y: 0
+            Item75: , x: 0.5, y: 0
+            Item76: , x: 0, y: 1
+            Item77: , x: 0.333333, y: 1
+            Item78: , x: 0.333333, y: 0
+            Item79: , x: 0, y: 0
+            Item80: , x: 0.333333, y: 1
+            Item81: , x: 0.666667, y: 1
+            Item82: , x: 0.666667, y: 0
+            Item83: , x: 0.333333, y: 0
+            Item84: , x: 0.666667, y: 1
+            Item85: , x: 1, y: 1
+            Item86: , x: 1, y: 0
+            Item87: , x: 0.666667, y: 0
+            Item88: , x: 1, y: 1
+            Item89: , x: 1, y: 0.666667
+            Item90: , x: 1, y: 0.666667
+            Item91: , x: 1, y: 1
+            Item92: , x: 1, y: 0.666667
+            Item93: , x: 0.5, y: 0.666667
+            Item94: , x: 0.5, y: 0.666667
+            Item95: , x: 1, y: 0.666667
+            Item96: , x: 0.5, y: 0.666667
+            Item97: , x: 0.5, y: 1
+            Item98: , x: 0.5, y: 1
+            Item99: , x: 0.5, y: 0.666667
+            Item100: , x: 0.5, y: 1
+            Item101: , x: 1, y: 1
+            Item102: , x: 1, y: 1
+            Item103: , x: 0.5, y: 1
+            Item104: , x: 0.5, y: 1
+            Item105: , x: 0.5, y: 0.666667
+            Item106: , x: 0.5, y: 0.666667
+            Item107: , x: 0.5, y: 1
+            Item108: , x: 0.5, y: 0.666667
+            Item109: , x: 0, y: 0.666667
+            Item110: , x: 0, y: 0.666667
+            Item111: , x: 0.5, y: 0.666667
+            Item112: , x: 0, y: 0.666667
+            Item113: , x: 0, y: 1
+            Item114: , x: 0, y: 1
+            Item115: , x: 0, y: 0.666667
+            Item116: , x: 0, y: 1
+            Item117: , x: 0.5, y: 1
+            Item118: , x: 0.5, y: 1
+            Item119: , x: 0, y: 1
+            Item120: , x: 1, y: 0.333333
+            Item121: , x: 1, y: 0
+            Item122: , x: 1, y: 0
+            Item123: , x: 1, y: 0.333333
+            Item124: , x: 1, y: 0
+            Item125: , x: 0.5, y: 0
+            Item126: , x: 0.5, y: 0
+            Item127: , x: 1, y: 0
+            Item128: , x: 0.5, y: 0
+            Item129: , x: 0.5, y: 0.333333
+            Item130: , x: 0.5, y: 0.333333
+            Item131: , x: 0.5, y: 0
+            Item132: , x: 0.5, y: 0.333333
+            Item133: , x: 1, y: 0.333333
+            Item134: , x: 1, y: 0.333333
+            Item135: , x: 0.5, y: 0.333333
+            Item136: , x: 0.5, y: 0.333333
+            Item137: , x: 0.5, y: 0
+            Item138: , x: 0.5, y: 0
+            Item139: , x: 0.5, y: 0.333333
+            Item140: , x: 0.5, y: 0
+            Item141: , x: 0, y: 0
+            Item142: , x: 0, y: 0
+            Item143: , x: 0.5, y: 0
+            Item144: , x: 0, y: 0
+            Item145: , x: 0, y: 0.333333
+            Item146: , x: 0, y: 0.333333
+            Item147: , x: 0, y: 0
+            Item148: , x: 0, y: 0.333333
+            Item149: , x: 0.5, y: 0.333333
+            Item150: , x: 0.5, y: 0.333333
+            Item151: , x: 0, y: 0.333333
+        vector-vector3: 
+          Vertices: , size: 152
+            Item0: , x: -7.86947, y: -21.6178, z: -8.87613
+            Item1: , x: -7.86947, y: -10.4687, z: -8.87613
+            Item2: , x: -2.44704, y: -10.4687, z: -8.87613
+            Item3: , x: -2.44704, y: -21.6178, z: -8.87613
+            Item4: , x: 2.44704, y: -21.6178, z: -8.87613
+            Item5: , x: 2.44704, y: -10.4687, z: -8.87613
+            Item6: , x: 7.86947, y: -10.4687, z: -8.87613
+            Item7: , x: 7.86947, y: -21.6178, z: -8.87613
+            Item8: , x: -10.3165, y: -8.02163, z: 0
+            Item9: , x: -10.3165, y: 8.02162, z: 0
+            Item10: , x: 0, y: 8.02162, z: 0
+            Item11: , x: 0, y: -8.02163, z: 0
+            Item12: , x: 0, y: -8.02163, z: 0
+            Item13: , x: 0, y: 8.02162, z: 0
+            Item14: , x: 10.3165, y: 8.02162, z: 0
+            Item15: , x: 10.3165, y: -8.02163, z: 0
+            Item16: , x: -7.86947, y: 10.4687, z: -8.87613
+            Item17: , x: -7.86947, y: 21.6178, z: -8.87613
+            Item18: , x: -2.44704, y: 21.6178, z: -8.87613
+            Item19: , x: -2.44704, y: 10.4687, z: -8.87613
+            Item20: , x: 2.44704, y: 10.4687, z: -8.87613
+            Item21: , x: 2.44704, y: 21.6178, z: -8.87613
+            Item22: , x: 7.86947, y: 21.6178, z: -8.87613
+            Item23: , x: 7.86947, y: 10.4687, z: -8.87613
+            Item24: , x: -10.3165, y: -24.0649, z: 3.45649
+            Item25: , x: 0, y: -24.0649, z: 3.45649
+            Item26: , x: 0, y: -8.02163, z: 3.45649
+            Item27: , x: -10.3165, y: -8.02163, z: 3.45649
+            Item28: , x: 0, y: -24.0649, z: 3.45649
+            Item29: , x: 10.3165, y: -24.0649, z: 3.45649
+            Item30: , x: 10.3165, y: -8.02163, z: 3.45649
+            Item31: , x: 0, y: -8.02163, z: 3.45649
+            Item32: , x: -10.3165, y: -8.02163, z: 3.45649
+            Item33: , x: 0, y: -8.02163, z: 3.45649
+            Item34: , x: 0, y: 8.02162, z: 3.45649
+            Item35: , x: -10.3165, y: 8.02162, z: 3.45649
+            Item36: , x: 0, y: -8.02163, z: 3.45649
+            Item37: , x: 10.3165, y: -8.02163, z: 3.45649
+            Item38: , x: 10.3165, y: 8.02162, z: 3.45649
+            Item39: , x: 0, y: 8.02162, z: 3.45649
+            Item40: , x: -10.3165, y: 8.02162, z: 3.45649
+            Item41: , x: 0, y: 8.02162, z: 3.45649
+            Item42: , x: 0, y: 24.0649, z: 3.45649
+            Item43: , x: -10.3165, y: 24.0649, z: 3.45649
+            Item44: , x: 0, y: 8.02162, z: 3.45649
+            Item45: , x: 10.3165, y: 8.02162, z: 3.45649
+            Item46: , x: 10.3165, y: 24.0649, z: 3.45649
+            Item47: , x: 0, y: 24.0649, z: 3.45649
+            Item48: , x: -10.3165, y: -24.0649, z: 0
+            Item49: , x: 0, y: -24.0649, z: 0
+            Item50: , x: 0, y: -24.0649, z: 3.45649
+            Item51: , x: -10.3165, y: -24.0649, z: 3.45649
+            Item52: , x: 0, y: -24.0649, z: 0
+            Item53: , x: 10.3165, y: -24.0649, z: 0
+            Item54: , x: 10.3165, y: -24.0649, z: 3.45649
+            Item55: , x: 0, y: -24.0649, z: 3.45649
+            Item56: , x: 10.3165, y: -24.0649, z: 0
+            Item57: , x: 10.3165, y: -8.02163, z: 0
+            Item58: , x: 10.3165, y: -8.02163, z: 3.45649
+            Item59: , x: 10.3165, y: -24.0649, z: 3.45649
+            Item60: , x: 10.3165, y: -8.02163, z: 0
+            Item61: , x: 10.3165, y: 8.02162, z: 0
+            Item62: , x: 10.3165, y: 8.02162, z: 3.45649
+            Item63: , x: 10.3165, y: -8.02163, z: 3.45649
+            Item64: , x: 10.3165, y: 8.02162, z: 0
+            Item65: , x: 10.3165, y: 24.0649, z: 0
+            Item66: , x: 10.3165, y: 24.0649, z: 3.45649
+            Item67: , x: 10.3165, y: 8.02162, z: 3.45649
+            Item68: , x: 10.3165, y: 24.0649, z: 0
+            Item69: , x: 0, y: 24.0649, z: 0
+            Item70: , x: 0, y: 24.0649, z: 3.45649
+            Item71: , x: 10.3165, y: 24.0649, z: 3.45649
+            Item72: , x: 0, y: 24.0649, z: 0
+            Item73: , x: -10.3165, y: 24.0649, z: 0
+            Item74: , x: -10.3165, y: 24.0649, z: 3.45649
+            Item75: , x: 0, y: 24.0649, z: 3.45649
+            Item76: , x: -10.3165, y: 24.0649, z: 0
+            Item77: , x: -10.3165, y: 8.02162, z: 0
+            Item78: , x: -10.3165, y: 8.02162, z: 3.45649
+            Item79: , x: -10.3165, y: 24.0649, z: 3.45649
+            Item80: , x: -10.3165, y: 8.02162, z: 0
+            Item81: , x: -10.3165, y: -8.02163, z: 0
+            Item82: , x: -10.3165, y: -8.02163, z: 3.45649
+            Item83: , x: -10.3165, y: 8.02162, z: 3.45649
+            Item84: , x: -10.3165, y: -8.02163, z: 0
+            Item85: , x: -10.3165, y: -24.0649, z: 0
+            Item86: , x: -10.3165, y: -24.0649, z: 3.45649
+            Item87: , x: -10.3165, y: -8.02163, z: 3.45649
+            Item88: , x: -10.3165, y: -24.0649, z: 0
+            Item89: , x: -10.3165, y: -8.02163, z: 0
+            Item90: , x: -7.86947, y: -10.4687, z: -8.87613
+            Item91: , x: -7.86947, y: -21.6178, z: -8.87613
+            Item92: , x: -10.3165, y: -8.02163, z: 0
+            Item93: , x: 0, y: -8.02163, z: 0
+            Item94: , x: -2.44704, y: -10.4687, z: -8.87613
+            Item95: , x: -7.86947, y: -10.4687, z: -8.87613
+            Item96: , x: 0, y: -8.02163, z: 0
+            Item97: , x: 0, y: -24.0649, z: 0
+            Item98: , x: -2.44704, y: -21.6178, z: -8.87613
+            Item99: , x: -2.44704, y: -10.4687, z: -8.87613
+            Item100: , x: 0, y: -24.0649, z: 0
+            Item101: , x: -10.3165, y: -24.0649, z: 0
+            Item102: , x: -7.86947, y: -21.6178, z: -8.87613
+            Item103: , x: -2.44704, y: -21.6178, z: -8.87613
+            Item104: , x: 0, y: -24.0649, z: 0
+            Item105: , x: 0, y: -8.02163, z: 0
+            Item106: , x: 2.44704, y: -10.4687, z: -8.87613
+            Item107: , x: 2.44704, y: -21.6178, z: -8.87613
+            Item108: , x: 0, y: -8.02163, z: 0
+            Item109: , x: 10.3165, y: -8.02163, z: 0
+            Item110: , x: 7.86947, y: -10.4687, z: -8.87613
+            Item111: , x: 2.44704, y: -10.4687, z: -8.87613
+            Item112: , x: 10.3165, y: -8.02163, z: 0
+            Item113: , x: 10.3165, y: -24.0649, z: 0
+            Item114: , x: 7.86947, y: -21.6178, z: -8.87613
+            Item115: , x: 7.86947, y: -10.4687, z: -8.87613
+            Item116: , x: 10.3165, y: -24.0649, z: 0
+            Item117: , x: 0, y: -24.0649, z: 0
+            Item118: , x: 2.44704, y: -21.6178, z: -8.87613
+            Item119: , x: 7.86947, y: -21.6178, z: -8.87613
+            Item120: , x: -10.3165, y: 8.02162, z: 0
+            Item121: , x: -10.3165, y: 24.0649, z: 0
+            Item122: , x: -7.86947, y: 21.6178, z: -8.87613
+            Item123: , x: -7.86947, y: 10.4687, z: -8.87613
+            Item124: , x: -10.3165, y: 24.0649, z: 0
+            Item125: , x: 0, y: 24.0649, z: 0
+            Item126: , x: -2.44704, y: 21.6178, z: -8.87613
+            Item127: , x: -7.86947, y: 21.6178, z: -8.87613
+            Item128: , x: 0, y: 24.0649, z: 0
+            Item129: , x: 0, y: 8.02162, z: 0
+            Item130: , x: -2.44704, y: 10.4687, z: -8.87613
+            Item131: , x: -2.44704, y: 21.6178, z: -8.87613
+            Item132: , x: 0, y: 8.02162, z: 0
+            Item133: , x: -10.3165, y: 8.02162, z: 0
+            Item134: , x: -7.86947, y: 10.4687, z: -8.87613
+            Item135: , x: -2.44704, y: 10.4687, z: -8.87613
+            Item136: , x: 0, y: 8.02162, z: 0
+            Item137: , x: 0, y: 24.0649, z: 0
+            Item138: , x: 2.44704, y: 21.6178, z: -8.87613
+            Item139: , x: 2.44704, y: 10.4687, z: -8.87613
+            Item140: , x: 0, y: 24.0649, z: 0
+            Item141: , x: 10.3165, y: 24.0649, z: 0
+            Item142: , x: 7.86947, y: 21.6178, z: -8.87613
+            Item143: , x: 2.44704, y: 21.6178, z: -8.87613
+            Item144: , x: 10.3165, y: 24.0649, z: 0
+            Item145: , x: 10.3165, y: 8.02162, z: 0
+            Item146: , x: 7.86947, y: 10.4687, z: -8.87613
+            Item147: , x: 7.86947, y: 21.6178, z: -8.87613
+            Item148: , x: 10.3165, y: 8.02162, z: 0
+            Item149: , x: 0, y: 8.02162, z: 0
+            Item150: , x: 2.44704, y: 10.4687, z: -8.87613
+            Item151: , x: 7.86947, y: 10.4687, z: -8.87613
+          Normals: , size: 152
+            Item0: , x: 0, y: 0, z: -1
+            Item1: , x: 0, y: 0, z: -1
+            Item2: , x: 0, y: 0, z: -1
+            Item3: , x: 0, y: 0, z: -1
+            Item4: , x: 0, y: 0, z: -1
+            Item5: , x: 0, y: 0, z: -1
+            Item6: , x: 0, y: 0, z: -1
+            Item7: , x: 0, y: 0, z: -1
+            Item8: , x: 0, y: 0, z: -1
+            Item9: , x: 0, y: 0, z: -1
+            Item10: , x: 0, y: 0, z: -1
+            Item11: , x: 0, y: 0, z: -1
+            Item12: , x: 0, y: 0, z: -1
+            Item13: , x: 0, y: 0, z: -1
+            Item14: , x: 0, y: 0, z: -1
+            Item15: , x: 0, y: 0, z: -1
+            Item16: , x: 0, y: 0, z: -1
+            Item17: , x: 0, y: 0, z: -1
+            Item18: , x: 0, y: 0, z: -1
+            Item19: , x: 0, y: 0, z: -1
+            Item20: , x: 0, y: 0, z: -1
+            Item21: , x: 0, y: 0, z: -1
+            Item22: , x: 0, y: 0, z: -1
+            Item23: , x: 0, y: 0, z: -1
+            Item24: , x: 0, y: 0, z: 1
+            Item25: , x: 0, y: 0, z: 1
+            Item26: , x: 0, y: 0, z: 1
+            Item27: , x: 0, y: 0, z: 1
+            Item28: , x: 0, y: 0, z: 1
+            Item29: , x: 0, y: 0, z: 1
+            Item30: , x: 0, y: 0, z: 1
+            Item31: , x: 0, y: 0, z: 1
+            Item32: , x: 0, y: 0, z: 1
+            Item33: , x: 0, y: 0, z: 1
+            Item34: , x: 0, y: 0, z: 1
+            Item35: , x: 0, y: 0, z: 1
+            Item36: , x: 0, y: 0, z: 1
+            Item37: , x: 0, y: 0, z: 1
+            Item38: , x: 0, y: 0, z: 1
+            Item39: , x: 0, y: 0, z: 1
+            Item40: , x: 0, y: 0, z: 1
+            Item41: , x: 0, y: 0, z: 1
+            Item42: , x: 0, y: 0, z: 1
+            Item43: , x: 0, y: 0, z: 1
+            Item44: , x: 0, y: 0, z: 1
+            Item45: , x: 0, y: 0, z: 1
+            Item46: , x: 0, y: 0, z: 1
+            Item47: , x: 0, y: 0, z: 1
+            Item48: , x: 0, y: -1, z: 0
+            Item49: , x: 0, y: -1, z: 0
+            Item50: , x: 0, y: -1, z: 0
+            Item51: , x: 0, y: -1, z: 0
+            Item52: , x: 0, y: -1, z: 0
+            Item53: , x: 0, y: -1, z: 0
+            Item54: , x: 0, y: -1, z: 0
+            Item55: , x: 0, y: -1, z: 0
+            Item56: , x: 1, y: 0, z: 0
+            Item57: , x: 1, y: 0, z: 0
+            Item58: , x: 1, y: 0, z: 0
+            Item59: , x: 1, y: 0, z: 0
+            Item60: , x: 1, y: 0, z: 0
+            Item61: , x: 1, y: 0, z: 0
+            Item62: , x: 1, y: 0, z: 0
+            Item63: , x: 1, y: 0, z: 0
+            Item64: , x: 1, y: 0, z: 0
+            Item65: , x: 1, y: 0, z: 0
+            Item66: , x: 1, y: 0, z: 0
+            Item67: , x: 1, y: 0, z: 0
+            Item68: , x: 0, y: 1, z: 0
+            Item69: , x: 0, y: 1, z: 0
+            Item70: , x: 0, y: 1, z: 0
+            Item71: , x: 0, y: 1, z: 0
+            Item72: , x: 0, y: 1, z: 0
+            Item73: , x: 0, y: 1, z: 0
+            Item74: , x: 0, y: 1, z: 0
+            Item75: , x: 0, y: 1, z: 0
+            Item76: , x: -1, y: 0, z: 0
+            Item77: , x: -1, y: 0, z: 0
+            Item78: , x: -1, y: 0, z: 0
+            Item79: , x: -1, y: 0, z: 0
+            Item80: , x: -1, y: 0, z: 0
+            Item81: , x: -1, y: 0, z: 0
+            Item82: , x: -1, y: 0, z: 0
+            Item83: , x: -1, y: 0, z: 0
+            Item84: , x: -1, y: 0, z: 0
+            Item85: , x: -1, y: 0, z: 0
+            Item86: , x: -1, y: 0, z: 0
+            Item87: , x: -1, y: 0, z: 0
+            Item88: , x: -0.964036, y: 0, z: -0.265772
+            Item89: , x: -0.964036, y: 0, z: -0.265772
+            Item90: , x: -0.964036, y: 0, z: -0.265772
+            Item91: , x: -0.964036, y: 0, z: -0.265772
+            Item92: , x: 0, y: 0.964036, z: -0.265772
+            Item93: , x: 0, y: 0.964036, z: -0.265772
+            Item94: , x: 0, y: 0.964036, z: -0.265772
+            Item95: , x: 0, y: 0.964036, z: -0.265772
+            Item96: , x: 0.964036, y: 0, z: -0.265772
+            Item97: , x: 0.964036, y: 0, z: -0.265772
+            Item98: , x: 0.964036, y: 0, z: -0.265772
+            Item99: , x: 0.964036, y: 0, z: -0.265772
+            Item100: , x: 0, y: -0.964036, z: -0.265772
+            Item101: , x: 0, y: -0.964036, z: -0.265772
+            Item102: , x: 0, y: -0.964036, z: -0.265772
+            Item103: , x: 0, y: -0.964036, z: -0.265772
+            Item104: , x: -0.964036, y: 0, z: -0.265772
+            Item105: , x: -0.964036, y: 0, z: -0.265772
+            Item106: , x: -0.964036, y: 0, z: -0.265772
+            Item107: , x: -0.964036, y: 0, z: -0.265772
+            Item108: , x: 0, y: 0.964036, z: -0.265772
+            Item109: , x: 0, y: 0.964036, z: -0.265772
+            Item110: , x: 0, y: 0.964036, z: -0.265772
+            Item111: , x: 0, y: 0.964036, z: -0.265772
+            Item112: , x: 0.964036, y: 0, z: -0.265772
+            Item113: , x: 0.964036, y: 0, z: -0.265772
+            Item114: , x: 0.964036, y: 0, z: -0.265772
+            Item115: , x: 0.964036, y: 0, z: -0.265772
+            Item116: , x: 0, y: -0.964036, z: -0.265772
+            Item117: , x: 0, y: -0.964036, z: -0.265772
+            Item118: , x: 0, y: -0.964036, z: -0.265772
+            Item119: , x: 0, y: -0.964036, z: -0.265772
+            Item120: , x: -0.964036, y: 0, z: -0.265772
+            Item121: , x: -0.964036, y: 0, z: -0.265772
+            Item122: , x: -0.964036, y: 0, z: -0.265772
+            Item123: , x: -0.964036, y: 0, z: -0.265772
+            Item124: , x: 0, y: 0.964036, z: -0.265772
+            Item125: , x: 0, y: 0.964036, z: -0.265772
+            Item126: , x: 0, y: 0.964036, z: -0.265772
+            Item127: , x: 0, y: 0.964036, z: -0.265772
+            Item128: , x: 0.964036, y: 0, z: -0.265772
+            Item129: , x: 0.964036, y: 0, z: -0.265772
+            Item130: , x: 0.964036, y: 0, z: -0.265772
+            Item131: , x: 0.964036, y: 0, z: -0.265772
+            Item132: , x: 0, y: -0.964036, z: -0.265772
+            Item133: , x: 0, y: -0.964036, z: -0.265772
+            Item134: , x: 0, y: -0.964036, z: -0.265772
+            Item135: , x: 0, y: -0.964036, z: -0.265772
+            Item136: , x: -0.964036, y: 0, z: -0.265772
+            Item137: , x: -0.964036, y: 0, z: -0.265772
+            Item138: , x: -0.964036, y: 0, z: -0.265772
+            Item139: , x: -0.964036, y: 0, z: -0.265772
+            Item140: , x: 0, y: 0.964036, z: -0.265772
+            Item141: , x: 0, y: 0.964036, z: -0.265772
+            Item142: , x: 0, y: 0.964036, z: -0.265772
+            Item143: , x: 0, y: 0.964036, z: -0.265772
+            Item144: , x: 0.964036, y: 0, z: -0.265772
+            Item145: , x: 0.964036, y: 0, z: -0.265772
+            Item146: , x: 0.964036, y: 0, z: -0.265772
+            Item147: , x: 0.964036, y: 0, z: -0.265772
+            Item148: , x: 0, y: -0.964036, z: -0.265772
+            Item149: , x: 0, y: -0.964036, z: -0.265772
+            Item150: , x: 0, y: -0.964036, z: -0.265772
+            Item151: , x: 0, y: -0.964036, z: -0.265772
+        matrix4: 
+          Transform: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+        vector-sbone: 
+          Bones: , size: 0
+        node: 
+          RootNode: 0|(1|NGon001_$AssimpFbx$_PreRotation(2|NGon001_$AssimpFbx$_Scaling(3|NGon001()))4|NGon002_$AssimpFbx$_PreRotation(5|NGon002_$AssimpFbx$_Rotation(6|NGon002_$AssimpFbx$_Scaling(7|NGon002())))8|Box001_$AssimpFbx$_Translation(9|Box001_$AssimpFbx$_PreRotation(10|Box001()))11|Box002_$AssimpFbx$_Translation(12|Box002_$AssimpFbx$_PreRotation(13|Box002()))14|Box003_$AssimpFbx$_Translation(15|Box003_$AssimpFbx$_PreRotation(16|Box003())))
+        vector-matrix4: 
+          Node Matrices: , size: 17
+            Item0: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item1: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item2: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1.28635, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item3: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item4: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item5: , i: 1, a: -4.37114e-08, b: 0, c: -1, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item6: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1.28635, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item7: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item8: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 11.0291, o: 26.8864, p: 1
+            Item9: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item10: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item11: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 6.20541, o: -26.9472, p: 1
+            Item12: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item13: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item14: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 9.06091, o: -0, p: 1
+            Item15: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: -4.37114e-08, g: -1, h: 0, j: 1, k: -4.37114e-08, l: 0, m: 0, n: 0, o: 0, p: 1
+            Item16: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+  matrix4: 
+    GlobalTransform: , i: 0, a: 1, b: 0, c: 0, d: 0, e: 0, f: 1, g: 0, h: 0, j: 0, k: 1, l: 0, m: 0, n: 0, o: 0, p: 1
+  vector-anim: 
+    animations: , size: 0

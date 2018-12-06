@@ -1,0 +1,10 @@
+[2018-12-04 19:28:22.055] [exthost] [info] extension host started
+[2018-12-04 19:28:22.092] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-12-04 19:28:22.092] [exthost] [info] ExtensionService#loadCommonJSModule c:\Users\t.weigangkenneth\source\Workspaces\GAM_300_350\GGEngine\GGEngine\Resources\Templates\VSCode\resources\app\extensions\debug-auto-launch\dist\extension
+[2018-12-04 19:28:22.101] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-12-04 19:28:22.101] [exthost] [info] ExtensionService#loadCommonJSModule c:\Users\t.weigangkenneth\source\Workspaces\GAM_300_350\GGEngine\GGEngine\Resources\Templates\VSCode\resources\app\extensions\emmet\dist\extension
+[2018-12-04 19:28:22.122] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-12-04 19:28:22.122] [exthost] [info] ExtensionService#loadCommonJSModule c:\Users\t.weigangkenneth\source\Workspaces\GAM_300_350\GGEngine\GGEngine\Resources\Templates\VSCode\resources\app\extensions\git\dist\main
+[2018-12-04 19:28:22.272] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-12-04 19:28:22.272] [exthost] [info] ExtensionService#loadCommonJSModule c:\Users\t.weigangkenneth\source\Workspaces\GAM_300_350\GGEngine\GGEngine\Resources\Templates\VSCode\resources\app\extensions\merge-conflict\dist\extension
+[2018-12-04 19:28:22.286] [exthost] [info] eager extensions activated

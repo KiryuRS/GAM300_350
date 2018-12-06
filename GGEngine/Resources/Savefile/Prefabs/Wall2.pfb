@@ -1,0 +1,25 @@
+Root: 
+  Prefab: , Name: Wall2
+    Transform: 
+      vector3: 
+        Position: , x: 241.053, y: 0.0309753, z: 329.103
+        Rotation: , x: 0.00122526, y: 270, z: 360
+        Scale: , x: 20, y: 70, z: 922
+    Script: 
+      vector-string: 
+        Scripts: , size: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\platform.mdl
+        Texture_Directory: Resources/Texture/sample.dds
+      vector3: 
+        Scale: , x: 1, y: 1, z: 1
+    StaticMeshRenderer: 
+    AABBCollider: 
+      bool: 
+        Debug Draw: 1
+        isTrigger: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        Scale: , x: 1, y: 1, z: 1

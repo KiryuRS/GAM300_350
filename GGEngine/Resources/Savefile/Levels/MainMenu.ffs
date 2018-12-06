@@ -1,0 +1,258 @@
+Settings: 
+  float: 
+    Fog Distance: 500
+  string: 
+    SkyboxLeft: CompiledAssets\Sprites\blood-stain-gorge_lf.dds
+    SkyboxRight: CompiledAssets\Sprites\blood-stain-gorge_rt.dds
+    SkyboxDown: CompiledAssets\Sprites\blood-stain-gorge_dn.dds
+    SkyboxUp: CompiledAssets\Sprites\blood-stain-gorge_up.dds
+    SkyboxBack: CompiledAssets\Sprites\blood-stain-gorge_bk.dds
+    SkyboxFront: CompiledAssets\Sprites\blood-stain-gorge_ft.dds
+  bool: 
+    Render Shadows: 0
+    Render Skybox: 0
+    Draw Fog: 0
+  vector-string: 
+    Game Spaces: , size: 0
+  vector4: 
+    Fog Color: , x: 0, y: 0, z: 0, w: 1
+Entities: 
+  Entity: Camera
+    Transform: 
+      vector3: 
+        Position: , x: -60.421, y: 0, z: 10
+        Rotation: , x: 0, y: 116, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    Camera: 
+      float: 
+        Camera_Speed: 0.7
+        Camera_Rotation: 2
+        Clipping_Plane_Near: 1
+        Clipping_Plane_Far: 900
+        Field_Of_View: 45
+        HDR_Exposure_Rate: 1
+        Camera_Gamma: 2.2
+      string: 
+        Target_Name_Identifier: 
+      bool: 
+        Disable: 0
+        Perspective_View: 0
+        Orthographic_View: 1
+        Free_Will_Camera: 1
+        Camera_Bloom: 0
+        HDR: 0
+      int: 
+        Viewport_Width: 1
+        Viewport_Height: 1
+        Bloom_Amount: 10
+      vector2: 
+        Viewport_Start_Position: , x: 0, y: 0
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\teapot.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 0
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+  Entity: Menu Background
+    Transform: 
+      vector3: 
+        Position: , x: 99.6502, y: 1.75095e-05, z: -35.2711
+        Rotation: , x: 9.51098e-06, y: 270, z: 0
+        Scale: , x: 7370, y: 5000, z: 1
+    Sprite2D: 
+      float: 
+        Value: 0
+        Transparency: 1
+      string: 
+        Texture: CompiledAssets\Sprites\purplesky_back.dds
+        onStart_animationName: 
+      bool: 
+        Radio: 0
+        Horizontal: 0
+        Vertical: 0
+        lookAtCam: 0
+        Always Front: 0
+        loop: 0
+        play_onStart: 0
+        Visible: 1
+      int: 
+        current_frame: 0
+      vector4: 
+        Tint: , x: 0, y: 0, z: 0, w: 0
+      unsigned: 
+        slices_Row: 1
+        slices_Col: 1
+  Entity: BtnManager
+    Transform: 
+      vector3: 
+        Position: , x: 79.0514, y: -223.899, z: 224.282
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 0, y: 300, z: 300
+    Identifier: 
+      string: 
+        ID: BtnManager
+    Script: 
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/ButtonManager.lua
+    ButtonManagerC: 
+      int: 
+        Current Index: 0
+    Controller: 
+      vector-string: 
+        Up_Key: , size: 0
+        Down_Key: , size: 0
+        Left_Key: , size: 0
+        Right_Key: , size: 0
+        Interact_Key: , size: 0
+        Interact2_Key: , size: 0
+        LeftClick_Key: , size: 0
+        RightClick_Key: , size: 0
+    Sprite2D: 
+      float: 
+        Value: 0
+        Transparency: 1
+      string: 
+        Texture: CompiledAssets/Sprites/sample.dds
+        onStart_animationName: 
+      bool: 
+        Radio: 0
+        Horizontal: 0
+        Vertical: 0
+        lookAtCam: 0
+        Always Front: 0
+        loop: 0
+        play_onStart: 0
+        Visible: 1
+      int: 
+        current_frame: 0
+      vector4: 
+        Tint: , x: 0, y: 0, z: 0, w: 0
+      unsigned: 
+        slices_Row: 1
+        slices_Col: 1
+    Children: 
+      Entity: Button0
+        Transform: 
+          vector3: 
+            Position: , x: -10, y: 0.716715, z: -0.824224
+            Rotation: , x: 0, y: 270, z: 0
+            Scale: , x: 9.5, y: 1.5, z: 1
+        Sprite2D: 
+          float: 
+            Value: 0
+            Transparency: 1
+          string: 
+            Texture: CompiledAssets\Sprites\startgame default.dds
+            onStart_animationName: 
+          bool: 
+            Radio: 0
+            Horizontal: 0
+            Vertical: 0
+            lookAtCam: 0
+            Always Front: 0
+            loop: 0
+            play_onStart: 0
+            Visible: 1
+          int: 
+            current_frame: 0
+          vector4: 
+            Tint: , x: 0, y: 0, z: 0, w: 0
+          unsigned: 
+            slices_Row: 1
+            slices_Col: 1
+        Identifier: 
+          string: 
+            ID: Button0
+        ButtonC: 
+          string: 
+            Selected Texture: CompiledAssets\Sprites\startgame press.dds
+            Highlighted Texture: CompiledAssets\Sprites\startgame hover.dds
+            Default Texture: CompiledAssets\Sprites\startgame default.dds
+            Transverse filename: Resources/Savefile/Levels/Level0.lvl
+            Command: GoNextStack
+          int: 
+            Selected Texture Num: 96
+            Highlighted Texture Num: 95
+            Normal Texture Num: 95
+      Entity: Button1
+        Transform: 
+          vector3: 
+            Position: , x: -10, y: 0.0192712, z: -0.824684
+            Rotation: , x: 0, y: 270, z: 0
+            Scale: , x: 9.5, y: 1.5, z: 1
+        Sprite2D: 
+          float: 
+            Value: 0
+            Transparency: 1
+          string: 
+            Texture: CompiledAssets\Sprites\quitgame .dds
+            onStart_animationName: 
+          bool: 
+            Radio: 0
+            Horizontal: 0
+            Vertical: 0
+            lookAtCam: 0
+            Always Front: 0
+            loop: 0
+            play_onStart: 0
+            Visible: 1
+          int: 
+            current_frame: 0
+          vector4: 
+            Tint: , x: 0, y: 0, z: 0, w: 0
+          unsigned: 
+            slices_Row: 1
+            slices_Col: 1
+        Identifier: 
+          string: 
+            ID: Button1
+        ButtonC: 
+          string: 
+            Selected Texture: CompiledAssets\Sprites\quitgame press.dds
+            Highlighted Texture: CompiledAssets\Sprites\quitgame hover.dds
+            Default Texture: CompiledAssets\Sprites\quitgame .dds
+            Transverse filename: 
+            Command: Quit
+          int: 
+            Selected Texture Num: 61
+            Highlighted Texture Num: 60
+            Normal Texture Num: 59
+  Entity: MenuLogo
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: 209.275, z: -17.7622
+        Rotation: , x: 0, y: 270, z: 0
+        Scale: , x: 800, y: 500, z: 1
+    Sprite2D: 
+      float: 
+        Value: 0
+        Transparency: 1
+      string: 
+        Texture: CompiledAssets\Sprites\asset_16.dds
+        onStart_animationName: 
+      bool: 
+        Radio: 0
+        Horizontal: 0
+        Vertical: 0
+        lookAtCam: 0
+        Always Front: 1
+        loop: 0
+        play_onStart: 0
+        Visible: 1
+      int: 
+        current_frame: 0
+      vector4: 
+        Tint: , x: 0, y: 0, z: 0, w: 0
+      unsigned: 
+        slices_Row: 1
+        slices_Col: 1

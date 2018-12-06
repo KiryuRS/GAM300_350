@@ -1,0 +1,23 @@
+Root: 
+  Prefab: , Name: GlassClutter
+    Transform: 
+      vector3: 
+        Position: , x: 1457.59, y: -7.16766, z: -493.377
+        Rotation: , x: 90, y: 284.116, z: 180
+        Scale: , x: 2, y: 2, z: 2
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\grassclutter.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: DarkGreen
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1
+    Children: 

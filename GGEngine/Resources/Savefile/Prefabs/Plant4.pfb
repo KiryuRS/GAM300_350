@@ -1,0 +1,47 @@
+Root: 
+  Prefab: , Name: Plant4
+    Transform: 
+      vector3: 
+        Position: , x: -116.799, y: 7.73352, z: 200.81
+        Rotation: , x: 270, y: 0, z: 0
+        Scale: , x: 2, y: 2, z: 2
+    Script: 
+      float: 
+        endY: 15
+        startY: -7
+      string: 
+        carrotDrawnPrefab: 
+        plantName: Cabbage
+      vector-string: 
+        Scripts: , size: 1
+          Item0: Resources/Scripts/PlantInfo.lua
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\4cabbage.mdl
+      vector-string: 
+        Materials: , size: 2
+          Item0: Metal
+          Item1: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    AABBCollider: 
+      bool: 
+        Debug Draw: 0
+        isTrigger: 1
+        rotationAffect_90: 0
+      int: 
+        ColliderLayerCode: 1
+      vector3: 
+        offset: , x: 0, y: 12.3, z: 0
+        Scale: , x: 2, y: 2, z: 1.9
+    Identifier: 
+      string: 
+        ID: Plant
+    Children: 

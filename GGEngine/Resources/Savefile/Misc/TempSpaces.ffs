@@ -1,0 +1,16 @@
+Gamespace 0: 
+  string: 
+    Name: UI
+    File: Resources/Savefile/Levels/Gui.ffs
+  bool: 
+    Focus: 0
+    Active: 1
+    isLevel: 0
+Gamespace 1: 
+  string: 
+    Name: 
+    File: 
+  bool: 
+    Focus: 1
+    Active: 1
+    isLevel: 1

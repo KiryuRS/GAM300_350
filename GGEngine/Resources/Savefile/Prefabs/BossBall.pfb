@@ -1,0 +1,23 @@
+Root: 
+  Prefab: , Name: BossBall
+    Transform: 
+      vector3: 
+        Position: , x: 1.65647e-06, y: 63.5222, z: 11.7365
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 0.5, y: 0.5, z: 0.5
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\bossolin.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: Metal
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      bool: 
+        Cast Shadow: 1
+        Receive Shadow: 1
+        Visible: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 0
+    Children: 

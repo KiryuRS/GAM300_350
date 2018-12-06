@@ -1,0 +1,712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="EditorRelease|Win32">
+      <Configuration>EditorRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="EditorRelease|x64">
+      <Configuration>EditorRelease</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="EditorDebug|Win32">
+      <Configuration>EditorDebug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="EditorDebug|x64">
+      <Configuration>EditorDebug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="System Tests|Win32">
+      <Configuration>System Tests</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="System Tests|x64">
+      <Configuration>System Tests</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{A2769BD1-A281-48C9-8290-80F3CA7B9495}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GGEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='System Tests|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EditorDebug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EditorRelease|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='System Tests|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EditorDebug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EditorRelease|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='System Tests|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='EditorDebug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='EditorRelease|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='System Tests|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='EditorDebug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='EditorRelease|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\Dep\VisualLeakDetector\include;..\Dep\FMOD_V1.09.01\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Dep\FMOD_V1.09.01\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='System Tests|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\Dep\VisualLeakDetector\include;..\Dep\FMOD_V1.09.01\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Dep\FMOD_V1.09.01\Lib;$(LibraryPath)</LibraryPath>
+    <TargetName>SysTests</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EditorDebug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\Dep\VisualLeakDetector\include;..\Dep\FMOD_V1.09.01\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Dep\FMOD_V1.09.01\Lib;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='System Tests|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EditorDebug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\Dep\FMOD_V1.09.01\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Dep\FMOD_V1.09.01\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EditorRelease|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\Dep\FMOD_V1.09.01\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Dep\FMOD_V1.09.01\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='EditorRelease|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>..\Dep\Assimp\include;..\Dep\sol;..\Dep\Lua;..\Dep\TinyXml;..\Dep\freetype-2.8\include;..\Dep\imgui-master;..\Dep\OpenGL\include\glm;..\Dep\OpenGL\include\gl;..\Dep\VisualLeakDetector\include;..\Dep\FMOD_V1.09.01\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>-D_SCL_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>..\Dep\Lua;..\Dep\TinyXml;..\Dep\freetype-2.8\objs\vc2010\Win32;..\Dep\OpenGL\libraries;..\Dep\FMOD_V1.09.01\Lib\x32;..\Dep\VisualLeakDetector\lib\Win32;..\Dep\Assimp\lib;..\Dep\glew\Win32\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>assimp-vc140-mt.lib;lua.lib;glu32.lib;tinyxml2-d.lib;vld.lib;freetype28d.lib;soil-d.lib;glew32s.lib;OpenGL32.lib;fmodstudio_vc.lib;fmod_vc.lib;XINPUT9_1_0.LIB;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='System Tests|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_SYSTEMTESTS;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>..\Dep\sol;..\Dep\Lua;..\Dep\TinyXml;..\Dep\freetype-2.8\include;..\Dep\imgui-master;..\Dep\OpenGL\include\glm;..\Dep\OpenGL\include\gl;..\Dep\VisualLeakDetector\include;..\Dep\FMOD_V1.09.01\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>-D_SCL_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>..\Dep\Lua;..\Dep\TinyXml;..\Dep\freetype-2.8\objs\vc2010\Win32;..\Dep\OpenGL\libraries;..\Dep\FMOD_V1.09.01\Lib;..\Dep\VisualLeakDetector\lib\Win32;..\Dep\glew\Win32\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>lua.lib;glu32.lib;tinyxml2-d.lib;vld.lib;freetype28d.lib;soil-d.lib;glew32s.lib;OpenGL32.lib;fmodstudio_vc.lib;fmod_vc.lib;XINPUT9_1_0.LIB;Shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='EditorDebug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;EDITOR;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>..\Dep\Assimp\include;..\Dep\sol;..\Dep\Lua;..\Dep\TinyXml;..\Dep\freetype-2.8\include;..\Dep\imgui-master;..\Dep\OpenGL\include\glm;..\Dep\OpenGL\include\gl;..\Dep\FMOD_V1.09.01\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>-D_SCL_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>..\Dep\Assimp\lib;..\Dep\Lua;..\Dep\TinyXml;..\Dep\freetype-2.8\objs\vc2010\Win32;..\Dep\OpenGL\libraries;..\Dep\FMOD_V1.09.01\Lib\x32;..\Dep\VisualLeakDetector\lib\Win32;..\Dep\glew\Win32\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>assimp-vc140-mt.lib;lua.lib;glu32.lib;tinyxml2-d.lib;vld.lib;freetype28d.lib;soil-d.lib;glew32s.lib;opengl32.lib;fmodstudio_vc.lib;fmod_vc.lib;XINPUT9_1_0.LIB;Shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_WIN64;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\Dep\VisualLeakDetector\include;..\Dep\FMOD_V1.09.01\Include;..\Dep\OpenGL\include\gl;..\Dep\OpenGL\include\glm;..\Dep\imgui-master;..\Dep\freetype\include;..\Dep\Lua;..\Dep\sol;..\Dep\Assimp\include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalOptions>-D_SCL_SECURE_NO_WARNINGS /MP %(AdditionalOptions)</AdditionalOptions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>assimp-vc140-mt.lib;glew64s.lib;fmodL64_vc.lib;fmodstudioL64_vc.lib;soilx64-d.lib;OpenGL32.lib;XINPUT9_1_0.LIB;vld.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\Dep\FMOD_V1.09.01\Lib\x64;..\Dep\Lua;..\Dep\OpenGL\libraries;..\Dep\Assimp\lib\x64;..\Dep\TinyXml;..\Dep\VisualLeakDetector\lib\x64;..\Dep\freetype\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='System Tests|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_SYSTEMTESTS%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../Dep/glew; ../Dep/glm;</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>glew32s.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../Dep/glew/x64/</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='EditorDebug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_WIN64;EDITOR;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\Dep\DevIL\include\IL;..\Dep\VisualLeakDetector\include;..\Dep\sol;..\Dep\Lua;..\Dep\freetype\include;..\Dep\imgui-master;..\Dep\OpenGL\include\glm;..\Dep\OpenGL\include\gl;..\Dep\Assimp\include;..\Dep\FMOD_V1.09.01\Include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalOptions>-D_SCL_SECURE_NO_WARNINGS /MP</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>..\Dep\DevIL\lib\x64\Release;..\Dep\VisualLeakDetector\lib\x64;..\Dep\FMOD_V1.09.01\Lib\x64;..\Dep\Lua;..\Dep\OpenGL\libraries;..\Dep\Assimp\lib\x64;..\Dep\VisualLeakDetector\lib\Win64;..\Dep\freetype\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>assimp-vc140-mt.lib;glew64s.lib;fmodL64_vc.lib;fmodstudioL64_vc.lib;vld.lib;soilx64-d.lib;OpenGL32.lib;XINPUT9_1_0.LIB;DevIL.lib;ILU.lib;ILUT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>..\Dep\sol;..\Dep\Lua;..\Dep\freetype-2.8\include;..\Dep\imgui-master;..\Dep\OpenGL\include\glm;..\Dep\OpenGL\include\gl;..\Dep\FMOD_V1.09.01\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>..\Dep\Lua;..\Dep\TinyXml;..\Dep\freetype-2.8\objs\vc2010\Win32;..\Dep\OpenGL\libraries;..\Dep\FMOD_V1.09.01\Lib\x32;..\Dep\VisualLeakDetector\lib\Win32;..\Dep\glew\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>lua.lib;glu32.lib;tinyxml2-d.lib;vld.lib;freetype28d.lib;soil-d.lib;glew32s.lib;OpenGL32.lib;fmodstudio_vc.lib;fmod_vc.lib;XINPUT9_1_0.LIB;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='EditorRelease|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;EDITOR;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalIncludeDirectories>..\Dep\sol;..\Dep\Lua;..\Dep\TinyXml;..\Dep\freetype-2.8\include;..\Dep\imgui-master;..\Dep\OpenGL\include\glm;..\Dep\OpenGL\include\gl;..\Dep\FMOD_V1.09.01\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>lua.lib;glu32.lib;tinyxml2.lib;vld.lib;freetype28d.lib;soil-d.lib;glew32s.lib;OpenGL32.lib;fmodstudio_vc.lib;fmod_vc.lib;XINPUT9_1_0.LIB;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\Dep\Lua;..\Dep\TinyXml;..\Dep\freetype-2.8\objs\vc2010\Win32;..\Dep\OpenGL\libraries;..\Dep\FMOD_V1.09.01\Lib\x32;..\Dep\VisualLeakDetector\lib\Win32;..\Dep\glew\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_WIN64;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\Dep\Assimp\include;..\Dep\sol;..\Dep\Lua;..\Dep\freetype\include;..\Dep\imgui-master;..\Dep\OpenGL\include\glm;..\Dep\FMOD_V1.09.01\Include;..\Dep\OpenGL\include\gl</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>assimp-vc140-mt-release.lib;glew64s.lib;fmodL64_vc.lib;fmodstudioL64_vc.lib;soilx64-d.lib;OpenGL32.lib;XINPUT9_1_0.LIB;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\Dep\freetype\lib\x64;..\Dep\Assimp\lib\x64;..\Dep\OpenGL\libraries;..\Dep\Lua;..\Dep\FMOD_V1.09.01\Lib\x64</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='EditorRelease|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_WIN64;EDITOR;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\Dep\OpenGL\include\gl;..\Dep\FMOD_V1.09.01\Include;..\Dep\OpenGL\include\glm;..\Dep\imgui-master;..\Dep\freetype\include;..\Dep\DevIL\include\IL;..\Dep\Lua;..\Dep\sol;..\Dep\Assimp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>assimp-vc140-mt-release.lib;glew64s.lib;fmodL64_vc.lib;fmodstudioL64_vc.lib;soilx64-d.lib;OpenGL32.lib;XINPUT9_1_0.LIB;DevIL.lib;ILU.lib;ILUT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\Dep\freetype\lib\x64;..\Dep\DevIL\lib\x64\Release;..\Dep\Assimp\lib\x64;..\Dep\OpenGL\libraries;..\Dep\Lua;..\Dep\FMOD_V1.09.01\Lib\x64</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Dep\imgui-master\imgui.cpp" />
+    <ClCompile Include="..\Dep\imgui-master\imgui_demo.cpp" />
+    <ClCompile Include="..\Dep\imgui-master\imgui_dock.cpp" />
+    <ClCompile Include="..\Dep\imgui-master\imgui_draw.cpp" />
+    <ClCompile Include="..\Dep\imgui-master\imgui_guizmo.cpp" />
+    <ClCompile Include="..\Dep\imgui-master\imgui_widgets.cpp" />
+    <ClCompile Include="2DSpriteC.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="AudioSystem.cpp" />
+    <ClCompile Include="ButtonC.cpp" />
+    <ClCompile Include="ButtonManagerC.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CameraC.cpp" />
+    <ClCompile Include="CameraOptions.cpp" />
+    <ClCompile Include="Clock.cpp" />
+    <ClCompile Include="CollisionC.cpp" />
+    <ClCompile Include="CollisionMatrix.cpp" />
+    <ClCompile Include="CollisionTests.cpp" />
+    <ClCompile Include="Compiler.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="ComponentIdentifier.cpp" />
+    <ClCompile Include="ComponentWindow.cpp" />
+    <ClCompile Include="ConsoleApp.cpp" />
+    <ClCompile Include="ConsoleWindow.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="ControllerC.cpp" />
+    <ClCompile Include="CoreSystem.cpp" />
+    <ClCompile Include="CubeMap.cpp" />
+    <ClCompile Include="CustomException.cpp" />
+    <ClCompile Include="DebugDraw.cpp" />
+    <ClCompile Include="DevIL.cpp" />
+    <ClCompile Include="DirectionalLightC.cpp" />
+    <ClCompile Include="Editor.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="EntityList.cpp" />
+    <ClCompile Include="EntityWrapper.cpp" />
+    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="ExecutableProcess.cpp" />
+    <ClCompile Include="FilesChecker.cpp" />
+    <ClCompile Include="Framebuffer.cpp" />
+    <ClCompile Include="FrameRate.cpp" />
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="GameSettings.cpp" />
+    <ClCompile Include="GameSpaces.cpp" />
+    <ClCompile Include="GameStateManager.cpp" />
+    <ClCompile Include="GraphicsWindow.cpp" />
+    <ClCompile Include="GuiManager.cpp" />
+    <ClCompile Include="GuiWindow.cpp" />
+    <ClCompile Include="HelpWindow.cpp" />
+    <ClCompile Include="HistoryWindow.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="LuaScript.cpp" />
+    <ClCompile Include="MaterialWindow.cpp" />
+    <ClCompile Include="ParticleEmitter.cpp" />
+    <ClCompile Include="PlayerC.cpp" />
+    <ClCompile Include="PointLightC.cpp" />
+    <ClCompile Include="PostProcessing.cpp" />
+    <ClCompile Include="PPHDR.cpp" />
+    <ClCompile Include="ResourceUpdater.cpp" />
+    <ClCompile Include="RigidBodyC.cpp" />
+    <ClCompile Include="Scheduler.cpp" />
+    <ClCompile Include="SerializeElem.cpp" />
+    <ClCompile Include="Serializer.cpp" />
+    <ClCompile Include="SkeletalMesh.cpp" />
+    <ClCompile Include="SkeletalMeshC.cpp" />
+    <ClCompile Include="SpotLightC.cpp" />
+    <ClCompile Include="StaticMeshC.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="ObjectHierarchyWindow.cpp" />
+    <ClCompile Include="OpenFileDialog.cpp" />
+    <ClCompile Include="PerformanceWindow.cpp" />
+    <ClCompile Include="Physics.cpp" />
+    <ClCompile Include="ResourceObject.cpp" />
+    <ClCompile Include="ResourceWindow.cpp" />
+    <ClCompile Include="ScriptC.cpp" />
+    <ClCompile Include="SerialHelperStructs.cpp" />
+    <ClCompile Include="Serializable.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="ShaderManager.cpp" />
+    <ClCompile Include="SharedOptions.cpp" />
+    <ClCompile Include="SkeletalMeshRendererC.cpp" />
+    <ClCompile Include="SoundC.cpp" />
+    <ClCompile Include="StackWalker.cpp" />
+    <ClCompile Include="StaticMeshRendererC.cpp" />
+    <ClCompile Include="SystemLog.cpp" />
+    <ClCompile Include="TextureLoader.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="ToolsWindow.cpp" />
+    <ClCompile Include="TransformC.cpp" />
+    <ClCompile Include="Variant.cpp" />
+    <ClCompile Include="Window.cpp" />
+    <ClCompile Include="CoreEngine.cpp" />
+    <ClCompile Include="GraphicsEngine.cpp" />
+    <ClCompile Include="GraphicsPrimitives.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="Math.cpp" />
+    <ClCompile Include="Matrix3x3.cpp" />
+    <ClCompile Include="Matrix4x4.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='System Tests|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='EditorDebug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='EditorRelease|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='EditorRelease|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='System Tests|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='EditorDebug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Tools.cpp" />
+    <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="WindowHolder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Dep\imgui-master\imconfig.h" />
+    <ClInclude Include="..\Dep\imgui-master\imgui.h" />
+    <ClInclude Include="..\Dep\imgui-master\imgui_dock.h" />
+    <ClInclude Include="..\Dep\imgui-master\imgui_guizmo.h" />
+    <ClInclude Include="..\Dep\imgui-master\imgui_internal.h" />
+    <ClInclude Include="..\Dep\imgui-master\imstb_rectpack.h" />
+    <ClInclude Include="..\Dep\imgui-master\imstb_textedit.h" />
+    <ClInclude Include="..\Dep\imgui-master\imstb_truetype.h" />
+    <ClInclude Include="2DSpriteC.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="AudioSystem.h" />
+    <ClInclude Include="BaseMeshC.h" />
+    <ClInclude Include="BaseMeshLoader.h" />
+    <ClInclude Include="BetterEnums.h" />
+    <ClInclude Include="Broadcaster.h" />
+    <ClInclude Include="ButtonC.h" />
+    <ClInclude Include="ButtonManagerC.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CameraC.h" />
+    <ClInclude Include="Clock.h" />
+    <ClInclude Include="CollisionC.h" />
+    <ClInclude Include="CollisionMatrix.h" />
+    <ClInclude Include="CollisionTests.h" />
+    <ClInclude Include="Compiler.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="ComponentDirectory.h" />
+    <ClInclude Include="ComponentIdentifier.h" />
+    <ClInclude Include="ComponentWindow.h" />
+    <ClInclude Include="ConsoleApp.h" />
+    <ClInclude Include="ConsoleWindow.h" />
+    <ClInclude Include="ConstexprStrings.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="ControllerC.h" />
+    <ClInclude Include="CoreSystem.h" />
+    <ClInclude Include="CubeMap.h" />
+    <ClInclude Include="CustomException.h" />
+    <ClInclude Include="DataStructWrapper.h" />
+    <ClInclude Include="DebugDraw.h" />
+    <ClInclude Include="DebugShape.h" />
+    <ClInclude Include="DevIL.h" />
+    <ClInclude Include="DirectionalLightC.h" />
+    <ClInclude Include="Editor.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="EntityList.h" />
+    <ClInclude Include="EntityWrapper.h" />
+    <ClInclude Include="EnumParser.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="ExecutableProcess.h" />
+    <ClInclude Include="FilesChecker.h" />
+    <ClInclude Include="Framebuffer.h" />
+    <ClInclude Include="FrameRate.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="GameSettings.h" />
+    <ClInclude Include="GameShared.h" />
+    <ClInclude Include="GameSpaces.h" />
+    <ClInclude Include="GameStateManager.h" />
+    <ClInclude Include="GraphicsWindow.h" />
+    <ClInclude Include="GuiManager.h" />
+    <ClInclude Include="GuiWindow.h" />
+    <ClInclude Include="CameraOptions.h" />
+    <ClInclude Include="HelpWindow.h" />
+    <ClInclude Include="History.h" />
+    <ClInclude Include="HistoryWindow.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="LevelSettings.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="LuaScript.h" />
+    <ClInclude Include="MaterialWindow.h" />
+    <ClInclude Include="ParticleEmitter.h" />
+    <ClInclude Include="PlayerC.h" />
+    <ClInclude Include="PointLightC.h" />
+    <ClInclude Include="PostProcessing.h" />
+    <ClInclude Include="PPHDR.h" />
+    <ClInclude Include="ResourceUpdater.h" />
+    <ClInclude Include="RigidBodyC.h" />
+    <ClInclude Include="Scheduler.h" />
+    <ClInclude Include="SerializeElem.h" />
+    <ClInclude Include="Serializer.h" />
+    <ClInclude Include="SkeletalMesh.h" />
+    <ClInclude Include="SkeletalMeshC.h" />
+    <ClInclude Include="SpotLightC.h" />
+    <ClInclude Include="StaticMeshC.h" />
+    <ClInclude Include="MetaBoilerplates.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="ObjectHierarchyWindow.h" />
+    <ClInclude Include="OpenFileDialog.h" />
+    <ClInclude Include="PerformanceWindow.h" />
+    <ClInclude Include="Physics.h" />
+    <ClInclude Include="ResourceObject.h" />
+    <ClInclude Include="ResourceWindow.h" />
+    <ClInclude Include="ScriptC.h" />
+    <ClInclude Include="SerialHelperStructs.h" />
+    <ClInclude Include="Serializable.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="ShaderManager.h" />
+    <ClInclude Include="SharedOptions.h" />
+    <ClInclude Include="SkeletalMeshRendererC.h" />
+    <ClInclude Include="SoundC.h" />
+    <ClInclude Include="StackWalker.h" />
+    <ClInclude Include="StackWalkerWrapper.h" />
+    <ClInclude Include="StaticMeshRendererC.h" />
+    <ClInclude Include="std_image.h" />
+    <ClInclude Include="SystemLog.h" />
+    <ClInclude Include="TextureLoader.h" />
+    <ClInclude Include="ThreadsafeQueue.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="ToolsWindow.h" />
+    <ClInclude Include="TransformC.h" />
+    <ClInclude Include="Variant.h" />
+    <ClInclude Include="Window.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="CoreEngine.h" />
+    <ClInclude Include="GraphicsEngine.h" />
+    <ClInclude Include="GraphicsEnums.h" />
+    <ClInclude Include="GraphicsPrimitives.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="Matrix3x3.h" />
+    <ClInclude Include="Matrix4x4.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Tools.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="WindowHolder.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="GGEngine.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GGEngine.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\bbshader.f" />
+    <None Include="shaders\bbshader.v" />
+    <None Include="shaders\bloom.f" />
+    <None Include="shaders\bloom.v" />
+    <None Include="shaders\bloomblend.f" />
+    <None Include="shaders\bloomblend.v" />
+    <None Include="shaders\blur.f" />
+    <None Include="shaders\blur.v" />
+    <None Include="shaders\colorshader.f" />
+    <None Include="shaders\colorshader.v" />
+    <None Include="shaders\customshader.f" />
+    <None Include="shaders\customshader.v" />
+    <None Include="shaders\depthShader.f" />
+    <None Include="shaders\depthShader.v" />
+    <None Include="shaders\extract.f" />
+    <None Include="shaders\extract.v" />
+    <None Include="shaders\fontshader.f" />
+    <None Include="shaders\fontshader.v" />
+    <None Include="shaders\GammaCorrection.f" />
+    <None Include="shaders\GammaCorrection.v" />
+    <None Include="shaders\hdr.f" />
+    <None Include="shaders\hdr.v" />
+    <None Include="shaders\imguishader.f" />
+    <None Include="shaders\imguishader.v" />
+    <None Include="shaders\lineshader.f" />
+    <None Include="shaders\lineshader.v" />
+    <None Include="shaders\particleIndshader.f" />
+    <None Include="shaders\particleIndshader.v" />
+    <None Include="shaders\particleshader.f" />
+    <None Include="shaders\particleshader.v" />
+    <None Include="shaders\planeRender.f" />
+    <None Include="shaders\planeRender.v" />
+    <None Include="shaders\Skybox_shader.f" />
+    <None Include="shaders\Skybox_shader.v" />
+    <None Include="shaders\textureshader.f" />
+    <None Include="shaders\textureshader.v" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

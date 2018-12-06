@@ -1,0 +1,18 @@
+Root: 
+  Prefab: , Name: ElevatedGround
+    Transform: 
+      vector3: 
+        Position: , x: -472.688, y: -55.2608, z: 1391.92
+        Rotation: , x: 0, y: 306.857, z: 0
+        Scale: , x: 1, y: 1.78383, z: 1
+    StaticMesh: 
+      string: 
+        Model_Directory: CompiledAssets\Models\rock_large_flat_dirt_01.mdl
+      vector-string: 
+        Materials: , size: 1
+          Item0: HillGreen
+    StaticMeshRenderer: 
+      float: 
+        Transparency: 1
+      vector4: 
+        Tint: , x: 1, y: 1, z: 1, w: 1

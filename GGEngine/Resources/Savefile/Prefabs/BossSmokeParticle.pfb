@@ -1,0 +1,48 @@
+Root: 
+  Prefab: , Name: BossSmokeParticle
+    Transform: 
+      vector3: 
+        Position: , x: 0, y: 58.1908, z: 0
+        Rotation: , x: 0, y: 0, z: 0
+        Scale: , x: 1, y: 1, z: 1
+    ParticleEmitter: 
+      float: 
+        warmthUpTime: 10
+        lifeTime: 2
+        totalParticles: 50
+        emitRate: 1
+        gravityStrength: 0
+        velocityStrength: 300
+        velocityStrength_2: 20
+        size: 5
+        size_2: 1
+        growth: 0
+        degree: 0
+        initialOpacity: 0.382
+        initialDistance: 0
+        initialDistance_2: 0
+      string: 
+        Model_Directory: CompiledAssets\Models\particle_smoke.mdl
+        Texture: CompiledAssets\Sprites\yellow.dds
+      bool: 
+        emiting: 0
+        rangeVelocity: 0
+        rangeSize: 0
+        lookAtCam: 0
+        emitOnceStart: 0
+        rangeInitialDist: 0
+        randomRotation: 1
+      int: 
+        particlesPerEmit: 100
+        emitStyle: 0
+        particlesPerCyclic: 60
+      vector-string: 
+        Materials: , size: 1
+          Item0: Metal
+      vector3: 
+        offSetPosition: , x: 0, y: 0, z: 0
+        directionVector: , x: 0, y: 0, z: 1
+    Identifier: 
+      string: 
+        ID: SmokeParticle
+    Children: 
