@@ -4,3 +4,5 @@ Resources/x64
 
 #Ignoring all of the files from VSCode personal data
 Resources/Templates/VSCode/data/user-data
+
+.vs/
